@@ -1,0 +1,474 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/WD17"
+	xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/WD17 ../schemas/akomantoso30.xsd">
+	<act name="Zakon o slatkovodnom ribarstvu i akvakulturi">
+		<meta>
+			<identification source="#lekic">
+				<FRBRWork>
+					<FRBRthis value="/akn/me/act/2018-01-2902/!main" />
+					<FRBRuri value="/akn/me/act/2018-01-2902/" />
+					<FRBRdate date="2018-03-09" />
+					<FRBRauthor href="#ns" as="#author" />
+					<FRBRcountry value="me" />
+					<FRBRsubtype value="act" />
+					<FRBRnumber value="2018-01-2902/" />
+					<FRBRname value="Zakon o slatkovodnom ribarstvu i akvakulturi" />
+				</FRBRWork>
+				<FRBRExpression>
+					<FRBRthis value="/akn/rs/act/2018-01-2902/me@2018-03-09/!main" />
+					<FRBRuri value="/akn/rs/act/2018-01-2902/me@2018-03-09" />
+					<FRBRdate date="2018-03-09" />
+					<FRBRauthor href="#sg" as="#editor" />
+					<FRBRlanguage language="me" />
+				</FRBRExpression>
+				<FRBRManifestation>
+					<FRBRthis value="/akn/rs/act/2018-01-2902/sr@2018-03-09/!main.xml" />
+					<FRBRuri value="/akn/rs/act/2018-01-2902/sr@2018-03-09/!main.akn" />
+					<FRBRdate date="2018-11-08" />
+					<FRBRauthor href="#lekic" as="#generator" />
+					<FRBRformat value="xml" />
+				</FRBRManifestation>
+			</identification>
+			<publication name="sg" date="2018-03-16" showAs="Službeni list Crne Gore"
+				number="41/2009" />
+			<classification source="#lekic">
+				<keyword value="traffic" showAs="Саобраћај, везе и енергетика" dictionary="RS" />
+			</classification>
+			<references source="#lekic">
+				<TLCRole eId="author" href="/akn/rs/ontology/role/author" showAs="Author" />
+				<TLCRole eId="editor" href="/akn/rs/ontology/role/editor" showAs="Editor" />
+				<TLCRole eId="generator" href="/akn/rs/ontology/role/generator" showAs="Generator" />
+				<TLCOrganization eId="ns" href="/akn/rs/ontology/organization/ns"
+					showAs="Skupština Crne Gore" />
+				<TLCOrganization eId="sg" href="/akn/rs/ontology/organization/sg"
+					showAs="Службени гласник Републике Србије" />
+				<TLCPerson eId="vujanovic" href="/akn/rs/ontology/person/somebody"
+					showAs="Predsjednik Crne Gore, Filip Vujanović" />
+			</references>
+		</meta>
+		<preface>
+			<num>312./</num>
+			<paragraph>Na osnovu člana 95 tačka 3 Ustava Crne Gore donosim</paragraph>
+			<heading>UKAZ O PROGLAŠENJU ZAKONA O SLATKOVODNOM RIBARSTVU I AKVAKULTURI</heading>
+			<p>
+				<legislature>Predsjednik Crne Gore, Filip Vujanović, s.r.</legislature>
+				<docType>Public
+				Law</docType> 61</p>
+			<p>
+				<docDate date="2011-11-29">NOV. 29, 2011</docDate>
+			</p>
+			<p class="page"><docketNumber refersTo="#statutePublicationRef">125 STAT. 753</docketNumber>
+				Public Law <docNumber>112-61</docNumber>
+			</p>
+			<p>
+				<legislature>Predsjednik Crne Gore, Filip Vujanović, s.r.</legislature>
+			</p>
+			<p> An <docType>Act</docType>
+				<docTitle>To facilitate the hosting in the United States of
+				the 34th America's Cup
+					by authorizing certain eligible vessels to participate in activities
+					related to the competition, and for other purposes.</docTitle>
+				<authorialNote
+					eId="authorialNote_1" placement="side">
+					<p>NOTE: Nov. 29, 2011 - [H.R. 3321]
+					</p>
+				</authorialNote>
+			</p>
+		</preface>
+		<preamble>
+			<formula eId="formula" name="enactingFormula">
+				<p>Na osnovu člana 82 tačka 2 i člana 91 stav 1 Ustava Crne Gore Skupština Crne Gore
+					26. saziva,
+					na Drugoj sjednici Prvog redovnog (proljećnjeg) zasijedanja u 2018. godini,
+					dana 9. marta 2018. godine, donijela je </p>
+			</formula>
+			<p>
+				<docTitle><docType>ZAKON</docType> O SLATKOVODNOM RIBARSTVU I AKVAKULTURI </docTitle>
+			</p>
+		</preamble>
+		<body>
+			<chapter eId="chp_1">
+				<num>I.</num>
+				<heading>OSNOVNE ODREDBE</heading>
+				<section eId="chp_1__sec_1">
+					<heading>Predmet</heading>
+					<article eId="art_1">
+						<num>Član 1</num>
+						<paragraph eId="art_1__para_1">
+							<content eId="art_1__para_1__content">
+								<p>Ovim zakonom uređuje se način korišćenja, zaštite, očuvanja i
+									ulova riba, rakova, školjki, žaba i drugih živih vodenih
+									organizama u ribolovnim vodama, uslovi za akvakulturu i druga
+									pitanja od značaja za slatkovodno ribarstvo.</p>
+							</content>
+						</paragraph>
+					</article>
+				</section>
+				<section eId="chp_1__sec_2">
+					<heading>Posebna zaštita riba i akvakultura</heading>
+					<article eId="art_2">
+						<num>Član 2</num>
+						<paragraph eId="art_2__para_1">
+							<content eId="art_2__para_1__content">
+								<p>Ribe, rakovi, školjke, žabe i drugi živi vodeni organizmi (u
+									daljem tekstu: ribe i drugi vodeni organizmi) u ribolovnim
+									vodama, kao dobro od opšteg interesa, uživaju posebnu zaštitu i
+									koriste se na način i pod uslovima utvrđenim ovim zakonom.</p>
+							</content>
+						</paragraph>
+						<paragraph eId="art_2__para_2">
+							<content eId="art_2__para_2__content">
+								<p>Akvakulturom mogu da se bave samo privredna društva i
+									preduzetnici koji ispunjavaju uslove utvrđene ovim zakonom.</p>
+							</content>
+						</paragraph>
+						<paragraph eId="art_2__para_3">
+							<content eId="art_2__para_3__content">
+								<p>Akvakultura je uzgoj ili oplemenjivanje riba i drugih vodenih
+									organizama van prirodnog staništa, radi povećanja proizvodnje
+									tih organizama.</p>
+							</content>
+						</paragraph>
+					</article>
+				</section>
+				<section eId="chp_1__sec_3">
+					<heading>Upotreba rodno osjetljivog jezika</heading>
+					<article eId="art_3">
+						<num>Član 3</num>
+						<paragraph eId="art_3__para_1">
+							<content eId="art_3__para_1__content">
+								<p>Izrazi koji se u ovom zakonu koriste za fizička lica u muškom
+									rodu podrazumijevaju iste izraze u ženskom rodu.</p>
+							</content>
+						</paragraph>
+					</article>
+				</section>
+				<section eId="chp_1__sec_4">
+					<heading>Značenje izraza</heading>
+					<article eId="art_4">
+						<num>Član 4</num>
+						<paragraph eId="art_4__para_1">
+							<content eId="art_4__para_1__content">
+								<paragraph>Izrazi koji se u ovom zakonu koriste za fizička lica u
+									muškom
+									rodu podrazumijevaju iste izraze u ženskom rodu.</paragraph>
+							</content>
+						</paragraph>
+						<intro eId="sec_4__list_1__intro">
+							<paragraph>
+								Pojedini izrazi upotrijebljeni u ovom zakonu imaju sljedeća
+								značenja:</paragraph>
+						</intro>
+						<list eId="sec_4__list_1">
+							<point eId="sec_4__list_1__point_1">
+								<num>1) </num>
+								<content eId="sec_4__list_1__point_1__content">
+									<p>adult je odrasla jedinka ribe i drugog vodenog organizma koja
+										je sposobna za razmnožavanje;
+									</p>
+								</content>
+							</point>
+							<point eId="sec_4__list_1__point_2">
+								<num>2) </num>
+								<content eId="sec_4__list_1__point_2__content">
+									<p>alohtona vrsta ribe i drugog vodenog organizma je vrsta koja
+										je unijeta u ribolovne vode iz drugog geografskog područja;
+									</p>
+								</content>
+							</point>
+							<point eId="sec_4__list_1__point_3">
+								<num>3) </num>
+								<content eId="sec_4__list_1__point_3__content">
+									<p>autohtona vrsta ribe i drugog vodenog organizma je vrsta koja
+										je stalno prisutna na određenom geografskom području;
+									</p>
+								</content>
+							</point>
+							<point eId="sec_4__list_1__point_4">
+								<num>4) </num>
+								<content eId="sec_4__list_1__point_4__content">
+									<p>biodiverzitet je promjenljivost oblika života, njihove
+										ekološke uloge i genetičke raznolikosti;
+									</p>
+								</content>
+							</point>
+							<point eId="sec_4__list_1__point_5">
+								<num>5) </num>
+								<content eId="sec_4__list_1__point_5__content">
+									<p>biološki minimum je minimalni protok vode u rijeci, riječnom
+										rukavcu, kanalu ili potoku koji omogućava opstanak i razvoj
+										riba i drugih vodenih organizama;
+									</p>
+								</content>
+							</point>
+							<point eId="sec_4__list_1__point_6">
+								<num>6) </num>
+								<content eId="sec_4__list_1__point_6__content">
+									<p>elektrouređaj je uređaj za ulov riba i drugih vodenih
+										organizama električnom strujom niskog napona koja dovodi do
+										reverzibilne elektronarkoze i ne izaziva uginuće;
+									</p>
+								</content>
+							</point>
+							<point eId="sec_4__list_1__point_7">
+								<num>7) </num>
+								<content eId="sec_4__list_1__point_7__content">
+									<p>genetički modifikovana riba ili drugi vodeni organizam (u
+										daljem tekstu: GMO) je organizam čiji je genetički materijal
+										izmijenjen na način koji se ne pojavljuje prirodnim putem;
+									</p>
+								</content>
+							</point>
+							<point eId="sec_4__list_1__point_8">
+								<num>8) </num>
+								<content eId="sec_4__list_1__point_8__content">
+									<p>lovostaj je vremenski period u kojem se pojedine vrste riba i
+										drugih vodenih organizama ne smiju loviti;
+									</p>
+								</content>
+							</point>
+							<point eId="sec_4__list_1__point_9">
+								<num>9) </num>
+								<content eId="sec_4__list_1__point_9__content">
+									<p>matična riba je adult riba i drugih vodenih organizama,
+										muškog i ženskog pola, koje mogu da se reprodukuju odnosno
+										mrijeste;
+									</p>
+								</content>
+							</point>
+							<point eId="sec_4__list_1__point_10">
+								<num>10) </num>
+								<content eId="sec_4__list_1__point_10__content">
+									<p>migratorne vrste riba su vrste riba koje radi mrijesta ili
+										ishrane mijenjaju stanište;
+									</p>
+								</content>
+							</point>
+							<point eId="sec_4__list_1__point_11">
+								<num>11) </num>
+								<content eId="sec_4__list_1__point_11__content">
+									<p>mlađ je jedinka ribe i drugog vodenog organizma koja nije
+										dostigla polnu i reproduktivnu zrelost;
+									</p>
+								</content>
+							</point>
+							<point eId="sec_4__list_1__point_12">
+								<num>12) </num>
+								<content eId="sec_4__list_1__point_12__content">
+									<p>mrijestilište je zatvoreni, tehnički uređen i prilagođen
+										prostor, odnosno objekat za mrijest riba i drugih vodenih
+										organizama;
+									</p>
+								</content>
+							</point>
+							<point eId="sec_4__list_1__point_13">
+								<num>13) </num>
+								<content eId="sec_4__list_1__point_13__content">
+									<p>nizak vodostaj je nivo vode rijeke, riječnog rukavaca,
+										prirodnog ili vještačkog jezera, bare, kanala, potoka,
+										akumulacije ili druge vode, prilikom kojeg je ugrožen
+										opstanak riba i drugih vodenih organizama;
+									</p>
+								</content>
+							</point>
+							<point eId="sec_4__list_1__point_14">
+								<num>14) </num>
+								<content eId="sec_4__list_1__point_14__content">
+									<p>oplođena ikra su oplođena riblja jaja od momenta oplodnje do
+										momenta izlijeganja mlađi;
+									</p>
+								</content>
+							</point>
+							<point eId="sec_4__list_1__point_15">
+								<num>15) </num>
+								<content eId="sec_4__list_1__point_15__content">
+									<p>poribljavanje je plansko unošenje autohtonih riba i drugih
+										vodenih organizama u ribolovne vode radi sanacije ili
+										repopulacije ribolovne vode;
+									</p>
+								</content>
+							</point>
+							<point eId="sec_4__list_1__point_16">
+								<num>16) </num>
+								<content eId="sec_4__list_1__point_16__content">
+									<p>prelov je prekomjerno iskorišćavanje riba i drugih vodenih
+										organizama, odnosno dovođenje na nivo ispod prihvatljivog
+										biološkog opstanka određene vrste ribe i drugog vodenog
+										organizma;
+									</p>
+								</content>
+							</point>
+							<point eId="sec_4__list_1__point_17">
+								<num>17) </num>
+								<content eId="sec_4__list_1__point_17__content">
+									<p>reprodukcija ribe je proces razmnožavanja riba, odnosno
+										mrijest riba u staništima ili uzgajalištima;
+									</p>
+								</content>
+							</point>
+							<point eId="sec_4__list_1__point_18">
+								<num>18) </num>
+								<content eId="sec_4__list_1__point_18__content">
+									<p>ribolovni revir je ribolovna voda ili dio ribolovne vode pod
+										posebnom zaštitom u kojem se ribolov može obavljati samo
+										određenim tehnikama sportsko-rekreativnog ribolova;
+									</p>
+								</content>
+							</point>
+							<point eId="sec_4__list_1__point_19">
+								<num>19) </num>
+								<content eId="sec_4__list_1__point_19__content">
+									<p>larva je prelazni oblik organizma koji podliježe metamorfozi
+										od jajeta do odraslog stadijuma;
+									</p>
+								</content>
+							</point>
+							<point eId="sec_4__list_1__point_20">
+								<num>20) </num>
+								<content eId="sec_4__list_1__point_20__content">
+									<p>lokalno neprisutna vrsta ribe i drugog vodenog organizma je
+										vrsta ili podvrsta ribe i drugog vodenog organizma koja zbog
+										biogeografskih razloga nije lokalno prisutna u određenom
+										dijelu područja njene prirodne rasprostranjenosti;
+									</p>
+								</content>
+							</point>
+							<point eId="sec_4__list_1__point_21">
+								<num>21) </num>
+								<content eId="sec_4__list_1__point_21__content">
+									<p>riblje staze su hidrotehničke građevine koje obilaze brane,
+										hidrocentrale, usisne kanale, ulaze u uzgajalište, a koje
+										omogućavaju ribama i drugim vodenim organizmima nesmetan
+										prolaz;
+									</p>
+								</content>
+							</point>
+							<point eId="sec_4__list_1__point_22">
+								<num>22) </num>
+								<content eId="sec_4__list_1__point_22__content">
+									<p>sliv je teritorija sa koje sve vode otiču prema moru ili
+										jezeru;
+									</p>
+								</content>
+							</point>
+							<point eId="sec_4__list_1__point_23">
+								<num>23) </num>
+								<content eId="sec_4__list_1__point_23__content">
+									<p>strane vrste riba i drugih vodenih organizama su vrste ili
+										podvrste riba i drugih vodenih organizama koje se javljaju
+										izvan poznatog područja svoje prirodne rasprostranjenosti i
+										područja mogućeg prirodnog širenja;
+									</p>
+								</content>
+							</point>
+							<point eId="sec_4__list_1__point_24">
+								<num>24) </num>
+								<content eId="sec_4__list_1__point_24__content">
+									<p>uzgajalište je tehnološka cjelina koja se može sastojati od
+										mrijestilišta, ribnjaka, uzgojnih instalacija ili drugih
+										objekata koji se koriste za uzgoj ribe i drugih vodenih
+										organizama, a koji obuhvataju uređeni prostor na zemljištu,
+										ograđeni dio ribolovne vode ili kavez u ribolovnoj vodi u
+										kojem se vrši planska i kontrolisana, odnosno intenzivna
+										ishrana sve dok se ne dostigne određena dužina ili težina
+										ribe i drugog vodenog organizma;
+									</p>
+								</content>
+							</point>
+							<point eId="sec_4__list_1__point_25">
+								<num>25) </num>
+								<content eId="sec_4__list_1__point_25__content">
+									<p>vodostaj je nivo vode rijeke, riječnog rukavca, prirodnog ili
+										vještačkog jezera, bare, kanala, potoka, akumulacije ili
+										druge vode u kojima živi riba i drugi vodeni organizmi;
+									</p>
+								</content>
+							</point>
+							<point eId="sec_4__list_1__point_26">
+								<num>26) </num>
+								<content eId="sec_4__list_1__point_26__content">
+									<p>zatvoreni objekat akvakulture je uzgajalište u kojem se
+										djelatnost akvakulture obavlja u vodenoj sredini koja
+										podrazumijeva ili uključuje recirkulaciju vode i koji je
+										fizički odvojen od prirodnog vodenog tijela i sprječava
+										bježanje uzgajanih jedinki koje su sposobne da prežive i da
+										se dalje razmnožavaju.
+									</p>
+								</content>
+							</point>
+						</list>
+					</article>
+				</section>
+			</chapter>
+			<chapter eId="chp_4">
+				<num>IV.</num>
+				<heading>ПРАВИЛА САОБРАЋАЈА</heading>
+				<!-- ... -->
+				<section eId="chp_4__sec_20">
+					<num>20.</num>
+					<heading>Посебне одредбе о саобраћају бицикала, мопеда, трицикала, четвороцикала
+						и мотоцикала</heading>
+					<!-- ... -->
+					<article eId="art_88">
+						<num>Члан 89.</num>
+						<paragraph eId="art_88__para_1">
+							<content eId="art_88__para_1__content">
+								<p>Дете млађе од 12 година не сме да управља бициклом на јавним
+									путевима.</p>
+							</content>
+						</paragraph>
+						<paragraph eId="art_88__para_2">
+							<content eId="art_88__para_2__content">
+								<p>Изузетно у пешачкој зони, зони успореног саобраћаја, зони „30”,
+									зони школе и некатегорисаном путу, бициклом може управљати и
+									дете са навршених девет година.</p>
+							</content>
+						</paragraph>
+						<paragraph eId="art_88__para_3">
+							<content eId="art_88__para_3__content">
+								<p>Изузетно у пешачкој зони и зони успореног саобраћаја, бициклом
+									може да управља и дете млађе од девет година ако је под надзором
+									лица старијег од 16 година..</p>
+							</content>
+						</paragraph>
+					</article>
+					<!-- ... -->
+				</section>
+				<!-- ... -->
+			</chapter>
+			<!-- ... -->
+			<chapter eId="chp_21">
+				<num>XXI.</num>
+				<heading>КАЗНЕНЕ ОДРЕДБЕ</heading>
+				<!-- ... -->
+				<section eId="chp_21__sec_9">
+					<num>9.</num>
+					<heading>Прекршајне казне за физичко лице</heading>
+					<!-- ... -->
+					<article eId="art_332">
+						<num>Члан 332.</num>
+						<paragraph eId="art_332__para_1">
+							<intro eId="art_332__para_1__intro">
+								<p>Новчаном казном у износу од 10.000 до 20.000 динара казниће се за
+									прекршај лице које поступи супротно одредбама из следећих
+									чланова овог закона:</p>
+							</intro>
+							<!-- ... -->
+							<point eId="art_332__para_1__point_34">
+								<num>34)</num>
+								<content>
+									<p><ref href="/akn/rs/act/2009-41-1404#art_88">члана 88</ref>,</p>
+								</content>
+							</point>
+							<!-- ... -->
+						</paragraph>
+					</article>
+					<!-- ... -->
+				</section>
+				<!-- ... -->
+			</chapter>
+			<!-- ... -->
+		</body>
+	</act>
+</akomaNtoso>
