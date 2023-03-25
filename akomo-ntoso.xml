@@ -149,293 +149,664 @@
 					<article eId="art_4">
 						<num>Član 4</num>
 						<paragraph eId="art_4__para_1">
-							<content eId="art_4__para_1__content">
-								<paragraph>Izrazi koji se u ovom zakonu koriste za fizička lica u
-									muškom
-									rodu podrazumijevaju iste izraze u ženskom rodu.</paragraph>
-							</content>
+							<intro eId="art_4__list_1__intro">
+								<p>
+									Pojedini izrazi upotrijebljeni u ovom zakonu imaju sljedeća
+									značenja:</p>
+							</intro>
+							<list eId="art_4__list_1">
+								<point eId="art_4__list_1__point_1">
+									<num>1) </num>
+									<content eId="art_4__list_1__point_1__content">
+										<p>adult je odrasla jedinka ribe i drugog vodenog organizma
+											koja
+											je sposobna za razmnožavanje;
+										</p>
+									</content>
+								</point>
+								<point eId="art_4__list_1__point_2">
+									<num>2) </num>
+									<content eId="art_4__list_1__point_2__content">
+										<p>alohtona vrsta ribe i drugog vodenog organizma je vrsta
+											koja
+											je unijeta u ribolovne vode iz drugog geografskog
+											područja;
+										</p>
+									</content>
+								</point>
+								<point eId="art_4__list_1__point_3">
+									<num>3) </num>
+									<content eId="art_4__list_1__point_3__content">
+										<p>autohtona vrsta ribe i drugog vodenog organizma je vrsta
+											koja
+											je stalno prisutna na određenom geografskom području;
+										</p>
+									</content>
+								</point>
+								<point eId="art_4__list_1__point_4">
+									<num>4) </num>
+									<content eId="art_4__list_1__point_4__content">
+										<p>biodiverzitet je promjenljivost oblika života, njihove
+											ekološke uloge i genetičke raznolikosti;
+										</p>
+									</content>
+								</point>
+								<point eId="art_4__list_1__point_5">
+									<num>5) </num>
+									<content eId="art_4__list_1__point_5__content">
+										<p>biološki minimum je minimalni protok vode u rijeci,
+											riječnom
+											rukavcu, kanalu ili potoku koji omogućava opstanak i
+											razvoj
+											riba i drugih vodenih organizama;
+										</p>
+									</content>
+								</point>
+								<point eId="art_4__list_1__point_6">
+									<num>6) </num>
+									<content eId="art_4__list_1__point_6__content">
+										<p>elektrouređaj je uređaj za ulov riba i drugih vodenih
+											organizama električnom strujom niskog napona koja dovodi
+											do
+											reverzibilne elektronarkoze i ne izaziva uginuće;
+										</p>
+									</content>
+								</point>
+								<point eId="art_4__list_1__point_7">
+									<num>7) </num>
+									<content eId="art_4__list_1__point_7__content">
+										<p>genetički modifikovana riba ili drugi vodeni organizam (u
+											daljem tekstu: GMO) je organizam čiji je genetički
+											materijal
+											izmijenjen na način koji se ne pojavljuje prirodnim
+											putem;
+										</p>
+									</content>
+								</point>
+								<point eId="art_4__list_1__point_8">
+									<num>8) </num>
+									<content eId="art_4__list_1__point_8__content">
+										<p>lovostaj je vremenski period u kojem se pojedine vrste
+											riba i
+											drugih vodenih organizama ne smiju loviti;
+										</p>
+									</content>
+								</point>
+								<point eId="art_4__list_1__point_9">
+									<num>9) </num>
+									<content eId="art_4__list_1__point_9__content">
+										<p>matična riba je adult riba i drugih vodenih organizama,
+											muškog i ženskog pola, koje mogu da se reprodukuju
+											odnosno
+											mrijeste;
+										</p>
+									</content>
+								</point>
+								<point eId="art_4__list_1__point_10">
+									<num>10) </num>
+									<content eId="art_4__list_1__point_10__content">
+										<p>migratorne vrste riba su vrste riba koje radi mrijesta
+											ili
+											ishrane mijenjaju stanište;
+										</p>
+									</content>
+								</point>
+								<point eId="art_4__list_1__point_11">
+									<num>11) </num>
+									<content eId="art_4__list_1__point_11__content">
+										<p>mlađ je jedinka ribe i drugog vodenog organizma koja nije
+											dostigla polnu i reproduktivnu zrelost;
+										</p>
+									</content>
+								</point>
+								<point eId="art_4__list_1__point_12">
+									<num>12) </num>
+									<content eId="art_4__list_1__point_12__content">
+										<p>mrijestilište je zatvoreni, tehnički uređen i prilagođen
+											prostor, odnosno objekat za mrijest riba i drugih
+											vodenih
+											organizama;
+										</p>
+									</content>
+								</point>
+								<point eId="art_4__list_1__point_13">
+									<num>13) </num>
+									<content eId="art_4__list_1__point_13__content">
+										<p>nizak vodostaj je nivo vode rijeke, riječnog rukavaca,
+											prirodnog ili vještačkog jezera, bare, kanala, potoka,
+											akumulacije ili druge vode, prilikom kojeg je ugrožen
+											opstanak riba i drugih vodenih organizama;
+										</p>
+									</content>
+								</point>
+								<point eId="art_4__list_1__point_14">
+									<num>14) </num>
+									<content eId="art_4__list_1__point_14__content">
+										<p>oplođena ikra su oplođena riblja jaja od momenta oplodnje
+											do
+											momenta izlijeganja mlađi;
+										</p>
+									</content>
+								</point>
+								<point eId="art_4__list_1__point_15">
+									<num>15) </num>
+									<content eId="art_4__list_1__point_15__content">
+										<p>poribljavanje je plansko unošenje autohtonih riba i
+											drugih
+											vodenih organizama u ribolovne vode radi sanacije ili
+											repopulacije ribolovne vode;
+										</p>
+									</content>
+								</point>
+								<point eId="art_4__list_1__point_16">
+									<num>16) </num>
+									<content eId="art_4__list_1__point_16__content">
+										<p>prelov je prekomjerno iskorišćavanje riba i drugih
+											vodenih
+											organizama, odnosno dovođenje na nivo ispod
+											prihvatljivog
+											biološkog opstanka određene vrste ribe i drugog vodenog
+											organizma;
+										</p>
+									</content>
+								</point>
+								<point eId="art_4__list_1__point_17">
+									<num>17) </num>
+									<content eId="art_4__list_1__point_17__content">
+										<p>reprodukcija ribe je proces razmnožavanja riba, odnosno
+											mrijest riba u staništima ili uzgajalištima;
+										</p>
+									</content>
+								</point>
+								<point eId="art_4__list_1__point_18">
+									<num>18) </num>
+									<content eId="art_4__list_1__point_18__content">
+										<p>ribolovni revir je ribolovna voda ili dio ribolovne vode
+											pod
+											posebnom zaštitom u kojem se ribolov može obavljati samo
+											određenim tehnikama sportsko-rekreativnog ribolova;
+										</p>
+									</content>
+								</point>
+								<point eId="art_4__list_1__point_19">
+									<num>19) </num>
+									<content eId="art_4__list_1__point_19__content">
+										<p>larva je prelazni oblik organizma koji podliježe
+											metamorfozi
+											od jajeta do odraslog stadijuma;
+										</p>
+									</content>
+								</point>
+								<point eId="art_4__list_1__point_20">
+									<num>20) </num>
+									<content eId="art_4__list_1__point_20__content">
+										<p>lokalno neprisutna vrsta ribe i drugog vodenog organizma
+											je
+											vrsta ili podvrsta ribe i drugog vodenog organizma koja
+											zbog
+											biogeografskih razloga nije lokalno prisutna u određenom
+											dijelu područja njene prirodne rasprostranjenosti;
+										</p>
+									</content>
+								</point>
+								<point eId="art_4__list_1__point_21">
+									<num>21) </num>
+									<content eId="art_4__list_1__point_21__content">
+										<p>riblje staze su hidrotehničke građevine koje obilaze
+											brane,
+											hidrocentrale, usisne kanale, ulaze u uzgajalište, a
+											koje
+											omogućavaju ribama i drugim vodenim organizmima nesmetan
+											prolaz;
+										</p>
+									</content>
+								</point>
+								<point eId="art_4__list_1__point_22">
+									<num>22) </num>
+									<content eId="art_4__list_1__point_22__content">
+										<p>sliv je teritorija sa koje sve vode otiču prema moru ili
+											jezeru;
+										</p>
+									</content>
+								</point>
+								<point eId="art_4__list_1__point_23">
+									<num>23) </num>
+									<content eId="art_4__list_1__point_23__content">
+										<p>strane vrste riba i drugih vodenih organizama su vrste
+											ili
+											podvrste riba i drugih vodenih organizama koje se
+											javljaju
+											izvan poznatog područja svoje prirodne
+											rasprostranjenosti i
+											područja mogućeg prirodnog širenja;
+										</p>
+									</content>
+								</point>
+								<point eId="art_4__list_1__point_24">
+									<num>24) </num>
+									<content eId="art_4__list_1__point_24__content">
+										<p>uzgajalište je tehnološka cjelina koja se može sastojati
+											od
+											mrijestilišta, ribnjaka, uzgojnih instalacija ili drugih
+											objekata koji se koriste za uzgoj ribe i drugih vodenih
+											organizama, a koji obuhvataju uređeni prostor na
+											zemljištu,
+											ograđeni dio ribolovne vode ili kavez u ribolovnoj vodi
+											u
+											kojem se vrši planska i kontrolisana, odnosno intenzivna
+											ishrana sve dok se ne dostigne određena dužina ili
+											težina
+											ribe i drugog vodenog organizma;
+										</p>
+									</content>
+								</point>
+								<point eId="art_4__list_1__point_25">
+									<num>25) </num>
+									<content eId="art_4__list_1__point_25__content">
+										<p>vodostaj je nivo vode rijeke, riječnog rukavca, prirodnog
+											ili
+											vještačkog jezera, bare, kanala, potoka, akumulacije ili
+											druge vode u kojima živi riba i drugi vodeni organizmi;
+										</p>
+									</content>
+								</point>
+								<point eId="art_4__list_1__point_26">
+									<num>26) </num>
+									<content eId="art_4__list_1__point_26__content">
+										<p>zatvoreni objekat akvakulture je uzgajalište u kojem se
+											djelatnost akvakulture obavlja u vodenoj sredini koja
+											podrazumijeva ili uključuje recirkulaciju vode i koji je
+											fizički odvojen od prirodnog vodenog tijela i sprječava
+											bježanje uzgajanih jedinki koje su sposobne da prežive i
+											da
+											se dalje razmnožavaju.
+										</p>
+									</content>
+								</point>
+							</list>
 						</paragraph>
-						<intro eId="sec_4__list_1__intro">
-							<paragraph>
-								Pojedini izrazi upotrijebljeni u ovom zakonu imaju sljedeća
-								značenja:</paragraph>
-						</intro>
-						<list eId="sec_4__list_1">
-							<point eId="sec_4__list_1__point_1">
-								<num>1) </num>
-								<content eId="sec_4__list_1__point_1__content">
-									<p>adult je odrasla jedinka ribe i drugog vodenog organizma koja
-										je sposobna za razmnožavanje;
-									</p>
-								</content>
-							</point>
-							<point eId="sec_4__list_1__point_2">
-								<num>2) </num>
-								<content eId="sec_4__list_1__point_2__content">
-									<p>alohtona vrsta ribe i drugog vodenog organizma je vrsta koja
-										je unijeta u ribolovne vode iz drugog geografskog područja;
-									</p>
-								</content>
-							</point>
-							<point eId="sec_4__list_1__point_3">
-								<num>3) </num>
-								<content eId="sec_4__list_1__point_3__content">
-									<p>autohtona vrsta ribe i drugog vodenog organizma je vrsta koja
-										je stalno prisutna na određenom geografskom području;
-									</p>
-								</content>
-							</point>
-							<point eId="sec_4__list_1__point_4">
-								<num>4) </num>
-								<content eId="sec_4__list_1__point_4__content">
-									<p>biodiverzitet je promjenljivost oblika života, njihove
-										ekološke uloge i genetičke raznolikosti;
-									</p>
-								</content>
-							</point>
-							<point eId="sec_4__list_1__point_5">
-								<num>5) </num>
-								<content eId="sec_4__list_1__point_5__content">
-									<p>biološki minimum je minimalni protok vode u rijeci, riječnom
-										rukavcu, kanalu ili potoku koji omogućava opstanak i razvoj
-										riba i drugih vodenih organizama;
-									</p>
-								</content>
-							</point>
-							<point eId="sec_4__list_1__point_6">
-								<num>6) </num>
-								<content eId="sec_4__list_1__point_6__content">
-									<p>elektrouređaj je uređaj za ulov riba i drugih vodenih
-										organizama električnom strujom niskog napona koja dovodi do
-										reverzibilne elektronarkoze i ne izaziva uginuće;
-									</p>
-								</content>
-							</point>
-							<point eId="sec_4__list_1__point_7">
-								<num>7) </num>
-								<content eId="sec_4__list_1__point_7__content">
-									<p>genetički modifikovana riba ili drugi vodeni organizam (u
-										daljem tekstu: GMO) je organizam čiji je genetički materijal
-										izmijenjen na način koji se ne pojavljuje prirodnim putem;
-									</p>
-								</content>
-							</point>
-							<point eId="sec_4__list_1__point_8">
-								<num>8) </num>
-								<content eId="sec_4__list_1__point_8__content">
-									<p>lovostaj je vremenski period u kojem se pojedine vrste riba i
-										drugih vodenih organizama ne smiju loviti;
-									</p>
-								</content>
-							</point>
-							<point eId="sec_4__list_1__point_9">
-								<num>9) </num>
-								<content eId="sec_4__list_1__point_9__content">
-									<p>matična riba je adult riba i drugih vodenih organizama,
-										muškog i ženskog pola, koje mogu da se reprodukuju odnosno
-										mrijeste;
-									</p>
-								</content>
-							</point>
-							<point eId="sec_4__list_1__point_10">
-								<num>10) </num>
-								<content eId="sec_4__list_1__point_10__content">
-									<p>migratorne vrste riba su vrste riba koje radi mrijesta ili
-										ishrane mijenjaju stanište;
-									</p>
-								</content>
-							</point>
-							<point eId="sec_4__list_1__point_11">
-								<num>11) </num>
-								<content eId="sec_4__list_1__point_11__content">
-									<p>mlađ je jedinka ribe i drugog vodenog organizma koja nije
-										dostigla polnu i reproduktivnu zrelost;
-									</p>
-								</content>
-							</point>
-							<point eId="sec_4__list_1__point_12">
-								<num>12) </num>
-								<content eId="sec_4__list_1__point_12__content">
-									<p>mrijestilište je zatvoreni, tehnički uređen i prilagođen
-										prostor, odnosno objekat za mrijest riba i drugih vodenih
-										organizama;
-									</p>
-								</content>
-							</point>
-							<point eId="sec_4__list_1__point_13">
-								<num>13) </num>
-								<content eId="sec_4__list_1__point_13__content">
-									<p>nizak vodostaj je nivo vode rijeke, riječnog rukavaca,
-										prirodnog ili vještačkog jezera, bare, kanala, potoka,
-										akumulacije ili druge vode, prilikom kojeg je ugrožen
-										opstanak riba i drugih vodenih organizama;
-									</p>
-								</content>
-							</point>
-							<point eId="sec_4__list_1__point_14">
-								<num>14) </num>
-								<content eId="sec_4__list_1__point_14__content">
-									<p>oplođena ikra su oplođena riblja jaja od momenta oplodnje do
-										momenta izlijeganja mlađi;
-									</p>
-								</content>
-							</point>
-							<point eId="sec_4__list_1__point_15">
-								<num>15) </num>
-								<content eId="sec_4__list_1__point_15__content">
-									<p>poribljavanje je plansko unošenje autohtonih riba i drugih
-										vodenih organizama u ribolovne vode radi sanacije ili
-										repopulacije ribolovne vode;
-									</p>
-								</content>
-							</point>
-							<point eId="sec_4__list_1__point_16">
-								<num>16) </num>
-								<content eId="sec_4__list_1__point_16__content">
-									<p>prelov je prekomjerno iskorišćavanje riba i drugih vodenih
-										organizama, odnosno dovođenje na nivo ispod prihvatljivog
-										biološkog opstanka određene vrste ribe i drugog vodenog
-										organizma;
-									</p>
-								</content>
-							</point>
-							<point eId="sec_4__list_1__point_17">
-								<num>17) </num>
-								<content eId="sec_4__list_1__point_17__content">
-									<p>reprodukcija ribe je proces razmnožavanja riba, odnosno
-										mrijest riba u staništima ili uzgajalištima;
-									</p>
-								</content>
-							</point>
-							<point eId="sec_4__list_1__point_18">
-								<num>18) </num>
-								<content eId="sec_4__list_1__point_18__content">
-									<p>ribolovni revir je ribolovna voda ili dio ribolovne vode pod
-										posebnom zaštitom u kojem se ribolov može obavljati samo
-										određenim tehnikama sportsko-rekreativnog ribolova;
-									</p>
-								</content>
-							</point>
-							<point eId="sec_4__list_1__point_19">
-								<num>19) </num>
-								<content eId="sec_4__list_1__point_19__content">
-									<p>larva je prelazni oblik organizma koji podliježe metamorfozi
-										od jajeta do odraslog stadijuma;
-									</p>
-								</content>
-							</point>
-							<point eId="sec_4__list_1__point_20">
-								<num>20) </num>
-								<content eId="sec_4__list_1__point_20__content">
-									<p>lokalno neprisutna vrsta ribe i drugog vodenog organizma je
-										vrsta ili podvrsta ribe i drugog vodenog organizma koja zbog
-										biogeografskih razloga nije lokalno prisutna u određenom
-										dijelu područja njene prirodne rasprostranjenosti;
-									</p>
-								</content>
-							</point>
-							<point eId="sec_4__list_1__point_21">
-								<num>21) </num>
-								<content eId="sec_4__list_1__point_21__content">
-									<p>riblje staze su hidrotehničke građevine koje obilaze brane,
-										hidrocentrale, usisne kanale, ulaze u uzgajalište, a koje
-										omogućavaju ribama i drugim vodenim organizmima nesmetan
-										prolaz;
-									</p>
-								</content>
-							</point>
-							<point eId="sec_4__list_1__point_22">
-								<num>22) </num>
-								<content eId="sec_4__list_1__point_22__content">
-									<p>sliv je teritorija sa koje sve vode otiču prema moru ili
-										jezeru;
-									</p>
-								</content>
-							</point>
-							<point eId="sec_4__list_1__point_23">
-								<num>23) </num>
-								<content eId="sec_4__list_1__point_23__content">
-									<p>strane vrste riba i drugih vodenih organizama su vrste ili
-										podvrste riba i drugih vodenih organizama koje se javljaju
-										izvan poznatog područja svoje prirodne rasprostranjenosti i
-										područja mogućeg prirodnog širenja;
-									</p>
-								</content>
-							</point>
-							<point eId="sec_4__list_1__point_24">
-								<num>24) </num>
-								<content eId="sec_4__list_1__point_24__content">
-									<p>uzgajalište je tehnološka cjelina koja se može sastojati od
-										mrijestilišta, ribnjaka, uzgojnih instalacija ili drugih
-										objekata koji se koriste za uzgoj ribe i drugih vodenih
-										organizama, a koji obuhvataju uređeni prostor na zemljištu,
-										ograđeni dio ribolovne vode ili kavez u ribolovnoj vodi u
-										kojem se vrši planska i kontrolisana, odnosno intenzivna
-										ishrana sve dok se ne dostigne određena dužina ili težina
-										ribe i drugog vodenog organizma;
-									</p>
-								</content>
-							</point>
-							<point eId="sec_4__list_1__point_25">
-								<num>25) </num>
-								<content eId="sec_4__list_1__point_25__content">
-									<p>vodostaj je nivo vode rijeke, riječnog rukavca, prirodnog ili
-										vještačkog jezera, bare, kanala, potoka, akumulacije ili
-										druge vode u kojima živi riba i drugi vodeni organizmi;
-									</p>
-								</content>
-							</point>
-							<point eId="sec_4__list_1__point_26">
-								<num>26) </num>
-								<content eId="sec_4__list_1__point_26__content">
-									<p>zatvoreni objekat akvakulture je uzgajalište u kojem se
-										djelatnost akvakulture obavlja u vodenoj sredini koja
-										podrazumijeva ili uključuje recirkulaciju vode i koji je
-										fizički odvojen od prirodnog vodenog tijela i sprječava
-										bježanje uzgajanih jedinki koje su sposobne da prežive i da
-										se dalje razmnožavaju.
-									</p>
-								</content>
-							</point>
-						</list>
 					</article>
 				</section>
 			</chapter>
-			<chapter eId="chp_4">
-				<num>IV.</num>
-				<heading>ПРАВИЛА САОБРАЋАЈА</heading>
-				<!-- ... -->
-				<section eId="chp_4__sec_20">
-					<num>20.</num>
-					<heading>Посебне одредбе о саобраћају бицикала, мопеда, трицикала, четвороцикала
-						и мотоцикала</heading>
-					<!-- ... -->
-					<article eId="art_88">
-						<num>Члан 89.</num>
-						<paragraph eId="art_88__para_1">
-							<content eId="art_88__para_1__content">
-								<p>Дете млађе од 12 година не сме да управља бициклом на јавним
-									путевима.</p>
+			<chapter eId="chp_2">
+				<num>II. </num>
+				<heading>RIBOLOVNE VODE, RIBOLOVNA PODRUČJA I RIBOLOVNI REVIRI</heading>
+				<section eId="chp_2__sec_1">
+					<heading>Ribolovne vode</heading>
+					<article eId="art_5">
+						<num>Član 5</num>
+						<paragraph eId="art_5__para_1">
+							<intro eId="art_5__list_1__intro">
+								<p>
+									Ribolovne vode su vode rijeka, riječni rukavci, prirodna i
+									vještačka
+									jezera, bare, kanali,
+									potoci, akumulacije i druge vode u kojima žive ribe i drugi
+									vodeni
+									organizmi, a koje se
+									ustupaju na korišćenje, radi obavljanja sportsko-rekreativnog
+									ribolova, osim voda u:</p>
+							</intro>
+							<list eId="art_5__list_1">
+								<point eId="art_5__list_1__point_1">
+									<num>1) </num>
+									<content eId="art_5__list_1__point_1__content">
+										<p>uzgajalištima;
+										</p>
+									</content>
+								</point>
+								<point eId="art_5__list_1__point_2">
+									<num>2) </num>
+									<content eId="art_5__list_1__point_2__content">
+										<p>akumulacijama, jezerima ili tekućim vodama koje se
+											koriste
+											ili su prostorno planskim
+											dokumentima predviđene za javno vodosnabdijevanje
+										</p>
+									</content>
+								</point>
+							</list>
+						</paragraph>
+						<paragraph eId="art_5__para_2">
+							<content eId="art_5__para_1__content">
+								<p>Rijeke koje se ulivaju u more, prestaju da budu ribolovne vode na
+									mjestu gdje voda
+									postaje postojano slana.</p>
 							</content>
 						</paragraph>
-						<paragraph eId="art_88__para_2">
-							<content eId="art_88__para_2__content">
-								<p>Изузетно у пешачкој зони, зони успореног саобраћаја, зони „30”,
-									зони школе и некатегорисаном путу, бициклом може управљати и
-									дете са навршених девет година.</p>
+						<paragraph eId="art_5__para_3">
+							<content eId="art_5__para_2__content">
+								<p>Mjesta na kojima voda postaje postojano slana moraju da budu
+									vidno označena.</p>
 							</content>
 						</paragraph>
-						<paragraph eId="art_88__para_3">
-							<content eId="art_88__para_3__content">
-								<p>Изузетно у пешачкој зони и зони успореног саобраћаја, бициклом
-									може да управља и дете млађе од девет година ако је под надзором
-									лица старијег од 16 година..</p>
+						<paragraph eId="art_5__para_4">
+							<content eId="art_5__para_3__content">
+								<p>Označavanje iz stava 3 ovog člana vrši organ državne uprave
+									nadležan za poslove
+									ribarstva (u daljem tekstu: Ministarstvo).</p>
+							</content>
+						</paragraph>
+						<paragraph eId="art_5__para_5">
+							<content eId="art_5__para_4__content">
+								<p>Način označavanja mjesta na kojima voda postaje postojano slana
+									propisuje Ministarstvo.</p>
 							</content>
 						</paragraph>
 					</article>
-					<!-- ... -->
 				</section>
-				<!-- ... -->
+				<section eId="chp_2__sec_2">
+					<heading>Ribolovna područja</heading>
+					<article eId="art_6">
+						<num>Član 6</num>
+						<paragraph eId="art_6__para_1">
+							<content eId="art_6__para_1__content">
+								<p>U ribolovnim vodama određuju se ribolovna područja, radi
+									obavljanja privrednog
+									ribolova.</p>
+							</content>
+						</paragraph>
+						<paragraph eId="art_6__para_2">
+							<content eId="art_6__para_2__content">
+								<p>Ribolovna područja iz stava 1 ovog člana i njihove granice
+									određuje Ministarstvo.</p>
+							</content>
+						</paragraph>
+					</article>
+				</section>
+				<section eId="chp_2__sec_3">
+					<heading>Ribolovni reviri</heading>
+					<article eId="art_7">
+						<num>Član 7</num>
+						<paragraph eId="art_7__para_1">
+							<content eId="art_7__para_1__content">
+								<p>Radi zaštite i očuvanja riba i drugih vodenih organizama i
+									razvoja sportsko-rekrativnog
+									ribolova u ribolovnim vodama određuju se ribolovni reviri.</p>
+							</content>
+						</paragraph>
+						<paragraph eId="art_7__para_2">
+							<content eId="art_7__para_2__content">
+								<p>Ribolovne revire iz stava 1 ovog člana, njihove granice i
+									dozvoljene ribolovne alate i
+									opremu određuje Ministarstvo.</p>
+							</content>
+						</paragraph>
+						<paragraph eId="art_7__para_3">
+							<content eId="art_7__para_3__content">
+								<p>Ribolovne revire označavaju privredna društva, preduzetnici ili
+									sportsko-ribolovni klubovi
+									kojima je ustupljeno pravo korišćenja riba i drugih vodenih
+									organizama u ribolovnim vodama,
+									radi obavljanja sportsko-rekreativnog ribolova.</p>
+							</content>
+						</paragraph>
+						<paragraph eId="art_7__para_4">
+							<content eId="art_7__para_4__content">
+								<p>Način obilježavanja ribolovnih revira propisuje Ministarstvo.</p>
+							</content>
+						</paragraph>
+					</article>
+				</section>
+				<section eId="chp_2__sec_4">
+					<heading>Zaštićena prirodna dobra</heading>
+					<article eId="art_8">
+						<num>Član 8</num>
+						<paragraph eId="art_8__para_1">
+							<content eId="art_8__para_1__content">
+								<p>U ribolovnim vodama koje se nalaze u granicama zaštićenih
+									prirodnih dobara, na zahtjev
+									pravnog lica koje upravlja zaštićenim prirodnim dobrom (u daljem
+									tekstu: upravljač prirodnim
+									dobrom), Ministarstvo određuje ribolovnu vodu ili dio ribolovne
+									vode ribolovnim područjem
+									ili ribolovnim revirom</p>
+							</content>
+						</paragraph>
+						<paragraph eId="art_8__para_2">
+							<intro>Uz zahtjev iz stava 1 ovog člana, dostavlja se:</intro>
+							<list eId="art_8__list_1">
+								<point eId="art_8__list_1__point_1">
+									<num>1) </num>
+									<content eId="art_8__list_1__point_1__content">
+										<p>plan upravljanja ribolovnim područjem ili ribolovnim
+											revirom;
+										</p>
+									</content>
+								</point>
+								<point eId="art_8__list_1__point_2">
+									<num>2) </num>
+									<content eId="art_8__list_1__point_2__content">
+										<p>mišljenje naučne ili stručne ustanove koja se bavi
+											ispitivanjem i proučavanjem riba i
+											drugih vodenih organizama (u daljem tekstu: naučna
+											ustanova).
+										</p>
+									</content>
+								</point>
+							</list>
+						</paragraph>
+						<paragraph eId="art_8__para_3">
+							<content eId="art_8__para_3__content">
+								<p>Na zaštitu, očuvanje i ulov riba i drugih vodenih organizama u
+									zaštićenim prirodnim
+									dobrima primjenjuju se odredbe ovog zakona.</p>
+							</content>
+						</paragraph>
+					</article>
+				</section>
+			</chapter>
+			<chapter eId="chp_3">
+				<num>III. </num>
+				<heading>NAČIN USTUPANJA NA KORIŠĆENJE RIBA I DRUGIH VODENIH
+					ORGANIZAMA</heading>
+				<section eId="chp_3__sec_1">
+					<heading>Ustupanje na korišćenje riba i drugih vodenih organizama</heading>
+					<article eId="art_9">
+						<num>Član 9</num>
+						<paragraph eId="art_9__para_1">
+							<content eId="art_9__para_1__content">
+								<p>
+									Ribe i drugi vodeni organizmi ustupaju se na korišćenje
+									sportsko-ribolovnom klubu,
+									privrednom društvu ili preduzetniku (u daljem tekstu: korisnik),
+									radi obavljanja sportskorekreativnog ribolova ako ispunjava
+									uslove utvrđene ovim zakonom.</p>
+							</content>
+						</paragraph>
+						<paragraph eId="art_9__para_2">
+							<content eId="art_9__para_2__content">
+								<p>
+									Ustupanje na korišćenje riba i drugih vodenih organizama u
+									ribolovnim vodama, radi
+									obavljanja sportsko-rekreativnog ribolova, vrši Ministarstvo na
+									osnovu javnog oglasa koji se
+									objavljuje na internet stranici Ministarstva i najmanje u jednom
+									štampanom mediju koji se
+									distribuira na teritoriji Crne Gore.</p>
+							</content>
+						</paragraph>
+						<paragraph eId="art_9__para_3">
+							<intro eId="art_9__list_1__intro">
+								<p>
+									Javni oglas iz stava 2 ovog člana naročito sadrži</p>
+							</intro>
+							<list eId="art_9__list_1">
+								<point eId="art_9__list_1__point_1">
+									<num>1) </num>
+									<content eId="art_9__list_1__point_1__content">
+										<p>naziv ribolovne vode;
+										</p>
+									</content>
+								</point>
+								<point eId="art_9__list_1__point_2">
+									<num>2) </num>
+									<content eId="art_9__list_1__point_2__content">
+										<p>granice ribolovne vode;
+										</p>
+									</content>
+								</point>
+								<point eId="art_9__list_1__point_3">
+									<num>3) </num>
+									<content eId="art_9__list_1__point_3__content">
+										<p>vrste riba i drugih vodenih organizama;
+										</p>
+									</content>
+								</point>
+								<point eId="art_9__list_1__point_4">
+									<num>4) </num>
+									<content eId="art_9__list_1__point_4__content">
+										<p>adresu i rok za dostavljanje zahtjeva;
+										</p>
+									</content>
+								</point>
+								<point eId="art_9__list_1__point_5">
+									<num>5) </num>
+									<content eId="art_9__list_1__point_5__content">
+										<p>vrijeme na koje se riba i drugi vodeni organizmi ustupaju
+											na korišćenje;
+										</p>
+									</content>
+								</point>
+								<point eId="art_9__list_1__point_6">
+									<num>6) </num>
+									<content eId="art_9__list_1__point_6__content">
+										<p>uslove za učešće na javnom oglasu;
+										</p>
+									</content>
+								</point>
+								<point eId="art_9__list_1__point_7">
+									<num>7) </num>
+									<content eId="art_9__list_1__point_7__content">
+										<p>početnu visinu naknade za korišćenje riba i drugih
+											vodenih organizama u određenim
+											ribolovnim vodama;
+										</p>
+									</content>
+								</point>
+								<point eId="art_9__list_1__point_8">
+									<num>8) </num>
+									<content eId="art_9__list_1__point_8__content">
+										<p>kritirijume za izbor korisnika
+											koja
+											je sposobna za razmnožavanje;
+										</p>
+									</content>
+								</point>
+							</list>
+						</paragraph>
+						<paragraph eId="art_9__para_4">
+							<content eId="art_9__para_4__content">
+								<p>
+									Odluku o ustupanju na korišćenje donosi Ministarstvo i
+									zaključuje
+									ugovor
+									o korišćenju
+									riba i drugih vodenih organizama u ribolovnim vodama.
+								</p>
+							</content>
+						</paragraph>
+						<paragraph eId="art_9__para_5">
+							<content eId="art_9__para_5__content">
+								<p>
+									Sportsko-ribolovni klub iz stava 1 ovog člana mora da bude
+									upisan u registar sportskih
+									organizacija u skladu sa zakonom.</p>
+							</content>
+						</paragraph>
+						<paragraph eId="art_9__para_6">
+							<content eId="art_9__para_6__content">
+								<p>
+									Privredno društvo i preduzetnik iz stava 1 ovog člana moraju da
+									budu upisani u Centralni
+									registar privrednih subjekata (u daljem tekstu: CRPS) za
+									obavljanje djelatnosti slatkovodnog
+									ribarstva.
+								</p>
+							</content>
+						</paragraph>
+					</article>
+				</section>
+				<section eId="chp_3__sec_2">
+					<heading>Uslovi koje mora da ispunjava učesnik na javnom oglasu</heading>
+					<article eId="art_10">
+						<num>Član 10</num>
+						<paragraph eId="art_10__para_3">
+							<intro eId="art_10__list_1__intro">
+								<p>
+									Korisnik mora da ispunjava sljedeće uslove:</p>
+							</intro>
+							<list eId="art_10__list_1">
+								<point eId="art_10__list_1__point_1">
+									<num>1) </num>
+									<content eId="art_10__list_1__point_1__content">
+										<p> da ima minimum dva zaposlena ribočuvara sa najmanje
+											godinu dana radnog iskustva na
+											poslovima ribočuvara ili sličnim poslovima;
+										</p>
+									</content>
+								</point>
+								<point eId="art_10__list_1__point_2">
+									<num>2) </num>
+									<content eId="art_10__list_2__point_1__content">
+										<p>da ima u svojini ili u zakupu poslovni objekat ili
+											prostoriju koja je opremljena
+											tehničkom opremom za izdavanje dozvola, vođenje
+											evidencije i drugih poslova od značaja za
+											upravljanje ribama i drugim vodenim organizmima;
+										</p>
+									</content>
+								</point>
+								<point eId="art_10__list_1__point_3">
+									<num>3) </num>
+									<content eId="art_10__list_1__point_3__content">
+										<p> da ima u svojini ili u zakupu odgovarajući objekat ili
+											prostoriju za skladištenje i čuvanje
+											oduzetih ribolovnih alata, opreme i drugih predmeta;
+										</p>
+									</content>
+								</point>
+								<point eId="art_10__list_1__point_4">
+									<num>4) </num>
+									<content eId="art_10__list_1__point_4__content">
+										<p>da ima u svojini ili u zakupu najmanje jedno motorno
+											vozilo ili plovni objekat za
+											vršenje kontrole i nadzora ribolovnih voda;
+										</p>
+									</content>
+								</point>
+								<point eId="art_10__list_1__point_5">
+									<num>5) </num>
+									<content eId="art_10__list_1__point_5__content">
+										<p>da ima u svojini opremu za vršenje kontrole ribolovnih
+											aktivnosti: dvogled, elektronski
+											uređaj sa android operativnim sistemom, termalni štampač
+											i drugu tehničku opremu od
+											značaja za rad ribočuvara;
+										</p>
+									</content>
+								</point>
+								<point eId="art_10__list_1__point_6">
+									<num>6) </num>
+									<content eId="art_10__list_1__point_6__content">
+										<p>da ima godišnji plan zaštite, očuvanja i unapređenja riba
+											i drugih vodenih organizama
+											(u daljem tekstu: plan unapređenja riba), koji je u
+											skladu sa ribolovnom osnovom.
+										</p>
+									</content>
+								</point>
+							</list>
+						</paragraph>
+						<paragraph eId="art_10__para_2">
+							<content eId="art_10__para_2__content">
+								<p>
+									Sadržinu plana unapređenja riba propisuje Ministarstvo.
+								</p>
+							</content>
+						</paragraph>
+					</article>
+				</section>
 			</chapter>
 			<!-- ... -->
 			<chapter eId="chp_21">
