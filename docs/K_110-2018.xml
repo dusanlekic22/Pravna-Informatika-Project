@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Akoma_Ntoso document -->
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/WD17 ../schemas/akomantoso30.xsd
+                        "
+    xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/WD17"
+    xmlns:mods="http://www.loc.gov/standards/mods/v3/mods-3-6.xsd">
+    <judgment>
+        <meta>
+            <identification source="#court">
+                <FRBRWork>
+                    <FRBRauthor>
+                        OSNOVNI SUD U NIKŠIĆU
+                    </FRBRauthor>
+                    <FRBRdate date="2018-04-26">
+                        26. April 2018
+                    </FRBRdate>
+                    <FRBRtitle>
+                        K 110/2018
+                    </FRBRtitle>
+                    <FRBRcountry>
+                        ME
+                    </FRBRcountry>
+                </FRBRWork>
+            </identification>
+            <references>
+                <TLCOrganization eId="os" href="/ontology/organization/OsnovniSud.Nikšić"
+                    showAs="OSNOVNI SUD U NIKŠIĆU" />
+                <TLCOrganization eId="odt"
+                    href="/ontology/organization/OsnovnoDrzavnoTuzilastvo.Nikšić"
+                    showAs="Osnovno državno tužilaštvo u Nikšiću" />
+                <TLCPerson eId="vvujacic" href="/ontology/person/vvujacic"
+                    showAs="Vujačić Vukota" />
+                <TLCPerson eId="dmrvaljevic" href="/ontology/person/dmrvaljevic"
+                    showAs="Mrvaljević Desanke" />
+                <TLCPerson eId="fk" href="/ontology/person/fk" showAs="S.. P.." />
+                <TLCPerson eId="dv" href="/ontology/person/dv" showAs="P.. G.." />
+                <TLCPerson eId="sl" href="/ontology/person/sl" showAs="S. L." />
+                <TLCRole eId="plaintiff" href="/ontology/role/plaintiff" showAs="Plaintiff" />
+                <TLCRole eId="defendant" href="/ontology/role/defendant" showAs="Defendant" />
+                <TLCRole eId="judge" href="/ontology/role/judge" showAs="Judge" />
+            </references>
+        </meta>
+        <judgmentBody>
+            <introduction>
+                <p>U IME CRNE GORE</p>
+                <p>OSNOVNI SUD U NIKŠIĆU, kao prvostepeni krivični, sudija Vujačić Vukota, uz
+                    sudjelovanje samostalnog referenta operatera Mrvaljević Desanke, kao
+                    zapisničara, u krivičnom predmetu protiv okrivljenih S.. P.. i P.. G.., zbog
+                    krivičnog djela nezakonit ribolov iz člana 326 st. 2 u vezi čl. 23 Krivičnog
+                    zakonika Crne Gore, po optužnom predlogu ODT-a u Nikšiću Kt.br. 133/18 od
+                    04.04.2018. godine, nakon završenog glavnog i javnog pretresa, dana
+                    26.04.2018. godine u prisustvu državnog tužioca iz Nikšića – Đorojević Dejana i
+                    okrivljenih S.. P.. i P.. G.., a dana 30.04.2018. godine, donio je i javno
+                    objavio</p>
+                <p>PRESUDU</p>
+                <p>Okrivljeni:</p>
+                <p>
+                    S..P.., zvani „P..“, JMBG: .., od oca T..i mjake S.., rođene V.., rođenog ....
+                    godine, u Nikšiću, sa prebivalištem u Nikšiću, ulica Je.. br. 1 – K..,
+                    državljanin Crne Gore, nezaposlen, neoženjen, pismen, završio pet razreda
+                    osnovne škole,
+                    srednjeg imovnog stanja, ranije osuđivan presudom Osnovnog suda Nikšić K.br.
+                    208/09 od 04.06.2009. godine, zbog krivičnog djela iz čl. 239 st. 1 Krivičnog
+                    zakonika Crne Gore - na kaznu zatvora u trajanju od 60 dana uslovno
+                    na dvije godine, presudom Osnovnog suda Nikšić K.br. 687/08 od 16.03.2009.
+                    godine, zbog krivičnog djela iz čl. 168 st. 2 u vezi st. 1 Krivičnog zakonika
+                    Crne Gore - na kaznu zatvora u trajanju od tri mjeseca uslovno na jednu
+                    godinu,
+                </p>
+                <p>
+                    P..G.., zvani „R..“, JMBG: .., od oca J.. i majke B.., rođene K.., rođenog ...
+                    godine, u Nikšiću, sa prebivalištem u Nikšiću – G... bb, državljanin Crne Gore,
+                    nezaposlen, razveden, otac jednog djeteta, pismen, završio srednju školu,
+                    srednjeg imovnog stanja, ranije osuđivan presudom Osnovnog suda Nikšić k.br.
+                    397/14 od 03.12.2014. godine, zbog krivičnog djela iz čl. 246 st.1 u vezi čl. 2
+                    u vezi čl. 23 krivičnog zakonika Crne Gore - na kaznu zatvora u trajanju
+                    od šest mjeseci uslovno na dvije godine,
+                </p>
+            </introduction>
+            <motivation>
+                <p>
+                    K r i v i s u
+                </p>
+                <p>
+                    Što su:
+                </p>
+                <p>
+                    U noći 13/14.03.2018. godine, u Nikšiću, na jezeru Slano, po prethodnom
+                    dogovoru, iako su bili svjesni svog djela i htjeli njegovo izvršenje, protivno
+                    odredbi čl. 27 st. 1 tač. 1 Zakona o slatkovodnom ribarstvu, lovili ribu
+                    mrežom – sredstvom kojim je ribolov zabranjen i kojim se ribe masovno
+                    uništavaju, kojom prilikom su izlovili oko 10 kilograma ribe – šarana,
+                    vlasništvo Sportsko – ribolovnog društva „Nikšić“,
+                    pretvaračem i sondom.</p>
+                <p>- čime su kao saizvršioci izvršili krivično djelo nezakonit ribolov iz člana 326
+                    st. 2 u vezi čl. 23 Krivičnog zakonika Crne Gore</p>
+                <p>pa sud okrivljene primjenom citiranih zakonskih propisa, te čl. 4 st. 2, čl. 13,
+                    15, 32, 41 i 42 Krivičnog zakonika Crne Gore i članova 226, 229 i 374 Zakonika o
+                    krivičnom postupku Crne Gore:
+                </p>
+            </motivation>
+            <decision>
+                <p>O S U Đ U J E</p>
+                <p>Na kaznu rad u javnom interesu u trajanju od 180 (stoosamdeset) časova, a koji se
+                    ima izvršiti za vrijeme od 4 (četiri) mjeseca, s tim što kazna ne može biti duža
+                    od 60 (šezdeset) časova u toku jednog mjeseca.</p>
+                <p>Ukoliko okrivljeni ne vrše rad u javnom interesu, ova kazna će se zamijeniti
+                    kaznom zatvora, tako što će se svakih započetih 60 (šezdeset) časova rada u
+                    javnom interesu zamijeniti kaznom zatvora u trajanju od 1 (jednog)
+                    mjeseca.</p>
+                <p>Obavezuju se okrivljeni da na ime troškova krivičnog postupka plate pojedinačno
+                    iznos od po 40,00 (četrdeset) eura, koji se odnosi na ime paušala, kao djela
+                    troškova krivičnog postupka, sve u roku od 15 dana, po
+                    pravosnažnosti presude, pod prijetnjom prinudnog izvršenja, na žiro račun
+                    Osnovnog suda u Nikšiću br. 832-152-32 i da sudu dostave dokaz o izvršenoj
+                    uplati.</p>
+
+            </decision>
+        </judgmentBody>
+        <conclusions>
+            <p>
+                OSNOVNI SUD U NIKŠIĆU, dana 30.04.2018. godine
+                ZAPISNIČAR S U D I J A
+                Desanka Mrvaljević, s.r. Vukota Vujačić,s.r.
+                Za tačnost otpravka tvrdi i ovjerava
+                Službenik suda
+                PRAVNA POUKA: Protiv ove presude nezadovoljna stranka ima
+                pravo žalbe u roku od 8 dana, od danaprijema
+                iste preko ovog suda, Višem sudu Podgorica.
+            </p>
+        </conclusions>
+    </judgment>
+</akomaNtoso>

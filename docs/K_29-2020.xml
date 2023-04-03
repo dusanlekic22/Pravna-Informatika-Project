@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Akoma_Ntoso document -->
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/WD17 ../schemas/akomantoso30.xsd
+                        "
+    xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/WD17"
+    xmlns:mods="http://www.loc.gov/standards/mods/v3/mods-3-6.xsd">
+    <judgment>
+        <meta>
+            <identification source="#court">
+                <FRBRWork>
+                    <FRBRauthor>
+                        OSNOVNI SUD U PODGORICI
+                    </FRBRauthor>
+                    <FRBRdate date="2020-06-30">
+                        30. Jun 2020
+                    </FRBRdate>
+                    <FRBRtitle>
+                        K 29/2020
+                    </FRBRtitle>
+                    <FRBRcountry>
+                        ME
+                    </FRBRcountry>
+                </FRBRWork>
+            </identification>
+            <references>
+                <TLCOrganization eId="os" href="/ontology/organization/OsnovniSud.Podgorica"
+                    showAs="OSNOVNI SUD U PODGORICI" />
+                <TLCOrganization eId="odt"
+                    href="/ontology/organization/OsnovnoDrzavnoTuzilastvo.Podgorica"
+                    showAs="Osnovno državno tužilaštvo u Podgorici" />
+                <TLCPerson eId="mmijušković" href="/ontology/person/mmijušković"
+                    showAs="Larisa Mijušković-Stamatović" />
+                <TLCPerson eId="msekulic" href="/ontology/person/msekulic"
+                    showAs="Marine Sekulić" />
+                <TLCPerson eId="slukovac" href="/ontology/person/slukovac"
+                    showAs="Lukovac Sofije" />
+                <TLCPerson eId="fk" href="/ontology/person/fk" showAs="F. K." />
+                <TLCPerson eId="dv" href="/ontology/person/dv" showAs="D. V." />
+                <TLCPerson eId="sl" href="/ontology/person/sl" showAs="S. L." />
+                <TLCRole eId="plaintiff" href="/ontology/role/plaintiff" showAs="Plaintiff" />
+                <TLCRole eId="defendant" href="/ontology/role/defendant" showAs="Defendant" />
+                <TLCRole eId="judge" href="/ontology/role/judge" showAs="Judge" />
+            </references>
+        </meta>
+        <judgmentBody>
+            <introduction>
+                <p>U IME CRNE GORE</p>
+                <p>OSNOVNI SUD U PODGORICI, sudija Larisa Mijušković-Stamatović, uz učešće Marine
+                    Sekulić kao zapisničara, u krivičnom postupku protiv okrivljenih F. K. i D. V.,
+                    koje u postupku brani advokat S. L., zbog krivičnog djela
+                    nezakonit ribolov iz čl. 326 st. 2 u vezi čl. 23 st. 2 Krivičnog zakonika Crne
+                    Gore, rješavajući po optužnom predlogu Osnovnog državnog tužilaštva u Podgorici
+                    Kt.br. 1619/19 od 16.01.2020. godine, nakon pravosnažnosti rješenja
+                    o usvajanju sporazuma o priznanju krivice, dana 30.06.2020. godine, donio je</p>
+                <p>PRESUDU</p>
+                <p>Okrivljeni:</p>
+                <p>
+                    F. K., JMB ...., od oca V. i majke P., rođene K., rođen ..... godine u P.-F., sa
+                    prebivalištem u P., B.-G., državljanin Crne Gore, po zanimanju vozač, oženjen,
+                    otac dvoje djece, završio osnovnu školu, lošeg imovnog stanja,
+                </p>
+                <p>
+                    D.V., JMB 0., od oca M. i majke B., rođene M., rođen .... godine u Podgorici, sa
+                    prebivalištem u Podgorici, G..., državljanin Crne Gore, po zanimanju mehaničar,
+                    neoženjen, bez djece, završio srednju mašinsku školu, lošeg
+                    imovnog stanja, neosuđivan.
+                </p>
+            </introduction>
+            <motivation>
+                <p>
+                    K r i v i s u
+                </p>
+                <p>
+                    Što su:
+                </p>
+                <p>
+                    Dana 22.11.2019. godine, oko 23,00 časova u Podgorici, na Skadarskom jezeru, u
+                    mjestu Kurtovića pjaca, zajedno i po prethodnom dogovoru, svjesni svog djela
+                    čije izvršenje su htjeli, znajući da je njihovo djelo zabranjeno,
+                    lovili ribu električnom strujom-akumulatorom, pretvaračem i sondom, sredstvima
+                    kojima se masovno uništavaju životinje, a čije korišćenje je zabranjeno čl. 27
+                    st. 1 tač. 2 Zakona o slatkovodnom ribarstvu (Službeni list Crne
+                    Gore, br. 11/2007), tako što je okrivljeni D. V.upravljao čamcem, dok je
+                    okrivljeni F. K. električnom strujom lovio ribu, te su tom prilikom ulovili
+                    ribu, koju su prilikom bjekstva bacili u jezero sa ostalim
+                    predmetimaakumulatorom,
+                    pretvaračem i sondom.</p>
+                <p>-čime su kao saizvršioci izvršili krivično djelo nezakonit ribolov iz čl. 326 st.
+                    2 u vezi čl. 23 st. 2 Krivičnog zakonika Crne Gore.</p>
+                <p>-Pa im Sud za navedeno krivično djelo primjenom citirane zakonske odredbe, te čl.
+                    4 st. 2, čl. 42 st.1, čl. 52 st. 2, čl. 53 i 54 Krivičnog zakonika Crne Gore, te
+                    odredbi čl. 226, čl. 229 i čl. 374 Zakonika o krivičnom postupku, izriče</p>
+            </motivation>
+            <decision>
+                <p>USLOVNE OSUDE</p>
+                <p>Kojim im utvrđuje kazne zatvora u trajanju od po 3 (tri) mjeseca i istovremeno
+                    određuje da se iste neće izvršiti ukoliko okrivljeni u roku od 1 (jedne) godine
+                    po pravosnažnosti presude ne učine novo krivično djelo.</p>
+                <p>Sud okrivljenom D. V., na osnovu čl. 75 i čl. 326 st. 4 Krivičnog zakonika Crne
+                    Gore, i z r i č e:</p>
+                <p>MJERA BEZBJEDNOSTI</p>
+                <p>Oduzimanje predmeta: sonde, lampe i rezervoara, kao predmeta upotrijebljenih za
+                    izvršenje krivičnog djela..</p>
+                <p>Obavezuju se okrivljeni da plate ovom sudu troškove krivičnog postupka u iznosima
+                    od po 30,00 eura, u roku od 15 dana po pravosnažnosti presude, pod prijetnjom
+                    izvršenja.</p>
+            </decision>
+        </judgmentBody>
+        <conclusions>
+            <p>
+                OSNOVNI SUD U PODGORICI
+                Dana 30.06.2020. godine
+                S U D I J A
+                Larisa Mijušković-Stamatović, s.r.
+                PRAVNA POUKA
+                Protiv ove presude dozvoljena je žalba,
+                ako presuda nije u skladu sa zaključenim sporazumom,
+                u roku od 8 dana od dana prijema pisanog otpravka iste,
+                Višem sudu u Podgorici, a preko ovog suda.
+                ZTO Marina Sekulić
+            </p>
+        </conclusions>
+    </judgment>
+</akomaNtoso>
