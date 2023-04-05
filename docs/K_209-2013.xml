@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Akoma_Ntoso document -->
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/WD17 ../schemas/akomantoso30.xsd
+                        "
+    xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/WD17"
+    xmlns:mods="http://www.loc.gov/standards/mods/v3/mods-3-6.xsd">
+    <judgment>
+        <meta>
+            <identification source="#court">
+                <FRBRWork>
+                    <FRBRauthor>
+                        OSNOVNI SUD U BJELOM POLJU
+                    </FRBRauthor>
+                    <FRBRdate date="2013-10-24">
+                        24. Oktobar 2013
+                    </FRBRdate>
+                    <FRBRtitle>
+                        K 209/2013
+                    </FRBRtitle>
+                    <FRBRcountry>
+                        ME
+                    </FRBRcountry>
+                </FRBRWork>
+            </identification>
+            <references>
+                <TLCOrganization eId="os" href="/ontology/organization/OsnovniSud.Nikšić"
+                    showAs="OSNOVNI SUD U BJELOM POLJU" />
+                <TLCOrganization eId="odt"
+                    href="/ontology/organization/OsnovnoDrzavnoTuzilastvo.Nikšić"
+                    showAs="Osnovno državno tužilaštvo u Bijelom Polju" />
+                <TLCPerson eId="iadamovic" href="/ontology/person/iadamovic"
+                    showAs="Ivan Adamović," />
+                <TLCPerson eId="dboskovic" href="/ontology/person/dboskovic"
+                    showAs="Draginje Bošković" />
+                <TLCPerson eId="pn" href="/ontology/person/pn" showAs="P. N." />
+                <TLCPerson eId="sd" href="/ontology/person/sd" showAs="Š. D." />
+                <TLCRole eId="plaintiff" href="/ontology/role/plaintiff" showAs="Plaintiff" />
+                <TLCRole eId="defendant" href="/ontology/role/defendant" showAs="Defendant" />
+                <TLCRole eId="judge" href="/ontology/role/judge" showAs="Judge" />
+            </references>
+        </meta>
+        <judgmentBody>
+            <introduction>
+                <p>U IME CRNE GORE</p>
+                <p>OSNOVNI SUD U BIJELOM POLJU, sudija pojedinac Ivan Adamović, uz učešće
+                    namještenika suda zapisničara Draginje Bošković, u krivičnom predmetu protiv
+                    okrivljenog P. N.a iz Bara, naselje Dobre Vode, postupajući po
+                    optužnom predlogu Osnovnog državnog tužilaštva u Bijelom Polju, Kt. br. 233/13
+                    od 02. 09. 2013. godine, zbog krivičnog djela nezakonit ribolov, iz čl. 326 st.
+                    2 Krivičnog zakonika, nakon održanog glavnog i javnog pretresa, u
+                    prisustvu, savjetnika u ODT-u u Bijelom Polju Š. D.e i okrivljenog a u odsustvu
+                    predstavnika oštećenog Sportskog ribolovnog društva »Sinjavac« u Bijelom Polju,
+                    dana 24. 10. 2013. godine, donio je i objavio</p>
+                <p>PRESUDU</p>
+                <p>Okrivljeni:</p>
+                <p>
+                    Okrivljeni P. N., JMBG-..., od oca A., majke E., rođene S., rođen 27. 07. 1982.
+                    godine, u Bijelom Polju, sa prebivalištem u Baru, naselje Dobre Vode,
+                    državljanin CG, završio SSS, neoženjen, nezaposlen, srednjeg imovnog stanja,
+                    neosuđivan,
+                </p>
+            </introduction>
+            <motivation>
+                <p>
+                    K r i v je:
+                </p>
+                <p>
+                    -Zato što je:
+                </p>
+                <p>
+                    -Dana 13. 06. 2013. godine, oko 04:30 h, na rijeci Lim u mjestu Vrbe-Voljavac,
+                    opština Bijelo Polje, na teritoriji gazdovanja SRD "Sinjavac" Bijelo Polje,
+                    protivno čl. 27 Zakona o slatkovodnom ribarstvu ("Sl. list CG" br. 11/07 i
+                    40/11), lovio ribu nedozvoljenim sredstvom - mrežom, kojom se te životinje
+                    masovno uništavaju,</p>
+                <p>-čime je izvršio krivično djelo nezakonit ribolov iz čl. 326 st. 2 Krivičnog
+                    zakonika,</p>
+                <p>-pa mu sud, primjenom citiranog zakonskog propisa i čl. 2, 4, 5, 13, 15, 32, 36,
+                    42, 52, 53, 54 i 326 st. 4 Krivičnog zakonika (Kz-a), i čl. 226, 229 i 374
+                    Zakonika o krivičnom postupku (Zkp-a), i z r i č e,
+                </p>
+            </motivation>
+            <decision>
+                <p>USLOVNU OSUDU</p>
+                <p>SKojom mu utvrđuje kaznu zatvora od 3 (tri) mjeseca i istovremeno određuje da se
+                    ista neće izvršiti, ukoliko okrivljeni u roku od 1 (jedne) godine ne učini novo
+                    krivično djelo.</p>
+                <p>Okrivljeni se obavezuje da plati ovom sudu na ime paušala iznos od 30,00€, kao i
+                    na ime ostalih troškova krivičnog postupka iznos od 60,50€, koje iznose je dužan
+                    uplatiti na račun Budžeta CG, broj; 832-151-35, u roku od 15
+                    dana po pravnosnažnosti presude, pod prijetnjom prinudnog izvršenja, s tim što
+                    je dokaz o uplati istih dužan dostaviti krivičnoj pisarnici ovog suda.</p>
+                <p>Od okrivljenog se oduzima pribor za ribolov – mreža, kao sredstvo izvršenja
+                    krivičnog djela, shodno čl. 326 st. 4 Krivičnog zakonika.</p>
+                <p>Imovinsko-pravnog zahtjeva nije bilo.</p>
+            </decision>
+        </judgmentBody>
+        <conclusions>
+            <p>
+                OSNOVNI SUD U BIJELOM POLJU
+                dana 24. 10. 2013. godine,
+                Zapisničar, S u d i j a,
+                Draginja Bošković, s.r.Ivan Adamović s.r.
+                Osnovni Sud u Bijelom Polju
+                K 209/2013
+                24. Oktobar 2013
+            </p>
+        </conclusions>
+    </judgment>
+</akomaNtoso>

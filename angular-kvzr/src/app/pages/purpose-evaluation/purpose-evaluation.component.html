@@ -1,0 +1,172 @@
+<nav class="my-5">
+  <div class="nav nav-tabs" id="nav-tab" role="tablist">
+    <button
+      class="nav-link active"
+      id="nav-home-tab"
+      data-bs-toggle="tab"
+      data-bs-target="#nav-home"
+      type="button"
+      role="tab"
+      aria-controls="nav-home"
+      aria-selected="true"
+    >
+      PC components
+    </button>
+    <button
+      class="nav-link"
+      id="nav-profile-tab"
+      data-bs-toggle="tab"
+      data-bs-target="#nav-profile"
+      type="button"
+      role="tab"
+      aria-controls="nav-profile"
+      aria-selected="false"
+    >
+      Main PC specifications
+    </button>
+  </div>
+</nav>
+<div class="tab-content" id="nav-tabContent">
+  <div
+    class="tab-pane fade show active"
+    id="nav-home"
+    role="tabpanel"
+    aria-labelledby="nav-home-tab"
+  >
+    <div class="card p-3 my-5">
+      <div class="card-header">Choose PC components</div>
+      <div class="card-body">
+        <label for="cpu-select">CPU</label>
+        <select
+          id="cpu-select"
+          class="form-control select"
+          data-select2-id="cpu-select"
+          tabindex="-1"
+          aria-hidden="true"
+          [(ngModel)]="components.cpuName"
+        >
+          <option value="" data-select2-id="2">Select a CPU..</option>
+          <option value="{{ item }}" *ngFor="let item of cpuList">
+            {{ item }}
+          </option>
+        </select>
+        <label for="gpu-select">GPU</label>
+        <select
+          id="gpu-select"
+          class="form-control select"
+          data-select2-id="gpu-select"
+          tabindex="-1"
+          aria-hidden="true"
+          [(ngModel)]="components.gpuName"
+        >
+          <option value="" data-select2-id="2">Select a GPU..</option>
+          <option value="{{ item }}" *ngFor="let item of gpuList">
+            {{ item }}
+          </option>
+        </select>
+        <label for="ram-select">RAM</label>
+        <select
+          id="ram-select"
+          class="form-control select"
+          data-select2-id="ram-select"
+          tabindex="-1"
+          aria-hidden="true"
+          [(ngModel)]="components.ramName"
+        >
+          <option value="" data-select2-id="2">Select a RAM..</option>
+          <option value="{{ item }}" *ngFor="let item of ramList">
+            {{ item }}
+          </option>
+        </select>
+      </div>
+      <div class="card-footer">
+        <div class="d-flex">
+          <h4>PC Purpose Evaluation</h4>
+          <span class="ms-auto">
+            <button
+              id="btn_component"
+              class="btn btn-primary"
+              (click)="getPurposeEvaluationComponent()"
+            >
+              Evaluate
+            </button>
+          </span>
+        </div>
+        <div>Home use: {{ purposeEvaluationComponent.homeUse }}</div>
+        <div>Gaming: {{ purposeEvaluationComponent.gaming }}</div>
+        <div>Mining: {{ purposeEvaluationComponent.mining }}</div>
+        <div>Hosting: {{ purposeEvaluationComponent.hosting }}</div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="tab-pane fade"
+    id="nav-profile"
+    role="tabpanel"
+    aria-labelledby="nav-profile-tab"
+  >
+    <div class="card p-3 my-5">
+      <div class="card-header">Insert PC specifications</div>
+      <div class="card-body">
+        <label for="numberOfCores">Number CPU Of Cores</label>
+        <input
+          type="number"
+          id="numberOfCores"
+          class="form-control select"
+          name="numberOfCores"
+          [(ngModel)]="computerSpec.numberOfCores"
+        />
+        <label for="singleCoreClock">Single Core Clock Speed</label>
+        <input
+          type="number"
+          id="singleCoreClock"
+          class="form-control select"
+          name="singleCoreClock"
+          [(ngModel)]="computerSpec.singleCoreClock"
+        />
+        <label for="ramSize">RAM Size</label>
+        <input
+          type="number"
+          id="ramSize"
+          class="form-control select"
+          name="ramSize"
+          [(ngModel)]="computerSpec.ramSize"
+        />
+        <label for="vRamSize">GPU VRAM Size</label>
+        <input
+          type="number"
+          id="vRamSize"
+          class="form-control select"
+          name="vRamSize"
+          [(ngModel)]="computerSpec.vRamSize"
+        />
+        <label for="gpuHashRate">GPU Hash Rate</label>
+        <input
+          type="number"
+          id="gpuHashRate"
+          class="form-control select"
+          name="gpuHashRate"
+          [(ngModel)]="computerSpec.gpuHashRate"
+        />
+      </div>
+      <div class="card-footer">
+        <div class="d-flex">
+          <h4>PC Purpose Evaluation</h4>
+          <span class="ms-auto">
+            <button
+              id="btn_compare"
+              class="btn btn-primary"
+              (click)="getPurposeEvaluation()"
+            >
+              Evaluate
+            </button>
+          </span>
+        </div>
+        <div>Home use: {{ purposeEvaluation.homeUse }}</div>
+        <div>Gaming: {{ purposeEvaluation.gaming }}</div>
+        <div>Mining: {{ purposeEvaluation.mining }}</div>
+        <div>Hosting: {{ purposeEvaluation.hosting }}</div>
+      </div>
+    </div>
+  </div>
+</div>
