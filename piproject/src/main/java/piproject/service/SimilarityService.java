@@ -23,8 +23,9 @@ public class SimilarityService {
 
 			CBRQuery query = new CBRQuery();
 			CaseDescription caseDescription = new CaseDescription();
-
-			caseDescription.setKrivicnoDelo("cl. 289 st. 3 KZ");
+			
+			caseDescription.setKrivicnoDeloZOSRA("cl. 289 st. 3 KZ");
+			caseDescription.setKrivicnoDeloKZ("cl. 289 st. 3 KZ");
 			List<String> primenjeniPropisi = new ArrayList();
 			primenjeniPropisi.add("cl. 55 st. 3 tac. 15 ZOBSNP");
 			primenjeniPropisi.add("cl. 43 st. 1 ZOBSNP");

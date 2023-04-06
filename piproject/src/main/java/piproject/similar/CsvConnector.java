@@ -39,7 +39,8 @@ public class CsvConnector implements Connector {
 				caseDescription.setSudija(values[3]);
 				caseDescription.setTuzilac(values[4]);
 				caseDescription.setOkrivljeni(values[5]);
-				caseDescription.setKrivicnoDelo(values[6]);
+				caseDescription.setKrivicnoDeloZOSRA(values[6]);
+				caseDescription.setKrivicnoDeloKZ(values[7]);
 				caseDescription.setBrojRiba(0);
 				caseDescription.setVrstaPresude(values[8]);
 				caseDescription.setPrimenjeniPropisi(Arrays.asList(values[9].split(",")));

@@ -14,7 +14,8 @@ public class CaseDescription implements CaseComponent {
 	private String sudija;
 	private String tuzilac;
 	private String okrivljeni;
-	private String krivicnoDelo;
+	private String krivicnoDeloZOSRA;
+	private String krivicnoDeloKZ;
 	private int brojRiba;
 	private String vrstaPresude;
 	private List<String> primenjeniPropisi = new ArrayList<String>();
@@ -67,14 +68,6 @@ public class CaseDescription implements CaseComponent {
 		this.okrivljeni = okrivljeni;
 	}
 
-	public String getKrivicnoDelo() {
-		return krivicnoDelo;
-	}
-
-	public void setKrivicnoDelo(String krivicnoDelo) {
-		this.krivicnoDelo = krivicnoDelo;
-	}
-
 	public String getVrstaPresude() {
 		return vrstaPresude;
 	}
@@ -104,12 +97,28 @@ public class CaseDescription implements CaseComponent {
 		this.brojRiba = brojRiba;
 	}
 
+	public String getKrivicnoDeloZOSRA() {
+		return krivicnoDeloZOSRA;
+	}
+
+	public void setKrivicnoDeloZOSRA(String krivicnoDeloZOSRA) {
+		this.krivicnoDeloZOSRA = krivicnoDeloZOSRA;
+	}
+
+	public String getKrivicnoDeloKZ() {
+		return krivicnoDeloKZ;
+	}
+
+	public void setKrivicnoDeloKZ(String krivicnoDeloKZ) {
+		this.krivicnoDeloKZ = krivicnoDeloKZ;
+	}
+
 	@Override
 	public String toString() {
 		return "CaseDescription [id=" + id + ", sud=" + sud + ", poslovniBroj=" + poslovniBroj + ", sudija=" + sudija
-				+ ", tuzilac=" + tuzilac + ", okrivljeni=" + okrivljeni + ", krivicnoDelo=" + krivicnoDelo
-				+ ", brojRiba=" + brojRiba + ", vrstaPresude=" + vrstaPresude + ", primenjeniPropisi="
-				+ primenjeniPropisi + "]";
+				+ ", tuzilac=" + tuzilac + ", okrivljeni=" + okrivljeni + ", krivicnoDeloZOSRA=" + krivicnoDeloZOSRA
+				+ ", krivicnoDeloKZ=" + krivicnoDeloKZ + ", brojRiba=" + brojRiba + ", vrstaPresude=" + vrstaPresude
+				+ ", primenjeniPropisi=" + primenjeniPropisi + "]";
 	}
 
 }
