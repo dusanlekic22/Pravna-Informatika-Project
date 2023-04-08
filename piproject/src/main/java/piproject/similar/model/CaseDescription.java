@@ -19,6 +19,29 @@ public class CaseDescription implements CaseComponent {
 	private int brojRiba;
 	private String vrstaPresude;
 	private List<String> primenjeniPropisi = new ArrayList<String>();
+	
+
+	public CaseDescription(int id, String sud, String poslovniBroj, String sudija, String tuzilac, String okrivljeni,
+			String krivicnoDeloZOSRA, String krivicnoDeloKZ, int brojRiba, String vrstaPresude,
+			List<String> primenjeniPropisi) {
+		super();
+		this.id = id;
+		this.sud = sud;
+		this.poslovniBroj = poslovniBroj;
+		this.sudija = sudija;
+		this.tuzilac = tuzilac;
+		this.okrivljeni = okrivljeni;
+		this.krivicnoDeloZOSRA = krivicnoDeloZOSRA;
+		this.krivicnoDeloKZ = krivicnoDeloKZ;
+		this.brojRiba = brojRiba;
+		this.vrstaPresude = vrstaPresude;
+		this.primenjeniPropisi = primenjeniPropisi;
+	}
+
+	public CaseDescription() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
 
 	public int getId() {
 		return id;

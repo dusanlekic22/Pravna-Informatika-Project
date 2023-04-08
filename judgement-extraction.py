@@ -27,27 +27,30 @@ sudija = re.search(r'sudija [\w]+\s[\w-]+', content).group()
 tuzilac = re.search(r'po optužnom(\n| )?predlogu (ODT|Osnovnog državnog tužilaštva) u [\w]+', content).group()
 okrivljeni = re.search(r'okrivljenih [\w]\.+\s[\w]\.+ i [\w]\.+\s[\w]\.+|okrivljenog [\w]\.+\s[\w]\.',
                        content).group()
-krivicnoDelo_ZOSRA = re.search(r'zabranjeno|protivno čl.+ Zakona o slatkovodnom ribarstvu (i akvakulturi )?', content).group()
+krivicnoDelo_ZOSRA = re.search(r'(zabranjeno|protivno) čl.+ Zakona o slatkovodnom ribarstvu (i akvakulturi )?', content).group()
+print(krivicnoDelo_ZOSRA)
 krivicnoDeloKZ = re.search(r'djelo nezakonit ribolov iz čl.[\s]?[0-9]{0,3}[.]? st.[\s]?[0-9]+', content).group()
 broj_riba = re.search(r'prilikom ulovili [0-9]*|uhvatio [0-9]+ komada ribe', content).group()
 primenjeni_propisi = re.search(r'(te odredbi .+ Krivičnog zakonika Crne Gore, kao i odredbi .+ (Zakonika o krivičnom postupku|ZOKP), )|'
                                   r'(te primjenom (članova:|člana) .+ KZCG. .+ ZKP(, | ))|'
                                r'(zakonske odredbe, te .{0,70} Krivičnog zakonika Crne Gore, te odredbi .{0,30} Zakonika o krivičnom postupku, )', content).group()
 primenjeni_propisi = primenjeni_propisi.replace('te odredbi ', '').replace('Krivičnog zakonika Crne Gore', 'KZ')\
-    .replace('kao i odredbi ', '').replace('Zakonika o krivičnom postupku,', 'ZOKP').replace('ZKP, ', 'ZOKP')
+    .replace('kao i odredbi ', '').replace('Zakonika o krivičnom postupku,', 'ZOKP').replace('ZKP, ', 'ZOKP')\
+    .replace('zakonske odredbe, te ', '')
 #Krivi č nog zakonika Crne Gore, ' r'kao i odredbi [ č l. [0-9]+[, ]?[ i ]?[\s]?]+ Zakonika o krivi č nom postupku,
 print(sudija)
 header = ['id', 'sud', 'poslovniBroj', 'sudija', 'tuzilac', 'okrivljeni', 'krivicnoDeloZOSRA', 'krivicnoDeloKZ',
           'brojRiba', 'vrstaPresude', 'primenjeniPropisi']
 data = ['2', sud, poslovni_broj, sudija.replace('sudija ', ''), tuzilac.replace('po optužnom predlogu ', ''),
         okrivljeni.replace('okrivljenih ', '').replace('okrivljenog ', '').replace('okrivljenih ', ', '),
-        krivicnoDelo_ZOSRA.replace(' Zakona o slatkovodnom ribarstvu i akvakulturi', ''),
+        krivicnoDelo_ZOSRA.replace(' Zakona o slatkovodnom ribarstvu i akvakulturi', '').replace('zabranjeno', '')
+            .replace('protivno', '').replace(' Zakona o slatkovodnom ribarstvu', ''),
         krivicnoDeloKZ.replace('djelo nezakonit ribolov iz ', ''),
         broj_riba.replace('prilikom ulovili ', '').replace('jedan', '1').replace('uhvatio ', '').replace('komada ribe', ''),
         'osudjujuca', primenjeni_propisi]
 
-with open('docs/judgements.csv', 'a', encoding='UTF8') as f:
-    writer = csv.writer(f)
+with open('docs/judgements.csv', 'a', encoding='UTF8',) as f:
+    writer = csv.writer(f,  delimiter=";")
 
     # write the data
     writer.writerow(data)

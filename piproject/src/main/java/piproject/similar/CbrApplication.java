@@ -28,6 +28,8 @@ public class CbrApplication implements StandardCBRApplication {
 	CBRCaseBase _caseBase;  /** CaseBase object */
 
 	NNConfig simConfig;  /** KNN configuration */
+
+	Collection<RetrievalResult> eval = new ArrayList<RetrievalResult>();
 	
 	public void configure() throws ExecutionException {
 		_connector =  new CsvConnector();
@@ -37,21 +39,37 @@ public class CbrApplication implements StandardCBRApplication {
 		simConfig = new NNConfig(); // KNN configuration
 		simConfig.setDescriptionSimFunction(new Average());  // global similarity function = average
 		
-		simConfig.addMapping(new Attribute("krivicnoDelo", CaseDescription.class), new Equal());
+		simConfig.addMapping(new Attribute("krivicnoDeloZOSRA", CaseDescription.class), new Equal());
+		simConfig.addMapping(new Attribute("krivicnoDeloKZ", CaseDescription.class), new Equal());
 		simConfig.addMapping(new Attribute("brojRiba", CaseDescription.class), new Interval(4));
 		TabularSimilarity slicnostPropisa = new TabularSimilarity(Arrays.asList(new String[] {
+				"čl. 2 KZ",
+				"čl. 3 KZ",
 				"čl. 4 st. 2 KZ",
+				"čl. 5 KZ",
+				"čl. 13 KZ",
+				"čl. 15 KZ",
+				"čl. 32 KZ",
+				"čl. 34 KZ",
+				"čl. 36 KZ",
+				"čl. 36 st. 1 KZ",
+				"čl. 41 KZ",
+				"čl. 42 KZ",
 				"čl. 42 st. 1 KZ",
 				"čl. 52 st. 1 KZ",
+				"čl. 52 st. 2 KZ",
 				"čl. 53 KZ",
 				"čl. 54 KZ",
+				"čl. 326 st. 4 KZ",
 				"čl. 226 ZOKP",
+				"čl. 226. st. 2. tačka 9. ZOKP",
+				"čl. 227 ZOKP",
 				"čl. 229 ZOKP",
 				"čl. 374 ZOKP",}));
-		slicnostPropisa.setSimilarity("cl. 42 st. 1 ZOBSNP", "cl. 43 st. 1 ZOBSNP", .5);
-		slicnostPropisa.setSimilarity("cl. 47 st. 1 ZOBSNP", "cl. 47 st. 3 ZOBSNP", .5);
-		slicnostPropisa.setSimilarity("cl. 47 st. 3 ZOBSNP", "cl. 47 st. 4 ZOBSNP", .5);
-		slicnostPropisa.setSimilarity("cl. 47 st. 1 ZOBSNP", "cl. 47 st. 4 ZOBSNP", .5);
+		slicnostPropisa.setSimilarity("čl. 36 KZ", "čl. 36 st. 1 KZ", 1);
+		slicnostPropisa.setSimilarity("čl. 42 KZ", "čl. 42 st. 1 KZ", 1);
+		slicnostPropisa.setSimilarity("čl. 52 st. 1 KZ", "čl. 52 st. 2 KZ", .5);
+		slicnostPropisa.setSimilarity("čl. 226 ZOKP", "čl. 226. st. 2. tačka 9. ZOKP", 1);
 		simConfig.addMapping(new Attribute("primenjeniPropisi", CaseDescription.class), slicnostPropisa);
 		
 		// Equal - returns 1 if both individuals are equal, otherwise returns 0
@@ -66,7 +84,7 @@ public class CbrApplication implements StandardCBRApplication {
 	}
 
 	public void cycle(CBRQuery query) throws ExecutionException {
-		Collection<RetrievalResult> eval = NNScoringMethod.evaluateSimilarity(_caseBase.getCases(), query, simConfig);
+		eval = NNScoringMethod.evaluateSimilarity(_caseBase.getCases(), query, simConfig);
 		eval = SelectCases.selectTopKRR(eval, 5);
 		System.out.println("Retrieved cases:");
 		for (RetrievalResult nse : eval)
@@ -98,10 +116,8 @@ public class CbrApplication implements StandardCBRApplication {
 			caseDescription.setKrivicnoDeloZOSRA("cl. 289 st. 3 KZ");
 			caseDescription.setKrivicnoDeloKZ("cl. 289 st. 3 KZ");
 			List<String> primenjeniPropisi = new ArrayList();
-			primenjeniPropisi.add("cl. 55 st. 3 tac. 15 ZOBSNP");
-			primenjeniPropisi.add("cl. 43 st. 1 ZOBSNP");
+			primenjeniPropisi.add("čl. 36 KZ");
 			caseDescription.setPrimenjeniPropisi(primenjeniPropisi);
-			List<String> telesnePovrede = new ArrayList();
 			caseDescription.setBrojRiba(2);
 			
 			query.setDescription( caseDescription );
@@ -114,4 +130,11 @@ public class CbrApplication implements StandardCBRApplication {
 		}
 	}
 
+	public Collection<RetrievalResult> getEval() {
+		return eval;
+	}
+
+	public void setEval(Collection<RetrievalResult> eval) {
+		this.eval = eval;
+	}
 }

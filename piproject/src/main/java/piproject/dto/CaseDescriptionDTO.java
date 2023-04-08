@@ -11,10 +11,13 @@ public class CaseDescriptionDTO {
 	private String sudija;
 	private String tuzilac;
 	private String okrivljeni;
-	private String krivicnoDelo;
+	private String krivicnoDeloZOSRA;
+	private String krivicnoDeloKZ;
 	private int brojRiba;
 	private String vrstaPresude;
 	private List<String> primenjeniPropisi = new ArrayList<String>();
+
+	double similarityValue;
 
 	public int getId() {
 		return id;
@@ -64,12 +67,22 @@ public class CaseDescriptionDTO {
 		this.okrivljeni = okrivljeni;
 	}
 
-	public String getKrivicnoDelo() {
-		return krivicnoDelo;
-	}
-
-	public void setKrivicnoDelo(String krivicnoDelo) {
-		this.krivicnoDelo = krivicnoDelo;
+	public CaseDescriptionDTO(int id, String sud, String poslovniBroj, String sudija, String tuzilac, String okrivljeni,
+			String krivicnoDeloZOSRA, String krivicnoDeloKZ, int brojRiba, String vrstaPresude,
+			List<String> primenjeniPropisi, double similarityValue) {
+		super();
+		this.id = id;
+		this.sud = sud;
+		this.poslovniBroj = poslovniBroj;
+		this.sudija = sudija;
+		this.tuzilac = tuzilac;
+		this.okrivljeni = okrivljeni;
+		this.krivicnoDeloZOSRA = krivicnoDeloZOSRA;
+		this.krivicnoDeloKZ = krivicnoDeloKZ;
+		this.brojRiba = brojRiba;
+		this.vrstaPresude = vrstaPresude;
+		this.primenjeniPropisi = primenjeniPropisi;
+		this.similarityValue = similarityValue;
 	}
 
 	public int getBrojRiba() {
@@ -99,6 +112,30 @@ public class CaseDescriptionDTO {
 	public CaseDescriptionDTO() {
 		super();
 		// TODO Auto-generated constructor stub
+	}
+
+	public double getSimilarityValue() {
+		return similarityValue;
+	}
+
+	public void setSimilarityValue(double similarityValue) {
+		this.similarityValue = similarityValue;
+	}
+
+	public String getKrivicnoDeloZOSRA() {
+		return krivicnoDeloZOSRA;
+	}
+
+	public void setKrivicnoDeloZOSRA(String krivicnoDeloZOSRA) {
+		this.krivicnoDeloZOSRA = krivicnoDeloZOSRA;
+	}
+
+	public String getKrivicnoDeloKZ() {
+		return krivicnoDeloKZ;
+	}
+
+	public void setKrivicnoDeloKZ(String krivicnoDeloKZ) {
+		this.krivicnoDeloKZ = krivicnoDeloKZ;
 	}
 
 }

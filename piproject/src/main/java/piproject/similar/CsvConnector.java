@@ -20,18 +20,17 @@ public class CsvConnector implements Connector {
 		LinkedList<CBRCase> cases = new LinkedList<CBRCase>();
 		
 		try {
-			BufferedReader br = new BufferedReader(new InputStreamReader(getClass().getResourceAsStream("/presude.csv")));
+			BufferedReader br = new BufferedReader(new InputStreamReader(getClass().getResourceAsStream("/judgements.csv")));
 			if (br == null)
 				throw new Exception("Error opening file");
 
 			String line = "";
 			while ((line = br.readLine()) != null) {
-				if (line.startsWith("#") || (line.length() == 0))
+				if (line.startsWith("id") || (line.length() == 0))
 					continue;
 				String[] values = line.split(";");
-
+				
 				CBRCase cbrCase = new CBRCase();
-
 				CaseDescription caseDescription = new CaseDescription();
 				caseDescription.setId(Integer.parseInt(values[0]));
 				caseDescription.setSud(values[1]);
@@ -41,9 +40,9 @@ public class CsvConnector implements Connector {
 				caseDescription.setOkrivljeni(values[5]);
 				caseDescription.setKrivicnoDeloZOSRA(values[6]);
 				caseDescription.setKrivicnoDeloKZ(values[7]);
-				caseDescription.setBrojRiba(0);
-				caseDescription.setVrstaPresude(values[8]);
-				caseDescription.setPrimenjeniPropisi(Arrays.asList(values[9].split(",")));
+				caseDescription.setBrojRiba(Integer.parseInt(values[8]));
+				caseDescription.setVrstaPresude(values[9]);
+				caseDescription.setPrimenjeniPropisi(Arrays.asList(values[10].split(",")));
 								
 				cbrCase.setDescription(caseDescription);
 				cases.add(cbrCase);
