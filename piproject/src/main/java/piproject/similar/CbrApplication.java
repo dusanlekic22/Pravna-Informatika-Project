@@ -40,11 +40,14 @@ public class CbrApplication implements StandardCBRApplication {
 		simConfig.addMapping(new Attribute("krivicnoDelo", CaseDescription.class), new Equal());
 		simConfig.addMapping(new Attribute("brojRiba", CaseDescription.class), new Interval(4));
 		TabularSimilarity slicnostPropisa = new TabularSimilarity(Arrays.asList(new String[] {
-				"cl. 42 st. 1 ZOBSNP",
-				"cl. 43 st. 1 ZOBSNP",
-				"cl. 47 st. 1 ZOBSNP",
-				"cl. 47 st. 3 ZOBSNP",
-				"cl. 47 st. 4 ZOBSNP"}));
+				"čl. 4 st. 2 KZ",
+				"čl. 42 st. 1 KZ",
+				"čl. 52 st. 1 KZ",
+				"čl. 53 KZ",
+				"čl. 54 KZ",
+				"čl. 226 ZOKP",
+				"čl. 229 ZOKP",
+				"čl. 374 ZOKP",}));
 		slicnostPropisa.setSimilarity("cl. 42 st. 1 ZOBSNP", "cl. 43 st. 1 ZOBSNP", .5);
 		slicnostPropisa.setSimilarity("cl. 47 st. 1 ZOBSNP", "cl. 47 st. 3 ZOBSNP", .5);
 		slicnostPropisa.setSimilarity("cl. 47 st. 3 ZOBSNP", "cl. 47 st. 4 ZOBSNP", .5);
