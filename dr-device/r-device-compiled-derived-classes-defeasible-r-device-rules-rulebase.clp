@@ -1,0 +1,6 @@
+( defclass illegal_fishing_lvl1 ( is-a DERIVED-CLASS ) ( slot defendant ( type ?VARIABLE ) ) )
+( defclass illegal_fishing_lvl2 ( is-a DERIVED-CLASS ) ( slot defendant ( type ?VARIABLE ) ) )
+( defclass illegal_fishing_confiscation ( is-a DERIVED-CLASS ) ( slot defendant ( type FLOAT INTEGER SYMBOL STRING EXTERNAL-ADDRESS FACT-ADDRESS INSTANCE-ADDRESS INSTANCE-NAME ) ) )
+( defclass to_pay_min ( is-a DERIVED-CLASS ) ( slot value ( type INTEGER ) ) )
+( defclass to_pay_max ( is-a DERIVED-CLASS ) ( slot value ( type INTEGER ) ) )
+( defclass max_imprisonment ( is-a DERIVED-CLASS ) ( slot value ( type INTEGER ) ) )

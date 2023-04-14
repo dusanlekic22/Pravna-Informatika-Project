@@ -6,25 +6,25 @@
 		<meta>
 			<identification source="#lekic">
 				<FRBRWork>
-					<FRBRthis value="/akn/me/act/2018-01-2902/!main" />
-					<FRBRuri value="/akn/me/act/2018-01-2902/" />
+					<FRBRthis value="/akn/me/act/2018-03-16/01-2902/!main" />
+					<FRBRuri value="/akn/me/act/2018-03-16/01-2902/" />
 					<FRBRdate date="2018-03-09" />
 					<FRBRauthor href="#ns" as="#author" />
 					<FRBRcountry value="me" />
 					<FRBRsubtype value="act" />
-					<FRBRnumber value="2018-01-2902/" />
+					<FRBRnumber value="01-2902" />
 					<FRBRname value="Zakon o slatkovodnom ribarstvu i akvakulturi" />
 				</FRBRWork>
 				<FRBRExpression>
-					<FRBRthis value="/akn/me/act/2018-01-2902/me@2018-03-19/!main" />
-					<FRBRuri value="/akn/me/act/2018-01-2902/me@2018-03-16" />
+					<FRBRthis value="/akn/me/act/2018-03-16/01-2902/me@2018-03-19/!main" />
+					<FRBRuri value="/akn/me/act/2018-03-16/01-2902/me@2018-03-16" />
 					<FRBRdate date="2018-03-016" />
 					<FRBRauthor href="#sg" as="#editor" />
 					<FRBRlanguage language="me" />
 				</FRBRExpression>
 				<FRBRManifestation>
-					<FRBRthis value="/akn/me/act/2018-01-2902/sr@2018-03-09/!main.xml" />
-					<FRBRuri value="/akn/me/act/2018-01-2902/sr@2018-03-09/!main.akn" />
+					<FRBRthis value="/akn/me/act/2018-03-16/01-2902/me@2018-03-09/!main.xml" />
+					<FRBRuri value="/akn/me/act/2018-03-16/01-2902/sme@2018-03-09/!main.akn" />
 					<FRBRdate date="2023-03-30" />
 					<FRBRauthor href="#lekic" as="#generator" />
 					<FRBRformat value="xml" />
@@ -43,7 +43,7 @@
 					showAs="Skupština Crne Gore" />
 				<TLCOrganization eId="sl" href="/akn/me/ontology/organization/sl"
 					showAs="Službeni list Crne Gore" />
-				<TLCOrganization eId="sl" href="/akn/me/ontology/organization/sl"
+				<TLCOrganization eId="sl" href="/akn/me/ontology/organization/ministartsvo"
 					showAs="Ministarstvo" />
 				<TLCPerson eId="fv" href="/akn/me/ontology/person/fv"
 					showAs="Predsjednik Crne Gore, Filip Vujanović, s.r." />
@@ -55,7 +55,7 @@
 			<num>312.</num>
 			<p>Na osnovu člana 95 tačka 3 Ustava Crne Gore donosim</p>
 			<heading>UKAZ O PROGLAŠENJU ZAKONA O SLATKOVODNOM RIBARSTVU I AKVAKULTURI</heading>
-			<p>Proglašavam Zakon o slatkovodnom ribarstvu, koji je donijela Skupština Crne Gore 26.
+			<p>Proglašavam Zakon o slatkovodnom ribarstvu, koji je donijela <organization refersTo="#scg">Skupština Crne Gore</organization> 26.
 				saziva, na Drugoj sjednici Prvog redovnog (proljećnjeg) zasijedanja u <docDate
 					date="2011-03-09">2018. godini, dana 9. marta 2018. godine.</docDate></p>
 
@@ -64,7 +64,7 @@
 				Podgorica, 16. marta 2018. godine
 			</p>
 			<heading>
-				<legislature>Predsjednik Crne Gore, Filip Vujanović, s.r.</legislature>
+				<legislature><person refersTo="#fv">Predsjednik Crne Gore, Filip Vujanović, s.r.</person></legislature>
 			</heading>
 			<p>
 				<docDate date="2011-11-29">NOV. 29, 2011</docDate>
@@ -73,12 +73,12 @@
 				Public Law <docNumber>112-61</docNumber>
 			</p>
 			<p>
-				<legislature>Predsjednik Crne Gore, Filip Vujanović, s.r.</legislature>
+				<legislature><person refersTo="#fv">Predsjednik Crne Gore, Filip Vujanović, s.r.</person></legislature>
 			</p>
 		</preface>
 		<preamble>
 			<formula eId="formula" name="enactingFormula">
-				<p>Na osnovu člana 82 tačka 2 i člana 91 stav 1 Ustava Crne Gore Skupština Crne Gore
+				<p>Na osnovu člana 82 tačka 2 i člana 91 stav 1 Ustava Crne Gore <organization refersTo="#scg">Skupština Crne Gore</organization>
 					26. saziva,
 					na Drugoj sjednici Prvog redovnog (proljećnjeg) zasijedanja u 2018. godini,
 					dana 9. marta 2018. godine, donijela je </p>
@@ -481,13 +481,13 @@
 								<p>Označavanje iz <ref
 										href="/akn/me/act/2009-41-1404#art_5__para_2">stava 3 ovog
 									člana</ref> vrši organ državne uprave nadležan za poslove
-									ribarstva (u daljem tekstu: Ministarstvo).</p>
+									ribarstva (u daljem tekstu: <organization refersTo="#ministartsvo">Ministarstvo</organization>).</p>
 							</content>
 						</paragraph>
 						<paragraph eId="art_5__para_4">
 							<content eId="art_5__para_4__content">
 								<p>Način označavanja mjesta na kojima voda postaje postojano slana
-									propisuje Ministarstvo.</p>
+									propisuje <organization refersTo="#ministartsvo">Ministarstvo</organization>.</p>
 							</content>
 						</paragraph>
 					</article>
@@ -507,7 +507,7 @@
 							<content eId="art_6__para_2__content">
 								<p>Ribolovna područja iz <ref
 										href="/akn/me/act/2009-41-1404#art_6__para_1">stava 1
-										ovog člana</ref> i njihove granice određuje Ministarstvo.</p>
+										ovog člana</ref> i njihove granice određuje <organization refersTo="#ministartsvo">Ministarstvo</organization>.</p>
 							</content>
 						</paragraph>
 					</article>
@@ -528,7 +528,7 @@
 								<p>Ribolovne revire iz <ref
 										href="/akn/me/act/2009-41-1404#art_7__para_1">stava 1 ovog
 									člana</ref>, njihove granice i dozvoljene ribolovne alate i
-									opremu određuje Ministarstvo.</p>
+									opremu određuje <organization refersTo="#ministartsvo">Ministarstvo</organization>.</p>
 							</content>
 						</paragraph>
 						<paragraph eId="art_7__para_3">
@@ -542,7 +542,7 @@
 						</paragraph>
 						<paragraph eId="art_7__para_4">
 							<content eId="art_7__para_4__content">
-								<p>Način obilježavanja ribolovnih revira propisuje Ministarstvo.</p>
+								<p>Način obilježavanja ribolovnih revira propisuje <organization refersTo="#ministartsvo">Ministarstvo</organization>.</p>
 							</content>
 						</paragraph>
 					</article>
@@ -557,7 +557,7 @@
 									prirodnih dobara, na zahtjev
 									pravnog lica koje upravlja zaštićenim prirodnim dobrom (u daljem
 									tekstu: upravljač prirodnim
-									dobrom), Ministarstvo određuje ribolovnu vodu ili dio ribolovne
+									dobrom), <organization refersTo="#ministartsvo">Ministarstvo</organization> određuje ribolovnu vodu ili dio ribolovne
 									vode ribolovnim područjem
 									ili ribolovnim revirom</p>
 							</content>
@@ -618,9 +618,9 @@
 								<p>
 									Ustupanje na korišćenje riba i drugih vodenih organizama u
 									ribolovnim vodama, radi
-									obavljanja sportsko-rekreativnog ribolova, vrši Ministarstvo na
+									obavljanja sportsko-rekreativnog ribolova, vrši <organization refersTo="#ministartsvo">Ministarstvo</organization> na
 									osnovu javnog oglasa koji se
-									objavljuje na internet stranici Ministarstva i najmanje u jednom
+									objavljuje na internet stranici <organization refersTo="#ministartsvo">Ministarstva</organization> i najmanje u jednom
 									štampanom mediju koji se
 									distribuira na teritoriji Crne Gore.</p>
 							</content>
@@ -696,7 +696,7 @@
 						<paragraph eId="art_9__para_3">
 							<content eId="art_9__para_3__content">
 								<p>
-									Odluku o ustupanju na korišćenje donosi Ministarstvo i
+									Odluku o ustupanju na korišćenje donosi <organization refersTo="#ministartsvo">Ministarstvo</organization> i
 									zaključuje
 									ugovor
 									o korišćenju
@@ -795,7 +795,7 @@
 						<paragraph eId="art_10__para_1">
 							<content eId="art_10__para_1__content">
 								<p>
-									Sadržinu plana unapređenja riba propisuje Ministarstvo.
+									Sadržinu plana unapređenja riba propisuje <organization refersTo="#ministartsvo">Ministarstvo</organization>.
 								</p>
 							</content>
 						</paragraph>
@@ -962,7 +962,7 @@
 									ustupljene na korišćenje u postupku javnog oglašavanja u skladu
 									sa <ref
 										href="/akn/me/act/2009-41-1404#art_9">članom 9 ovog zakona</ref>,
-									Ministarstvo može privremeno da ustupi na korišćenje, bez javnog
+									<organization refersTo="#ministartsvo">Ministarstvo</organization> može privremeno da ustupi na korišćenje, bez javnog
 									oglašavanja, Savezu sportsko ribolovnih organizacija Crne Gore
 									(u daljem tekstu: Savez) ako je upisan u registar u skladu sa
 									zakonom kojim je uređen sport i ako ispunjava uslove propisane
@@ -979,7 +979,7 @@
 						</paragraph>
 						<paragraph eId="art_14__para_3">
 							<content eId="art_14__para_3__content">
-								<p> Odluku o ustupanju na privremeno korišćenje donosi Ministarstvo
+								<p> Odluku o ustupanju na privremeno korišćenje donosi <organization refersTo="#ministartsvo">Ministarstvo</organization>
 									i zaključuje ugovor u skladu sa <ref
 										href="/akn/me/act/2009-41-1404#art_12">članom 12 ovog zakona</ref>
 									.</p>
@@ -999,7 +999,7 @@
 									važenja ugovora, utvrdi da je korisnik prestao da ispunjava
 									uslove pod kojima su ribe i drugi
 									vodeni organizmi u ribolovnoj vodi ustupljeni na korišćenje,
-									Ministarstvo može izmijeniti
+									<organization refersTo="#ministartsvo">Ministarstvo</organization> može izmijeniti
 									uslove korišćenja ili raskinuti ugovor o ustupanju na korišćenje
 									riba i drugih vodenih
 									organizama.</p>
@@ -1010,7 +1010,7 @@
 								<p>
 									Ako korisnik ne sprovodi plan unapređenja riba u skladu sa
 									planiranom dinamikom,
-									Ministarstvo može raskinuti ugovor o ustupanju na korišćenje
+									<organization refersTo="#ministartsvo">Ministarstvo</organization> može raskinuti ugovor o ustupanju na korišćenje
 									riba i drugih vodenih
 									organizama.</p>
 							</content>
@@ -1156,7 +1156,7 @@
 									vodenih organizama u
 									određenoj ribolovnoj vodi (u daljem tekstu: ribolovna osnova),
 									za pojedine ribolovne vode,
-									izrađuje naučna ustanova koju ovlasti Ministarstvo.</p>
+									izrađuje naučna ustanova koju ovlasti <organization refersTo="#ministartsvo">Ministarstvo</organization>.</p>
 							</content>
 						</paragraph>
 						<paragraph eId="art_18__para_2">
@@ -1164,8 +1164,8 @@
 								<p>
 									Naučna ustanova za izradu ribolovne osnove određuje se na osnovu
 									javnog oglasa
-									Ministarstva, koji se objavljuje na internet stranici
-									Ministarstva i najmanje u jednom
+									<organization refersTo="#ministartsvo">Ministarstva</organization>, koji se objavljuje na internet stranici
+									<organization refersTo="#ministartsvo">Ministarstva</organization> i najmanje u jednom
 									štampanom mediju koji se distribuira na teritoriji Crne Gore.
 								</p>
 							</content>
@@ -1222,7 +1222,7 @@
 						<paragraph eId="art_18__para_3">
 							<content eId="art_18__para_3__content">
 								<p>
-									Odluku o određivanju naučne ustanove donosi Ministarstvo i
+									Odluku o određivanju naučne ustanove donosi <organization refersTo="#ministartsvo">Ministarstvo</organization> i
 									zaključuje ugovor o izradi
 									ribolovne osnove.</p>
 							</content>
@@ -1262,13 +1262,13 @@
 								<p> Izmjene i dopune ribolovne osnove iz <ref
 										href="/akn/me/act/2009-41-1404#art_18__para_7">stava 8 ovog
 									člana</ref> vrši naučna ustanova koja je izradila ribolovnu
-									osnovu na zahtjev Ministarstva.</p>
+									osnovu na zahtjev <organization refersTo="#ministartsvo">Ministarstva</organization>.</p>
 							</content>
 						</paragraph>
 						<paragraph eId="art_18__para_9">
 							<content eId="art_18__para_9__content">
 								<p>
-									Sadržinu ribolovne osnove propisuje Ministarstvo.</p>
+									Sadržinu ribolovne osnove propisuje <organization refersTo="#ministartsvo">Ministarstvo</organization>.</p>
 							</content>
 						</paragraph>
 					</article>
@@ -1499,7 +1499,7 @@
 								<num>23) </num>
 								<content eId="art_19__list_1__point_23__content">
 									<p>plavljenje balvana i drugog drveta bez odobrenja
-										Ministarstva;
+										<organization refersTo="#ministartsvo">Ministarstva</organization>;
 									</p>
 								</content>
 							</point>
@@ -1515,7 +1515,7 @@
 							<point eId="art_19__list_1__point_25">
 								<num>25) </num>
 								<content eId="art_19__list_1__point_25__content">
-									<p>poribljavati ribolovne vode bez odobrenja Ministarstva;
+									<p>poribljavati ribolovne vode bez odobrenja <organization refersTo="#ministartsvo">Ministarstva</organization>;
 									</p>
 								</content>
 							</point>
@@ -1574,7 +1574,7 @@
 								<num>31) </num>
 								<content eId="art_19__list_1__point_31__content">
 									<p>organizovanje i održavanje takmičenja bez odobrenja
-										Ministarstva;
+										<organization refersTo="#ministartsvo">Ministarstva</organization>;
 									</p>
 								</content>
 							</point>
@@ -1582,7 +1582,7 @@
 								<num>32) </num>
 								<content eId="art_19__list_1__point_32__content">
 									<p>obavljanje naučno-istraživačkog ribolova bez odobrenja
-										Ministarstva;
+										<organization refersTo="#ministartsvo">Ministarstva</organization>;
 									</p>
 								</content>
 							</point>
@@ -1591,28 +1591,28 @@
 								<content eId="art_19__list_1__point_33__content">
 									<p>obavljanje naučno-istraživačkog ribolova u zaštićenim
 										ribolovnim područjima bez
-										odobrenja Ministarstva;
+										odobrenja <organization refersTo="#ministartsvo">Ministarstva</organization>;
 									</p>
 								</content>
 							</point>
 							<point eId="art_19__list_1__point_34">
 								<num>34) </num>
 								<content eId="art_19__list_1__point_34__content">
-									<p>obavljanje sanacionog ribolova bez odobrenja Ministarstva;
+									<p>obavljanje sanacionog ribolova bez odobrenja <organization refersTo="#ministartsvo">Ministarstva</organization>;
 									</p>
 								</content>
 							</point>
 							<point eId="art_19__list_1__point_35">
 								<num>35) </num>
 								<content eId="art_19__list_1__point_35__content">
-									<p>obavljanje selektivnog ribolova bez odobrenja Ministarstva;
+									<p>obavljanje selektivnog ribolova bez odobrenja <organization refersTo="#ministartsvo">Ministarstva</organization>;
 									</p>
 								</content>
 							</point>
 							<point eId="art_19__list_1__point_36">
 								<num>36) </num>
 								<content eId="art_19__list_1__point_36__content">
-									<p>obavljanje akvakulture bez dozvole Ministarstva;
+									<p>obavljanje akvakulture bez dozvole <organization refersTo="#ministartsvo">Ministarstva</organization>;
 									</p>
 								</content>
 							</point>
@@ -1621,7 +1621,7 @@
 								<content eId="art_19__list_1__point_37__content">
 									<p>uzgajanje stranih i lokalno neprisutnih vrsta riba i drugih
 										vodenih organizama bez
-										odobrenja Ministarstva;
+										odobrenja <organization refersTo="#ministartsvo">Ministarstva</organization>;
 									</p>
 								</content>
 							</point>
@@ -1674,7 +1674,7 @@
 							<content eId="art_20__para_1__content">
 								<p>
 									Plavljenje balvana i drugog drveta u ribolovnim vodama, može da
-									se vrši samo na osnovu odobrenja Ministarstva.</p>
+									se vrši samo na osnovu odobrenja <organization refersTo="#ministartsvo">Ministarstva</organization>.</p>
 							</content>
 						</paragraph>
 						<paragraph eId="art_20__para_2">
@@ -1702,7 +1702,7 @@
 						<paragraph eId="art_21__para_2">
 							<content eId="art_21__para_2__content">
 								<p> Izuzetno od <ref href="/akn/me/act/2009-41-1404#art_21__para_1">stava
-									1 ovog člana</ref>, Ministarstvo može odobriti unos alohtonih
+									1 ovog člana</ref>, <organization refersTo="#ministartsvo">Ministarstvo</organization> može odobriti unos alohtonih
 									vrsta riba i drugih vodenih organizama, uz prethodno pribavljeno
 									pozitivno mišljenje naučne ustanove, dozvole organa državne
 									uprave nadležnog za poslove zaštite prirode i dokaza o
@@ -1720,7 +1720,7 @@
 							<content eId="art_22__para_1__content">
 								<p>
 									Poribljavanje ribolovnih voda može da se vrši samo na osnovu
-									odobrenja Ministarstva.</p>
+									odobrenja <organization refersTo="#ministartsvo">Ministarstva</organization>.</p>
 							</content>
 						</paragraph>
 						<paragraph eId="art_22__para_2">
@@ -1816,7 +1816,7 @@
 								<p> U troškovima poribljavanja iz <ref
 										href="/akn/me/act/2009-41-1404#art_23__para_2">stava 2
 										ovog člana</ref>, dužni su da učestvuju i korisnik sa 10%,
-									lokalna samouprava sa 15% i Ministarstvo sa 15% od ukupnih
+									lokalna samouprava sa 15% i <organization refersTo="#ministartsvo">Ministarstvo</organization> sa 15% od ukupnih
 									troškova poribljavanja.</p>
 							</content>
 						</paragraph>
@@ -1871,7 +1871,7 @@
 								<num>4) </num>
 								<content eId="art_24__list_1__point_4__content">
 									<p>kopiju odobrenja za vršenje poribljavanja izdatu od strane
-										Ministarstva; i
+										<organization refersTo="#ministartsvo">Ministarstva</organization>; i
 									</p>
 								</content>
 							</point>
@@ -1987,7 +1987,7 @@
 						<paragraph eId="art_27__para_1">
 							<content eId="art_27__para_1__content">
 								<p>
-									Ribolovnu vodu ili dio ribolovne vode, Ministarstvo može
+									Ribolovnu vodu ili dio ribolovne vode, <organization refersTo="#ministartsvo">Ministarstvo</organization> može
 									proglasiti zaštićenim ribolovnim područjem, ako naučna ustanova
 									utvrdi da su zaštićena ribolovna područja povoljna za
 									mriješćenje, rast i ishranu riba i drugih vodenih organizama.</p>
@@ -2005,7 +2005,7 @@
 							<content eId="art_27__para_3__content">
 								<p>
 									Granice zaštićenog ribolovnog područja u slučaju novonastalih
-									prirodnih promjena, Ministarstvo može da izmijeni na predlog
+									prirodnih promjena, <organization refersTo="#ministartsvo">Ministarstvo</organization> može da izmijeni na predlog
 									naučne ustanove.</p>
 							</content>
 						</paragraph>
@@ -2089,7 +2089,7 @@
 										href="/akn/me/act/2009-41-1404#art_28__list_1">stava 1
 										ovog člana</ref> u zaštićenim ribolovnim područjima, može se
 									obavljati naučno-istraživački ribolov na osnovu odobrenja
-									Ministarstva.</p>
+									<organization refersTo="#ministartsvo">Ministarstva</organization>.</p>
 							</content>
 						</paragraph>
 						<paragraph eId="art_28__para_2">
@@ -2110,14 +2110,14 @@
 							<content eId="art_29__para_1__content">
 								<p>
 									Radi zaštite i očuvanja riba i drugih vodenih organizama,
-									Ministarstvo može na osnovu mišljenja naučne ustanove, utvrditi
+									<organization refersTo="#ministartsvo">Ministarstvo</organization> može na osnovu mišljenja naučne ustanove, utvrditi
 									ribolovni zabran za određeni vremenski period na određenoj
 									ribolovnoj vodi.</p>
 							</content>
 						</paragraph>
 						<paragraph eId="art_29__para_2">
 							<content eId="art_29__para_2__content">
-								<p> Ribolovni zabran Ministarstvo može da ukine ili da promijeni
+								<p> Ribolovni zabran <organization refersTo="#ministartsvo">Ministarstvo</organization> može da ukine ili da promijeni
 									vremenski period ribolovnog zabrana iz <ref
 										href="/akn/me/act/2009-41-1404#art_29__para_1">stava 1 ovog
 									člana</ref>, na osnovu mišljenja naučne ustanove. </p>
@@ -2133,7 +2133,7 @@
 							<content eId="art_30__para_1__content">
 								<p>
 									Radi zaštite, očuvanja i prirodnog razmnožavanja riba i drugih
-									vodenih organizama, Ministarstvo može, na osnovu mišljenja
+									vodenih organizama, <organization refersTo="#ministartsvo">Ministarstvo</organization> može, na osnovu mišljenja
 									naučne ustanove, utvrditi lovostaj za pojedine vrste riba i
 									drugih vodenih organizama za određeni vremenski period na
 									određenim ribolovnim vodama.</p>
@@ -2141,7 +2141,7 @@
 						</paragraph>
 						<paragraph eId="art_30__para_2">
 							<content eId="art_30__para_2__content">
-								<p> Lovostaj Ministarstvo može da ukine ili da promijeni vremenski
+								<p> Lovostaj <organization refersTo="#ministartsvo">Ministarstvo</organization> može da ukine ili da promijeni vremenski
 									period lovostaja iz <ref
 										href="/akn/me/act/2009-41-1404#art_30__para_1">stava 1 ovog
 									člana</ref>, na osnovu mišljenja naučne ustanove. </p>
@@ -2157,14 +2157,14 @@
 							<content eId="art_31__para_1__content">
 								<p>
 									Minimalne veličine riba i drugih vodenih organizama ispod kojih
-									je zabranjen ulov i stavljanje na tržište određuje Ministarstvo,
+									je zabranjen ulov i stavljanje na tržište određuje <organization refersTo="#ministartsvo">Ministarstvo</organization>,
 									po prethodno pribavljenom mišljenju naučne ustanove.</p>
 							</content>
 						</paragraph>
 						<paragraph eId="art_31__para_2">
 							<content eId="art_31__para_2__content">
 								<p>
-									Ministarstvo može u cilju naučnih istraživanja ili uzgoja
+									<organization refersTo="#ministartsvo">Ministarstvo</organization> može u cilju naučnih istraživanja ili uzgoja
 									odobriti ulov riba i drugih vodenih organizama ispod utvrđenih
 									minimalnih veličina.
 								</p>
@@ -2184,7 +2184,7 @@
 								<p>
 									Ulov riba i drugih vodenih organizama ispod utvrđenih minimalnih
 									veličina koji se vrši radi uzgoja, može se odobriti samo za
-									određene vrste koje propisuje Ministarstvo.</p>
+									određene vrste koje propisuje <organization refersTo="#ministartsvo">Ministarstvo</organization>.</p>
 							</content>
 						</paragraph>
 					</article>
@@ -2200,7 +2200,7 @@
 									Ako se sprovođenjem naučnih istraživanja utvrdi da je određena
 									vrsta ribe i drugog vodenog organizma postala prorijeđena ili je
 									usljed ribolovnih aktivnosti dovedena u fazu prelova,
-									Ministarstvo može pokrenuti postupak da se prorijeđena ili
+									<organization refersTo="#ministartsvo">Ministarstvo</organization> može pokrenuti postupak da se prorijeđena ili
 									prelovljena vrsta ribe i drugog vodenog organizma proglasi
 									zaštićenom.</p>
 							</content>
@@ -2243,7 +2243,7 @@
 								<p> Naknada štete iz <ref
 										href="/akn/me/act/2009-41-1404#art_33__para_2">stava 2 ovog
 									člana</ref> obračunava se prema cjenovniku za naknadu štete,
-									koji propisuje Ministarstvo.</p>
+									koji propisuje <organization refersTo="#ministartsvo">Ministarstvo</organization>.</p>
 							</content>
 						</paragraph>
 					</article>
@@ -2259,7 +2259,7 @@
 									razmnožavanja odnosno mrijesta, prelaze iz slatkih u slane ili
 									iz slanih u slatke vode (u daljem tekstu: migratorne vrste),
 									vrši se prema planu upravljanja migratornim vrstama koje donosi
-									Ministarstvo.</p>
+									<organization refersTo="#ministartsvo">Ministarstvo</organization>.</p>
 							</content>
 						</paragraph>
 						<paragraph eId="art_34__para_2">
@@ -2283,7 +2283,7 @@
 							<content eId="art_34__para_4__content">
 								<p> Sadržinu plana iz <ref
 										href="/akn/me/act/2009-41-1404#art_34__para_3">stava 3 ovog
-									člana</ref> propisuje Ministarstvo.</p>
+									člana</ref> propisuje <organization refersTo="#ministartsvo">Ministarstvo</organization>.</p>
 							</content>
 						</paragraph>
 					</article>
@@ -2382,7 +2382,7 @@
 									člana</ref>, njihove tehničke karakteristike i način
 									obilježavanja, količinu ribolovnih alata i opreme koja se smije
 									upotrebljavati i broj dozvola koje se mogu izdati za određeno
-									ribolovno područje, propisuje Ministarstvo. </p>
+									ribolovno područje, propisuje <organization refersTo="#ministartsvo">Ministarstvo</organization>. </p>
 							</content>
 						</paragraph>
 					</article>
@@ -2394,9 +2394,9 @@
 						<paragraph eId="art_37__para_1">
 							<content eId="art_37__para_1__content">
 								<p>
-									Dozvolu za privredni ribolov izdaje Ministarstvo, na osnovu
+									Dozvolu za privredni ribolov izdaje <organization refersTo="#ministartsvo">Ministarstvo</organization>, na osnovu
 									javnog poziva koji se objavljuje na internet stranici
-									Ministarstva i najmanje u jednom štampanom mediju koji se
+									<organization refersTo="#ministartsvo">Ministarstva</organization> i najmanje u jednom štampanom mediju koji se
 									distribuira na teritoriji Crne Gore.</p>
 							</content>
 						</paragraph>
@@ -2440,7 +2440,7 @@
 							<content eId="art_37__para_7__content">
 								<p>
 									Obrazac, sadržinu i način izdavanja dozvole za privredni ribolov
-									propisuje Ministarstvo.</p>
+									propisuje <organization refersTo="#ministartsvo">Ministarstvo</organization>.</p>
 							</content>
 						</paragraph>
 					</article>
@@ -2510,7 +2510,7 @@
 						<paragraph eId="art_40__para_1">
 							<content eId="art_40__para_1__content">
 								<p>Izdate dozvole upisuju se u registar dozvola za privredni ribolov
-									koji vodi Ministarstvo u elektronskoj formi.</p>
+									koji vodi <organization refersTo="#ministartsvo">Ministarstvo</organization> u elektronskoj formi.</p>
 							</content>
 						</paragraph>
 						<paragraph eId="art_40__para_2">
@@ -2530,7 +2530,7 @@
 							<content eId="art_40__para_4__content">
 								<p>Sadržinu registra iz <ref
 										href="/akn/me/act/2009-41-1404#art_40__para_1">stava 1
-										ovog člana</ref> propisuje Ministarstvo.</p>
+										ovog člana</ref> propisuje <organization refersTo="#ministartsvo">Ministarstvo</organization>.</p>
 							</content>
 						</paragraph>
 					</article>
@@ -2558,7 +2558,7 @@
 							<content eId="art_41__para_3__content">
 								<p>Vrstu, tehničke karakteristike, količinu ribolovnih alata i
 									opreme koja se smije upotrebljavati za sportsko-rekreativni
-									ribolov propisuje Ministarstvo.</p>
+									ribolov propisuje <organization refersTo="#ministartsvo">Ministarstvo</organization>.</p>
 							</content>
 						</paragraph>
 					</article>
@@ -2665,7 +2665,7 @@
 										href="/akn/me/act/2009-41-1404#art_43__para_1">stava 1 ovog
 									člana</ref> i količinu ribe koju fizičko lice koje ima dozvolu
 									za sportsko-rekreativni ribolov može uloviti u toku jednog dana
-									propisuje Ministarstvo.</p>
+									propisuje <organization refersTo="#ministartsvo">Ministarstvo</organization>.</p>
 							</content>
 						</paragraph>
 					</article>
@@ -2677,7 +2677,7 @@
 						<paragraph eId="art_44__para_1">
 							<content eId="art_44__para_1__content">
 								<p>Izdate dozvole upisuju se u registar dozvola za
-									sportsko-rekreativni ribolov koji vodi Ministarstvo u
+									sportsko-rekreativni ribolov koji vodi <organization refersTo="#ministartsvo">Ministarstvo</organization> u
 									elektronskoj formi.</p>
 							</content>
 						</paragraph>
@@ -2735,14 +2735,14 @@
 								<p>Visinu i način plaćanja naknade iz <ref
 										href="/akn/me/act/2009-41-1404#art_45__para_1">stava 1 ovog
 									člana</ref>, utvrđuje korisnik, odnosno upravljač prirodnim
-									dobrom, uz saglasnost Ministarstva.</p>
+									dobrom, uz saglasnost <organization refersTo="#ministartsvo">Ministarstva</organization>.</p>
 							</content>
 						</paragraph>
 						<paragraph eId="art_45__para_5">
 							<content eId="art_45__para_5__content">
 								<p>Visina naknade iz <ref
 										href="/akn/me/act/2009-41-1404#art_45__para_1">stava 1 ovog
-									člana</ref> objavljuje se na internet stranici Ministarstva,
+									člana</ref> objavljuje se na internet stranici <organization refersTo="#ministartsvo">Ministarstva</organization>,
 									korisnika i upravljača prirodnim dobrom.</p>
 							</content>
 						</paragraph>
@@ -2763,13 +2763,13 @@
 								<p>Takmičenja iz <ref
 										href="/akn/me/act/2009-41-1404#art_46__para_1">stava 1 ovog
 									člana</ref> se organizuju u skladu sa zakonom kojim je uređen
-									sport, uz prethodno pribavljeno odobrenje Ministarstva.</p>
+									sport, uz prethodno pribavljeno odobrenje <organization refersTo="#ministartsvo">Ministarstva</organization>.</p>
 							</content>
 						</paragraph>
 						<paragraph eId="art_46__para_3">
 							<content eId="art_46__para_3__content">
 								<p>Odobrenje za obavljanje pojedinačnih takmičenja, u skladu sa
-									odobrenim godišnjim planom takmičenja, izdaje Ministarstvo na
+									odobrenim godišnjim planom takmičenja, izdaje <organization refersTo="#ministartsvo">Ministarstvo</organization> na
 									zahtjev Saveza, korisnika, sportsko-ribolovnog kluba ili
 									upravljača prirodnim dobrom.</p>
 							</content>
@@ -2785,7 +2785,7 @@
 						<paragraph eId="art_46__para_5">
 							<content eId="art_46__para_5__content">
 								<p>Odobreni godišnji plan takmičenja u sportsko-rekreativnom
-									ribolovu objavljuje se na internet stranici Ministarstva i
+									ribolovu objavljuje se na internet stranici <organization refersTo="#ministartsvo">Ministarstva</organization> i
 									Saveza.</p>
 							</content>
 						</paragraph>
@@ -2851,7 +2851,7 @@
 							<content eId="art_47__para_3__content">
 								<p>Dozvolu iz <ref
 										href="/akn/me/act/2009-41-1404#art_47__para_1">stava 1 ovog
-									člana</ref> izdaje Ministarstvo na predlog Saveza.</p>
+									člana</ref> izdaje <organization refersTo="#ministartsvo">Ministarstvo</organization> na predlog Saveza.</p>
 							</content>
 						</paragraph>
 					</article>
@@ -2871,8 +2871,8 @@
 							<content eId="art_48__para_2__content">
 								<p>Dozvolu iz <ref
 										href="/akn/me/act/2009-41-1404#art_48__para_1">stava 1 ovog
-									člana</ref> izdaje Ministarstvo na osnovu javnog poziva koji se
-									objavljuje na internet stranici Ministarstva.</p>
+									člana</ref> izdaje <organization refersTo="#ministartsvo">Ministarstvo</organization> na osnovu javnog poziva koji se
+									objavljuje na internet stranici <organization refersTo="#ministartsvo">Ministarstva</organization>.</p>
 							</content>
 						</paragraph>
 						<paragraph eId="art_48__para_3">
@@ -2906,12 +2906,12 @@
 							<content eId="art_49__para_1__content">
 								<p>Naučno-istraživački ribolov u ribolovnim vodama mogu da obavljaju
 									domaće i strane naučne ustanove, koje ispunjavaju uslove
-									propisane posebnim zakonom, na osnovu odobrenja Ministarstva.</p>
+									propisane posebnim zakonom, na osnovu odobrenja <organization refersTo="#ministartsvo">Ministarstva</organization>.</p>
 							</content>
 						</paragraph>
 						<paragraph eId="art_49__para_2">
 							<content eId="art_49__para_2__content">
-								<p>Ministarstvo može odobriti obavljanje naučno-istraživačkog
+								<p><organization refersTo="#ministartsvo">Ministarstvo</organization> može odobriti obavljanje naučno-istraživačkog
 									ribolova i fizičkim licima koja imaju dokaz o stručnoj
 									osposobljenosti za obavljanje istraživanja riba i drugih vodenih
 									organizama.</p>
@@ -2974,7 +2974,7 @@
 						</paragraph>
 						<paragraph eId="art_49__para_5">
 							<content eId="art_49__para_5__content">
-								<p>Ministarstvo za obavljanje ribolova iz <ref
+								<p><organization refersTo="#ministartsvo">Ministarstvo</organization> za obavljanje ribolova iz <ref
 										href="/akn/me/act/2009-41-1404#art_49__para_1">stava 1 ovog
 									člana</ref>, može da odobri upotrebu elektrouređaja za ulov
 									ribe.</p>
@@ -3002,7 +3002,7 @@
 							<content eId="art_51__para_1__content">
 								<p>Selektivni ribolov je ribolov koji se obavlja radi zaštite
 									autohtonih vrsta riba i drugih vodenih organizama, na osnovu
-									odobrenja Ministarstva.</p>
+									odobrenja <organization refersTo="#ministartsvo">Ministarstva</organization>.</p>
 							</content>
 						</paragraph>
 						<list eId="art_51__list_1">
@@ -3098,7 +3098,7 @@
 								<p>Ako se ribolov iz <ref
 										href="/akn/me/act/2009-41-1404#art_51__para_1">stava 1 ovog
 									člana</ref> obavlja u saradnji sa naučnom ustanovom,
-									Ministarstvo može odobriti upotrebu elektrouređaja za ulov ribe.</p>
+									<organization refersTo="#ministartsvo">Ministarstvo</organization> može odobriti upotrebu elektrouređaja za ulov ribe.</p>
 							</content>
 						</paragraph>
 						<paragraph eId="art_51__para_6">
@@ -3126,14 +3126,14 @@
 							<content eId="art_52__para_2__content">
 								<p>Registar iz <ref
 										href="/akn/me/act/2009-41-1404#art_52__para_1">stava 1 ovog
-									člana</ref> vodi Ministarstvo u elektronskoj formi.</p>
+									člana</ref> vodi <organization refersTo="#ministartsvo">Ministarstvo</organization> u elektronskoj formi.</p>
 							</content>
 						</paragraph>
 						<paragraph eId="art_52__para_3">
 							<content eId="art_52__para_3__content">
 								<p>Sadržinu registra iz <ref
 										href="/akn/me/act/2009-41-1404#art_52__para_1">stava 1 ovog
-									člana</ref> propisuje Ministarstvo.</p>
+									člana</ref> propisuje <organization refersTo="#ministartsvo">Ministarstvo</organization>.</p>
 							</content>
 						</paragraph>
 					</article>
@@ -3180,7 +3180,7 @@
 						<num>Član 54</num>
 						<paragraph eId="art_54__para_1">
 							<content eId="art_54__para_1__content">
-								<p>Saglasnost na Projekat akvakulture izdaje Ministarstvo na osnovu
+								<p>Saglasnost na Projekat akvakulture izdaje <organization refersTo="#ministartsvo">Ministarstvo</organization> na osnovu
 									podnijetog zahtjeva.</p>
 							</content>
 						</paragraph>
@@ -3233,7 +3233,7 @@
 						</paragraph>
 						<paragraph eId="art_54__para_3">
 							<content eId="art_54__para_3__content">
-								<p>Sadržinu Projekta akvakulture propisuje Ministarstvo.</p>
+								<p>Sadržinu Projekta akvakulture propisuje <organization refersTo="#ministartsvo">Ministarstvo</organization>.</p>
 							</content>
 						</paragraph>
 					</article>
@@ -3257,7 +3257,7 @@
 							<point eId="art_55__list_1__point_1">
 								<num>1) </num>
 								<content eId="art_55__list_1__point_1__content">
-									<p>saglasnost Ministarstva na Projekat akvakulture;</p>
+									<p>saglasnost <organization refersTo="#ministartsvo">Ministarstva</organization> na Projekat akvakulture;</p>
 								</content>
 							</point>
 							<point eId="art_55__list_1__point_2">
@@ -3279,7 +3279,7 @@
 							<content eId="art_55__para_2__content">
 								<p>Ispunjenost uslova iz <ref
 										href="/akn/me/act/2009-41-1404#art_55__list_1">stava 2 ovog
-									člana</ref> rješenjem utvrđuje Ministarstvo i izdaje dozvolu za
+									člana</ref> rješenjem utvrđuje <organization refersTo="#ministartsvo">Ministarstvo</organization> i izdaje dozvolu za
 									akvakulturu.</p>
 							</content>
 						</paragraph>
@@ -3377,13 +3377,13 @@
 								<p>Dozvola iz <ref
 										href="/akn/me/act/2009-41-1404#art_56__para_1">stava 1 ovog
 									člana</ref> upisuje se u registar dozvola za akvakulturu, koji
-									vodi Ministarstvo u elektronskoj formi.</p>
+									vodi <organization refersTo="#ministartsvo">Ministarstvo</organization> u elektronskoj formi.</p>
 							</content>
 						</paragraph>
 						<paragraph eId="art_56__para_7">
 							<content eId="art_56__para_7__content">
 								<p>Obrazac dozvole i sadržinu registra dozvola za akvakulturu
-									propisuje Ministarstvo.</p>
+									propisuje <organization refersTo="#ministartsvo">Ministarstvo</organization>.</p>
 							</content>
 						</paragraph>
 					</article>
@@ -3409,12 +3409,12 @@
 						<paragraph eId="art_58__para_1">
 							<content eId="art_58__para_1__content">
 								<p>Dozvola za akvakulturu ne može da se prenosi na drugo privredno
-									društvo ili preduzetnika bez odobrenja Ministarstva.</p>
+									društvo ili preduzetnika bez odobrenja <organization refersTo="#ministartsvo">Ministarstva</organization>.</p>
 							</content>
 						</paragraph>
 						<paragraph eId="art_58__para_2">
 							<content eId="art_58__para_2__content">
-								<p>Prenos dozvole za akvakulturu vrši Ministarstvo na osnovu
+								<p>Prenos dozvole za akvakulturu vrši <organization refersTo="#ministartsvo">Ministarstvo</organization> na osnovu
 									podnijetog zahtjeva privrednog društva ili preduzetnika, ako
 									ispunjava uslove za obavljanje akvakulture u skladu sa ovim
 									zakonom.</p>
@@ -3454,7 +3454,7 @@
 						<paragraph eId="art_58__para_4">
 							<content eId="art_58__para_4__content">
 								<p>Ispunjenost uslova za prenos dozvole za akvakulturu rješenjem
-									utvrđuje Ministarstvo i izdaje dozvolu za akvakulturu.</p>
+									utvrđuje <organization refersTo="#ministartsvo">Ministarstvo</organization> i izdaje dozvolu za akvakulturu.</p>
 							</content>
 						</paragraph>
 						<paragraph eId="art_58__para_5">
@@ -3591,7 +3591,7 @@
 							<content eId="art_61__para_1__content">
 								<p>Strane i lokalno neprisutne vrste riba i drugih vodenih
 									organizama, mogu da se uzgajaju samo na osnovu odobrenja
-									Ministarstva.</p>
+									<organization refersTo="#ministartsvo">Ministarstva</organization>.</p>
 							</content>
 						</paragraph>
 						<paragraph eId="art_61__para_2">
@@ -3609,14 +3609,14 @@
 									člana</ref> listu stranih i lokalno neprisutnih vrsta riba i
 									drugih vodenih organizama za koje nije potrebna saglasnost
 									organa uprave nadležnog za poslove zaštite prirode, utvrđuje
-									Ministarstvo.</p>
+									<organization refersTo="#ministartsvo">Ministarstvo</organization>.</p>
 							</content>
 						</paragraph>
 						<paragraph eId="art_61__para_4">
 							<content eId="art_61__para_4__content">
 								<p>Odobrenje iz <ref
 										href="/akn/me/act/2009-41-1404#art_61__para_1">stava 1 ovog
-									člana</ref> Ministarstvo izdaje u skladu sa članom 55 ovog
+									člana</ref> <organization refersTo="#ministartsvo">Ministarstvo</organization> izdaje u skladu sa članom 55 ovog
 									zakona.</p>
 							</content>
 						</paragraph>
@@ -3683,7 +3683,7 @@
 							<content eId="art_63__para_3__content">
 								<p>Obrazac, sadržinu i način vođenja evidencije iz <ref
 										href="/akn/me/act/2009-41-1404#art_63__para_1">stava 1 ovog
-									člana</ref> propisuje Ministarstvo.</p>
+									člana</ref> propisuje <organization refersTo="#ministartsvo">Ministarstvo</organization>.</p>
 							</content>
 						</paragraph>
 					</article>
@@ -3861,7 +3861,7 @@
 							<content eId="art_66__para_1__content">
 								<p>Prodajom ribe i drugih vodenih organizama mogu da se bave fizička
 									lica koja nemaju dozvolu za privredni ribolov, a na osnovu
-									odobrenja Ministarstva.</p>
+									odobrenja <organization refersTo="#ministartsvo">Ministarstva</organization>.</p>
 							</content>
 						</paragraph>
 						<paragraph eId="art_66__para_2">
@@ -3900,7 +3900,7 @@
 							<content eId="art_66__para_6__content">
 								<p>Sadržaj i način vođenja evidencije iz <ref
 										href="/akn/me/act/2009-41-1404#art_66__para_3">stava 3 ovog
-									člana</ref> propisuje Ministarstvo.</p>
+									člana</ref> propisuje <organization refersTo="#ministartsvo">Ministarstvo</organization>.</p>
 							</content>
 						</paragraph>
 					</article>
@@ -3916,7 +3916,7 @@
 										href="/akn/me/act/2009-41-1404#art_66">člana 66 ovog zakona</ref>,
 									dužni su da podatke o cijenama i količinama prodate ribe i
 									drugih vodenih organizama unose u evidenciju o prodaji ribe i
-									drugih vodenih organizama koju vodi Ministarstvo u elektronskoj
+									drugih vodenih organizama koju vodi <organization refersTo="#ministartsvo">Ministarstvo</organization> u elektronskoj
 									formi.</p>
 							</content>
 						</paragraph>
@@ -3932,7 +3932,7 @@
 							<content eId="art_67__para_3__content">
 								<p>Sadržaj vođenja evidencije iz <ref
 										href="/akn/me/act/2009-41-1404#art_67__para_1">stava 1 ovog
-									člana</ref> propisuje Ministarstvo.</p>
+									člana</ref> propisuje <organization refersTo="#ministartsvo">Ministarstvo</organization>.</p>
 							</content>
 						</paragraph>
 					</article>
@@ -4054,7 +4054,7 @@
 							<content eId="art_69__para_3__content">
 								<p>Sadržinu zapisnika iz <ref
 										href="/akn/me/act/2009-41-1404#art_69__para_1">stava 1 ovog
-									člana</ref> propisuje Ministarstvo.</p>
+									člana</ref> propisuje <organization refersTo="#ministartsvo">Ministarstvo</organization>.</p>
 							</content>
 						</paragraph>
 					</article>
@@ -4080,7 +4080,7 @@
 							<content eId="art_70__para_3__content">
 								<p>Službenu legitimaciju iz <ref
 										href="/akn/me/act/2009-41-1404#art_70__para_1">stava 1 ovog
-									člana</ref> izdaje Ministarstvo i vodi evidenciju o izdatim
+									člana</ref> izdaje <organization refersTo="#ministartsvo">Ministarstvo</organization> i vodi evidenciju o izdatim
 									legitimacijama.</p>
 							</content>
 						</paragraph>
@@ -4095,7 +4095,7 @@
 							<content eId="art_70__para_5__content">
 								<p>Izgled uniforme, obrazac, sadržinu i način izdavanja službene
 									legitimacije i način vođenja evidencije o izdatim službenim
-									legitimacijama propisuje Ministarstvo.</p>
+									legitimacijama propisuje <organization refersTo="#ministartsvo">Ministarstvo</organization>.</p>
 							</content>
 						</paragraph>
 					</article>
@@ -4116,7 +4116,7 @@
 								<p>Ribočuvar je dužan da sačini zapisnik, video i foto zapis o
 									izvršenoj donaciji oduzetog ulova u humanitarne svrhe, povraćaju
 									ili uništenju oduzetog ribolovnog alata i opreme i u pisanoj
-									formi sa dokaznim materijalom obavijesti Ministarstvo i
+									formi sa dokaznim materijalom obavijesti <organization refersTo="#ministartsvo">Ministarstvo</organization> i
 									poljoprivrednog inspektora o preduzetim aktivnostima.</p>
 							</content>
 						</paragraph>
@@ -4130,7 +4130,7 @@
 							<content eId="art_72__para_1__content">
 								<p>Radi efikasnije kontrole ribolovnih aktivnosti ribočuvar može da
 									vrši video nadzor ribolovne vode, na osnovu odobrenja
-									Ministarstva.</p>
+									<organization refersTo="#ministartsvo">Ministarstva</organization>.</p>
 							</content>
 						</paragraph>
 						<paragraph eId="art_72__para_2">
@@ -4162,13 +4162,13 @@
 						<paragraph eId="art_73__para_1">
 							<content eId="art_73__para_1__content">
 								<p>Nadzor nad sprovođenjem ovog zakona i propisa donijetih na osnovu
-									ovog zakona vrši Ministarstvo.</p>
+									ovog zakona vrši <organization refersTo="#ministartsvo">Ministarstvo</organization>.</p>
 							</content>
 						</paragraph>
 						<paragraph eId="art_73__para_2">
 							<content eId="art_73__para_2__content">
 								<p>Inspekcijski nadzor nad sprovođenjem ovog zakona vrši
-									Ministarstvo preko poljoprivrednog inspektora.</p>
+									<organization refersTo="#ministartsvo">Ministarstvo</organization> preko poljoprivrednog inspektora.</p>
 							</content>
 						</paragraph>
 					</article>
@@ -4544,7 +4544,7 @@
 								<num>33) </num>
 								<content eId="art_75__list_1__point_33__content">
 									<p>zabrani plavljenje balvana i drugog drveta ako se vrši bez
-										odobrenja Ministarstva;</p>
+										odobrenja <organization refersTo="#ministartsvo">Ministarstva</organization>;</p>
 								</content>
 							</point>
 							<point eId="art_75__list_1__point_34">
@@ -4558,7 +4558,7 @@
 								<num>35) </num>
 								<content eId="art_75__list_1__point_35__content">
 									<p>zabrani poribljavanje ribolovne vode ako se vrši bez
-										odobrenja Ministarstva ili sa vrstama i na način koji je u
+										odobrenja <organization refersTo="#ministartsvo">Ministarstva</organization> ili sa vrstama i na način koji je u
 										suprotnosti sa ovim zakonom;</p>
 								</content>
 							</point>
@@ -4619,14 +4619,14 @@
 								<content eId="art_75__list_1__point_42__content">
 									<p>zabrani organizovanje i održavanje takmičenja u
 										sportsko-rekreativnom ribolovu koje se vrši bez odobrenja
-										Ministarstva;</p>
+										<organization refersTo="#ministartsvo">Ministarstva</organization>;</p>
 								</content>
 							</point>
 							<point eId="art_75__list_1__point_43">
 								<num>43) </num>
 								<content eId="art_75__list_1__point_43__content">
 									<p>zabrani obavljanje naučno-istraživačkog ribolova koje se vrši
-										bez odobrenja Ministarstva;</p>
+										bez odobrenja <organization refersTo="#ministartsvo">Ministarstva</organization>;</p>
 								</content>
 							</point>
 							<point eId="art_75__list_1__point_44">
@@ -4634,28 +4634,28 @@
 								<content eId="art_75__list_1__point_44__content">
 									<p>zabrani obavljanje naučno-istraživačkog ribolova u zaštićenim
 										ribolovnim područjima ako se vrši bez odobrenja
-										Ministarstva;</p>
+										<organization refersTo="#ministartsvo">Ministarstva</organization>;</p>
 								</content>
 							</point>
 							<point eId="art_75__list_1__point_45">
 								<num>45) </num>
 								<content eId="art_75__list_1__point_45__content">
 									<p>zabrani obavljanje sanacionog ribolova ako se vrši bez
-										odobrenja Ministarstva;</p>
+										odobrenja <organization refersTo="#ministartsvo">Ministarstva</organization>;</p>
 								</content>
 							</point>
 							<point eId="art_75__list_1__point_46">
 								<num>46) </num>
 								<content eId="art_75__list_1__point_46__content">
 									<p>zabrani obavljanje selektivnog ribolova ako se vrši bez
-										odobrenja Ministarstva;</p>
+										odobrenja <organization refersTo="#ministartsvo">Ministarstva</organization>;</p>
 								</content>
 							</point>
 							<point eId="art_75__list_1__point_47">
 								<num>47) </num>
 								<content eId="art_75__list_1__point_47__content">
 									<p>zabrani obavljanje akvakulture ako se vrši bez dozvole
-										Ministarstva;</p>
+										<organization refersTo="#ministartsvo">Ministarstva</organization>;</p>
 								</content>
 							</point>
 							<point eId="art_75__list_1__point_48">
@@ -4663,7 +4663,7 @@
 								<content eId="art_75__list_1__point_48__content">
 									<p>zabrani uzgajanje stranih i lokalno neprisutnih vrsta riba i
 										drugih vodenih organizama ako se vrši bez odobrenja
-										Ministarstva;</p>
+										<organization refersTo="#ministartsvo">Ministarstva</organization>;</p>
 								</content>
 							</point>
 							<point eId="art_75__list_1__point_49">
@@ -4671,7 +4671,7 @@
 								<content eId="art_75__list_1__point_49__content">
 									<p>zabrani uzgajanje zaštićenih vrsta riba i drugih vodenih
 										organizama u uzgajalištima ako se vrši bez odobrenja
-										Ministarstva;</p>
+										<organization refersTo="#ministartsvo">Ministarstva</organization>;</p>
 								</content>
 							</point>
 							<point eId="art_75__list_1__point_50">
@@ -5028,7 +5028,7 @@
 								<num>31) </num>
 								<content eId="art_76__list_1__point_31__content">
 									<p>vrši plavljenje balvana i drugog drveta bez odobrenja
-										Ministarstva (<ref
+										<organization refersTo="#ministartsvo">Ministarstva</organization> (<ref
 											href="/akn/me/act/2009-41-1404#art_19__list_1__point_23">član
 										19 stav 1 tačka 23</ref>);</p>
 								</content>
@@ -5036,7 +5036,7 @@
 							<point eId="art_76__list_1__point_32">
 								<num>32) </num>
 								<content eId="art_76__list_1__point_32__content">
-									<p>poribljava ribolovne vode bez odobrenja Ministarstva (<ref
+									<p>poribljava ribolovne vode bez odobrenja <organization refersTo="#ministartsvo">Ministarstva</organization> (<ref
 											href="/akn/me/act/2009-41-1404#art_19__list_1__point_25">član
 										19
 											stav 1 tačka 25</ref>);</p>
@@ -5096,7 +5096,7 @@
 							<point eId="art_76__list_1__point_38">
 								<num>38) </num>
 								<content eId="art_76__list_1__point_38__content">
-									<p>organizuje i održava takmičenja bez odobrenja Ministarstva (<ref
+									<p>organizuje i održava takmičenja bez odobrenja <organization refersTo="#ministartsvo">Ministarstva</organization> (<ref
 											href="/akn/me/act/2009-41-1404#art_19__list_1__point_31">član
 										19 stav 1 tačka 31</ref>);</p>
 								</content>
@@ -5105,7 +5105,7 @@
 								<num>39) </num>
 								<content eId="art_76__list_1__point_39__content">
 									<p>obavlja naučno-istraživački ribolov bez odobrenja
-										Ministarstva (<ref
+										<organization refersTo="#ministartsvo">Ministarstva</organization> (<ref
 											href="/akn/me/act/2009-41-1404#art_19__list_1__point_32">član
 										19 stav 1 tačka 32</ref>);</p>
 								</content>
@@ -5114,7 +5114,7 @@
 								<num>40) </num>
 								<content eId="art_76__list_1__point_40__content">
 									<p>obavlja naučno-istraživački ribolov u zaštićenim ribolovnim
-										područjima bez odobrenja Ministarstva (<ref
+										područjima bez odobrenja <organization refersTo="#ministartsvo">Ministarstva</organization> (<ref
 											href="/akn/me/act/2009-41-1404#art_19__list_1__point_33">član
 										19 stav 1 tačka
 											33</ref>);</p>
@@ -5123,7 +5123,7 @@
 							<point eId="art_76__list_1__point_41">
 								<num>41) </num>
 								<content eId="art_76__list_1__point_41__content">
-									<p>obavlja sanacioni ribolov bez odobrenja Ministarstva (<ref
+									<p>obavlja sanacioni ribolov bez odobrenja <organization refersTo="#ministartsvo">Ministarstva</organization> (<ref
 											href="/akn/me/act/2009-41-1404#art_19__list_1__point_34">član
 										19
 											stav 1 tačka 34</ref>);</p>
@@ -5132,7 +5132,7 @@
 							<point eId="art_76__list_1__point_42">
 								<num>42) </num>
 								<content eId="art_76__list_1__point_42__content">
-									<p>obavlja selektivni ribolov bez odobrenja Ministarstva (<ref
+									<p>obavlja selektivni ribolov bez odobrenja <organization refersTo="#ministartsvo">Ministarstva</organization> (<ref
 											href="/akn/me/act/2009-41-1404#art_19__list_1__point_35">član
 										19 stav 1 tačka 35</ref>);</p>
 								</content>
@@ -5140,7 +5140,7 @@
 							<point eId="art_76__list_1__point_43">
 								<num>43) </num>
 								<content eId="art_76__list_1__point_43__content">
-									<p>obavlja akvakulturu bez dozvole Ministarstva (<ref
+									<p>obavlja akvakulturu bez dozvole <organization refersTo="#ministartsvo">Ministarstva</organization> (<ref
 											href="/akn/me/act/2009-41-1404#art_19__list_1__point_36">član
 										19 stav 1
 											tačka 36</ref>);</p>
@@ -5150,7 +5150,7 @@
 								<num>44) </num>
 								<content eId="art_76__list_1__point_44__content">
 									<p>vrši uzgoj stranih i lokalno neprisutnih vrsta riba i drugih
-										vodenih organizama bez odobrenja Ministarstva (<ref
+										vodenih organizama bez odobrenja <organization refersTo="#ministartsvo">Ministarstva</organization> (<ref
 											href="/akn/me/act/2009-41-1404#art_19__list_1__point_37">član
 										19 stav
 											1 tačka 37</ref>);</p>
@@ -5806,7 +5806,7 @@
 								<num>14) </num>
 								<content eId="art_77__list_1__point_14__content">
 									<p>vrši prodaju ribe i drugih vodenih organizama bez odobrenja
-										Ministarstva (<ref
+										<organization refersTo="#ministartsvo">Ministarstva</organization> (<ref
 											href="/akn/me/act/2009-41-1404#art_66__para_1">član 66
 										stav 1</ref>);</p>
 								</content>
@@ -5874,7 +5874,7 @@
 									<p>ne sačini zapisnik, video i foto zapis o izvršenoj donaciji
 										oduzetog ulova u humanitarne svrhe, povraćaju ili uništenju
 										oduzetog ribolovnog alata i opreme i u pisanoj formi sa
-										dokaznim materijalom ne obavijesti Ministarstvo i
+										dokaznim materijalom ne obavijesti <organization refersTo="#ministartsvo">Ministarstvo</organization> i
 										poljoprivrednog inspektora o preduzetim aktivnostima (<ref
 											href="/akn/me/act/2009-41-1404#art_71__para_2">član
 											71 stav 2</ref>);</p>
@@ -5884,7 +5884,7 @@
 								<num>22) </num>
 								<content eId="art_77__list_1__point_22__content">
 									<p>vrši video nadzor ribolovnih aktivnosti bez odobrenja
-										Ministarstva <ref
+										<organization refersTo="#ministartsvo">Ministarstva</organization> <ref
 											href="/akn/me/act/2009-41-1404#art_72__para_1">(član 72
 										stav 1</ref>).</p>
 								</content>
@@ -5911,7 +5911,7 @@
 								<p>Do donošenja propisa iz <ref
 										href="/akn/me/act/2009-41-1404#art_78__para_1">stava 1 ovog
 									člana</ref> primjenjivaće se propisi donijeti na osnovu Zakona o
-									slatkovodnom ribarstvu („Službeni list CG“, broj 11/07).</p>
+									slatkovodnom ribarstvu (<organization refersTo="#sl"><organization refersTo="#sl">„Službeni list CG“</organization></organization>, broj 11/07).</p>
 							</content>
 						</paragraph>
 					</article>
@@ -5962,7 +5962,7 @@
 								<p>Do donošenja ribolovnih osnova iz <ref
 										href="/akn/me/act/2009-41-1404#art_81__para_1">stava 1 ovog
 									člana</ref> primjenjivaće se ribolovne osnove koje su donijete
-									na osnovu Zakona o slatkovodnom ribarstvu („Službeni list CG“,
+									na osnovu Zakona o slatkovodnom ribarstvu (<organization refersTo="#sl">„Službeni list CG“</organization>,
 									broj 11/07).</p>
 							</content>
 						</paragraph>
@@ -6021,7 +6021,7 @@
 						<paragraph eId="art_85__para_1">
 							<content eId="art_85__para_1__content">
 								<p>Danom stupanja na snagu ovog zakona prestaje da važi Zakon o
-									slatkovodnom ribarstvu („Službeni list CG", broj 11/07).</p>
+									slatkovodnom ribarstvu (<organization refersTo="#sl">„Službeni list CG"</organization>, broj 11/07).</p>
 							</content>
 						</paragraph>
 					</article>

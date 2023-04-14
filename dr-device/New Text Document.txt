@@ -6,30 +6,15 @@
 				<ruleml:if>
 					<ruleml:And>
 						<ruleml:Atom>
+							<ruleml:Rel iri="lc:catchesFish"/>
+							<ruleml:Var type="lc:defendant">Defendant</ruleml:Var>
+							<ruleml:Var type="catchesFish">Fish</ruleml:Var>
+						</ruleml:Atom>	
+						<ruleml:Atom>
 							<ruleml:Rel iri="lc:catches_during"/>
 							<ruleml:Var type="lc:defendant">Defendant</ruleml:Var>
 							<ruleml:Data xsi:type="xs:string">hunting_ban_period</ruleml:Data>
 						</ruleml:Atom>
-						<ruleml:Atom>
-							<ruleml:Rel iri="lc:catches_in"/>
-							<ruleml:Var type="lc:defendant">Defendant</ruleml:Var>
-							<ruleml:Data xsi:type="xs:string">hunting_regulated_waters</ruleml:Data>
-						</ruleml:Atom>
-						<ruleml:Atom>
-							<ruleml:Rel iri="lc:uses"/>
-							<ruleml:Var type="lc:defendant">Defendant</ruleml:Var>
-							<ruleml:Data xsi:type="xs:string">adequate_tool</ruleml:Data>
-						</ruleml:Atom>
-						<ruleml:Atom>
-							<ruleml:Rel iri="lc:causes"/>
-							<ruleml:Var type="lc:defendant">Defendant</ruleml:Var>
-							<ruleml:Data xsi:type="xs:string">no_harm</ruleml:Data>
-						</ruleml:Atom>
-						<ruleml:Atom>
-							<ruleml:Rel iri="lc:destroys_fish"/>
-							<ruleml:Var type="lc:defendant">Defendant</ruleml:Var>
-							<ruleml:Data xsi:type="xs:string">no</ruleml:Data>
-						</ruleml:Atom>	
 					</ruleml:And>
 				</ruleml:if>
 				<ruleml:then>
@@ -45,30 +30,15 @@
 				<ruleml:if>
 					<ruleml:And>
 						<ruleml:Atom>
-							<ruleml:Rel iri="lc:catches_during"/>
+							<ruleml:Rel iri="lc:catchesFish"/>
 							<ruleml:Var type="lc:defendant">Defendant</ruleml:Var>
-							<ruleml:Data xsi:type="xs:string">hunting_regulated_period</ruleml:Data>
-						</ruleml:Atom>
+							<ruleml:Var type="catchesFish">Fish</ruleml:Var>
+						</ruleml:Atom>	
 						<ruleml:Atom>
 							<ruleml:Rel iri="lc:catches_in"/>
 							<ruleml:Var type="lc:defendant">Defendant</ruleml:Var>
 							<ruleml:Data xsi:type="xs:string">hunting_banned_waters</ruleml:Data>
 						</ruleml:Atom>
-						<ruleml:Atom>
-							<ruleml:Rel iri="lc:uses"/>
-							<ruleml:Var type="lc:defendant">Defendant</ruleml:Var>
-							<ruleml:Data xsi:type="xs:string">adequate_tool</ruleml:Data>
-						</ruleml:Atom>
-						<ruleml:Atom>
-							<ruleml:Rel iri="lc:causes"/>
-							<ruleml:Var type="lc:defendant">Defendant</ruleml:Var>
-							<ruleml:Data xsi:type="xs:string">no_harm</ruleml:Data>
-						</ruleml:Atom>
-						<ruleml:Atom>
-							<ruleml:Rel iri="lc:destroys_fish"/>
-							<ruleml:Var type="lc:defendant">Defendant</ruleml:Var>
-							<ruleml:Data xsi:type="xs:string">no</ruleml:Data>
-						</ruleml:Atom>	
 					</ruleml:And>
 				</ruleml:if>
 				<ruleml:then>
@@ -84,30 +54,15 @@
 				<ruleml:if>
 					<ruleml:And>
 						<ruleml:Atom>
-							<ruleml:Rel iri="lc:catches_during"/>
+							<ruleml:Rel iri="lc:catchesFish"/>
 							<ruleml:Var type="lc:defendant">Defendant</ruleml:Var>
-							<ruleml:Data xsi:type="xs:string">hunting_regulated_period</ruleml:Data>
-						</ruleml:Atom>
-						<ruleml:Atom>
-							<ruleml:Rel iri="lc:catches_in"/>
-							<ruleml:Var type="lc:defendant">Defendant</ruleml:Var>
-							<ruleml:Data xsi:type="xs:string">hunting_regulated_waters</ruleml:Data>
-						</ruleml:Atom>
+							<ruleml:Var type="catchesFish">Fish</ruleml:Var>
+						</ruleml:Atom>	
 						<ruleml:Atom>
 							<ruleml:Rel iri="lc:uses"/>
 							<ruleml:Var type="lc:defendant">Defendant</ruleml:Var>
 							<ruleml:Data xsi:type="xs:string">explosives</ruleml:Data>
 						</ruleml:Atom>
-						<ruleml:Atom>
-							<ruleml:Rel iri="lc:causes"/>
-							<ruleml:Var type="lc:defendant">Defendant</ruleml:Var>
-							<ruleml:Data xsi:type="xs:string">no_harm</ruleml:Data>
-						</ruleml:Atom>
-						<ruleml:Atom>
-							<ruleml:Rel iri="lc:destroys_fish"/>
-							<ruleml:Var type="lc:defendant">Defendant</ruleml:Var>
-							<ruleml:Data xsi:type="xs:string">no</ruleml:Data>
-						</ruleml:Atom>	
 					</ruleml:And>
 				</ruleml:if>
 				<ruleml:then>
@@ -123,30 +78,15 @@
 				<ruleml:if>
 					<ruleml:And>
 						<ruleml:Atom>
-							<ruleml:Rel iri="lc:catches_during"/>
+							<ruleml:Rel iri="lc:catchesFish"/>
 							<ruleml:Var type="lc:defendant">Defendant</ruleml:Var>
-							<ruleml:Data xsi:type="xs:string">hunting_regulated_period</ruleml:Data>
-						</ruleml:Atom>
-						<ruleml:Atom>
-							<ruleml:Rel iri="lc:catches_in"/>
-							<ruleml:Var type="lc:defendant">Defendant</ruleml:Var>
-							<ruleml:Data xsi:type="xs:string">hunting_regulated_waters</ruleml:Data>
-						</ruleml:Atom>
+							<ruleml:Var type="catchesFish">Fish</ruleml:Var>
+						</ruleml:Atom>	
 						<ruleml:Atom>
 							<ruleml:Rel iri="lc:uses"/>
 							<ruleml:Var type="lc:defendant">Defendant</ruleml:Var>
-							<ruleml:Data xsi:type="xs:string">electrical_current</ruleml:Data>
+							<ruleml:Data xsi:type="xs:string">electrical current</ruleml:Data>
 						</ruleml:Atom>
-						<ruleml:Atom>
-							<ruleml:Rel iri="lc:causes"/>
-							<ruleml:Var type="lc:defendant">Defendant</ruleml:Var>
-							<ruleml:Data xsi:type="xs:string">no_harm</ruleml:Data>
-						</ruleml:Atom>
-						<ruleml:Atom>
-							<ruleml:Rel iri="lc:destroys_fish"/>
-							<ruleml:Var type="lc:defendant">Defendant</ruleml:Var>
-							<ruleml:Data xsi:type="xs:string">no</ruleml:Data>
-						</ruleml:Atom>	
 					</ruleml:And>
 				</ruleml:if>
 				<ruleml:then>
@@ -162,30 +102,15 @@
 				<ruleml:if>
 					<ruleml:And>
 						<ruleml:Atom>
-							<ruleml:Rel iri="lc:catches_during"/>
-							<ruleml:Var type="lc:defendant">Defendant</ruleml:Var>
-							<ruleml:Data xsi:type="xs:string">hunting_regulated_period</ruleml:Data>
-						</ruleml:Atom>
-						<ruleml:Atom>
-							<ruleml:Rel iri="lc:catches_in"/>
-							<ruleml:Var type="lc:defendant">Defendant</ruleml:Var>
-							<ruleml:Data xsi:type="xs:string">hunting_regulated_waters</ruleml:Data>
-						</ruleml:Atom>	
-						<ruleml:Atom>
 							<ruleml:Rel iri="lc:uses"/>
 							<ruleml:Var type="lc:defendant">Defendant</ruleml:Var>
-							<ruleml:Data xsi:type="xs:string">stun_agent</ruleml:Data>
-						</ruleml:Atom>
-						<ruleml:Atom>
-							<ruleml:Rel iri="lc:causes"/>
-							<ruleml:Var type="lc:defendant">Defendant</ruleml:Var>
-							<ruleml:Data xsi:type="xs:string">no_harm</ruleml:Data>
-						</ruleml:Atom>
-						<ruleml:Atom>
-							<ruleml:Rel iri="lc:destroys_fish"/>
-							<ruleml:Var type="lc:defendant">Defendant</ruleml:Var>
-							<ruleml:Data xsi:type="xs:string">no</ruleml:Data>
+							<ruleml:Var type="catchesFish">Fish</ruleml:Var>
 						</ruleml:Atom>	
+						<ruleml:Atom>
+							<ruleml:Rel iri="lc:catches_with"/>
+							<ruleml:Var type="lc:defendant">Defendant</ruleml:Var>
+							<ruleml:Data xsi:type="xs:string">stun agent</ruleml:Data>
+						</ruleml:Atom>
 					</ruleml:And>
 				</ruleml:if>
 				<ruleml:then>
@@ -201,30 +126,15 @@
 				<ruleml:if>
 					<ruleml:And>
 						<ruleml:Atom>
-							<ruleml:Rel iri="lc:catches_during"/>
+							<ruleml:Rel iri="lc:catchesFish"/>
 							<ruleml:Var type="lc:defendant">Defendant</ruleml:Var>
-							<ruleml:Data xsi:type="xs:string">hunting_regulated_period</ruleml:Data>
-						</ruleml:Atom>
-						<ruleml:Atom>
-							<ruleml:Rel iri="lc:catches_in"/>
-							<ruleml:Var type="lc:defendant">Defendant</ruleml:Var>
-							<ruleml:Data xsi:type="xs:string">hunting_regulated_waters</ruleml:Data>
+							<ruleml:Var type="catchesFish">Fish</ruleml:Var>
 						</ruleml:Atom>	
-						<ruleml:Atom>
-							<ruleml:Rel iri="lc:uses"/>
-							<ruleml:Var type="lc:defendant">Defendant</ruleml:Var>
-							<ruleml:Data xsi:type="xs:string">adequate_tool</ruleml:Data>
-						</ruleml:Atom>
 						<ruleml:Atom>
 							<ruleml:Rel iri="lc:causes"/>
-							<ruleml:Var type="lcdestroys_fish:defendant">Defendant</ruleml:Var>
-							<ruleml:Data xsi:type="xs:string">harm_to_reproduction</ruleml:Data>
-						</ruleml:Atom>
-						<ruleml:Atom>
-							<ruleml:Rel iri="lc:destroys_fish"/>
 							<ruleml:Var type="lc:defendant">Defendant</ruleml:Var>
-							<ruleml:Data xsi:type="xs:string">no</ruleml:Data>
-						</ruleml:Atom>	
+							<ruleml:Data xsi:type="xs:string">harm to reproduction</ruleml:Data>
+						</ruleml:Atom>
 					</ruleml:And>
 				</ruleml:if>
 				<ruleml:then>
@@ -240,30 +150,15 @@
 				<ruleml:if>
 					<ruleml:And>
 						<ruleml:Atom>
-							<ruleml:Rel iri="lc:catches_during"/>
+							<ruleml:Rel iri="lc:catchesFish"/>
 							<ruleml:Var type="lc:defendant">Defendant</ruleml:Var>
-							<ruleml:Data xsi:type="xs:string">hunting_regulated_period</ruleml:Data>
-						</ruleml:Atom>
-						<ruleml:Atom>
-							<ruleml:Rel iri="lc:catches_in"/>
-							<ruleml:Var type="lc:defendant">Defendant</ruleml:Var>
-							<ruleml:Data xsi:type="xs:string">hunting_regulated_waters</ruleml:Data>
-						</ruleml:Atom>
-						<ruleml:Atom>
-							<ruleml:Rel iri="lc:uses"/>
-							<ruleml:Var type="lc:defendant">Defendant</ruleml:Var>
-							<ruleml:Data xsi:type="xs:string">adequate_tool</ruleml:Data>
-						</ruleml:Atom>
+							<ruleml:Var type="catchesFish">Fish</ruleml:Var>
+						</ruleml:Atom>	
 						<ruleml:Atom>
 							<ruleml:Rel iri="lc:causes"/>
 							<ruleml:Var type="lc:defendant">Defendant</ruleml:Var>
-							<ruleml:Data xsi:type="xs:string">mass_destruction</ruleml:Data>
+							<ruleml:Data xsi:type="xs:string">mass destruction</ruleml:Data>
 						</ruleml:Atom>
-						<ruleml:Atom>
-							<ruleml:Rel iri="lc:destroys_fish"/>
-							<ruleml:Var type="lc:defendant">Defendant</ruleml:Var>
-							<ruleml:Data xsi:type="xs:string">no</ruleml:Data>
-						</ruleml:Atom>	
 					</ruleml:And>
 				</ruleml:if>
 				<ruleml:then>
@@ -299,35 +194,15 @@
 				<ruleml:if>
 					<ruleml:And>
 						<ruleml:Atom>
-							<ruleml:Rel iri="lc:catches_during"/>
+							<ruleml:Rel iri="lc:catchesFish"/>
 							<ruleml:Var type="lc:defendant">Defendant</ruleml:Var>
-							<ruleml:Data xsi:type="xs:string">hunting_regulated_period</ruleml:Data>
-						</ruleml:Atom>
-						<ruleml:Atom>
-							<ruleml:Rel iri="lc:catches_in"/>
-							<ruleml:Var type="lc:defendant">Defendant</ruleml:Var>
-							<ruleml:Data xsi:type="xs:string">hunting_regulated_waters</ruleml:Data>
+							<ruleml:Var type="catchesFish">Fish</ruleml:Var>
 						</ruleml:Atom>	
-						<ruleml:Atom>
-							<ruleml:Rel iri="lc:uses"/>
-							<ruleml:Var type="lc:defendant">Defendant</ruleml:Var>
-							<ruleml:Data xsi:type="xs:string">adequate_tool</ruleml:Data>
-						</ruleml:Atom>
-						<ruleml:Atom>
-							<ruleml:Rel iri="lc:causes"/>
-							<ruleml:Var type="lc:defendant">Defendant</ruleml:Var>
-							<ruleml:Data xsi:type="xs:string">no_harm</ruleml:Data>
-						</ruleml:Atom>
 						<ruleml:Atom>
 							<ruleml:Rel iri="lc:have"/>
 							<ruleml:Var type="lc:Fish">Fish</ruleml:Var>
-							<ruleml:Data xsi:type="xs:string">greater_biological_worth</ruleml:Data>
+							<ruleml:Data xsi:type="xs:string">greater biological worth</ruleml:Data>
 						</ruleml:Atom>
-						<ruleml:Atom>
-							<ruleml:Rel iri="lc:destroys_fish"/>
-							<ruleml:Var type="lc:defendant">Defendant</ruleml:Var>
-							<ruleml:Data xsi:type="xs:string">no</ruleml:Data>
-						</ruleml:Atom>	
 					</ruleml:And>
 				</ruleml:if>
 				<ruleml:then>
@@ -343,34 +218,14 @@
 				<ruleml:if>
 					<ruleml:And>
 						<ruleml:Atom>
-							<ruleml:Rel iri="lc:catches_during"/>
+							<ruleml:Rel iri="lc:catchesFish"/>
 							<ruleml:Var type="lc:defendant">Defendant</ruleml:Var>
-							<ruleml:Data xsi:type="xs:string">hunting_regulated_period</ruleml:Data>
-						</ruleml:Atom>
-						<ruleml:Atom>
-							<ruleml:Rel iri="lc:catches_in"/>
-							<ruleml:Var type="lc:defendant">Defendant</ruleml:Var>
-							<ruleml:Data xsi:type="xs:string">hunting_regulated_waters</ruleml:Data>
-						</ruleml:Atom>
-						<ruleml:Atom>
-							<ruleml:Rel iri="lc:uses"/>
-							<ruleml:Var type="lc:defendant">Defendant</ruleml:Var>
-							<ruleml:Data xsi:type="xs:string">adequate_tool</ruleml:Data>
-						</ruleml:Atom>
-						<ruleml:Atom>
-							<ruleml:Rel iri="lc:causes"/>
-							<ruleml:Var type="lc:defendant">Defendant</ruleml:Var>
-							<ruleml:Data xsi:type="xs:string">no_harm</ruleml:Data>
-						</ruleml:Atom>
-						<ruleml:Atom>
-							<ruleml:Rel iri="lc:destroys_fish"/>
-							<ruleml:Var type="lc:defendant">Defendant</ruleml:Var>
-							<ruleml:Var type="destroys_fish">fish_number</ruleml:Var>
+							<ruleml:Var type="catchesFish">Fish</ruleml:Var>
 						</ruleml:Atom>	
 						<ruleml:Atom>
 							<ruleml:Expr>
 								<ruleml:Fun>&gt;</ruleml:Fun>
-								<ruleml:Var>fish_number</ruleml:Var>
+								<ruleml:Var>Fish</ruleml:Var>
 								<ruleml:Ind>5</ruleml:Ind>
 							</ruleml:Expr>
 						</ruleml:Atom>		
@@ -389,18 +244,24 @@
 				<ruleml:if>
 					<ruleml:And>
 						<ruleml:Atom>
-							<ruleml:Rel>illegal_fishing_lvl2</ruleml:Rel>
-							<ruleml:Var type=":defendant">Defendant</ruleml:Var>
-						</ruleml:Atom>
+							<ruleml:Rel iri="lc:destroysFIsh"/>
+							<ruleml:Var type="lc:defendant">Defendant</ruleml:Var>
+							<ruleml:Var type="destroysFIsh">Fish</ruleml:Var>
+						</ruleml:Atom>	
+						<ruleml:Atom>
+							<ruleml:Expr>
+								<ruleml:Fun>&gt;</ruleml:Fun>
+								<ruleml:Var>Fish</ruleml:Var>
+								<ruleml:Ind>5</ruleml:Ind>
+							</ruleml:Expr>
+						</ruleml:Atom>		
 					</ruleml:And>
 				</ruleml:if>
 				<ruleml:then>
-					<ruleml:Negation>
-						<ruleml:Atom>
-							<ruleml:Rel>illegal_fishing_confiscation</ruleml:Rel>
-							<ruleml:Var type=":defendant">Defendant</ruleml:Var>
-						</ruleml:Atom>
-					</ruleml:Negation>
+					<ruleml:Atom>
+						<ruleml:Rel>illegal_fishing_lvl2</ruleml:Rel>
+						<ruleml:Var type=":defendant">Defendant</ruleml:Var>
+					</ruleml:Atom>
 				</ruleml:then>
 			</ruleml:Rule>
 		</lrml:PrescriptiveStatement>
@@ -409,7 +270,31 @@
 				<ruleml:if>
 					<ruleml:And>
 						<ruleml:Atom>
-							<ruleml:Rel>illegal_fishing_lvl1</ruleml:Rel>
+							<ruleml:Rel iri="lc:catchesFish"/>
+							<ruleml:Var type="lc:defendant">Defendant</ruleml:Var>
+							<ruleml:Var type="catchesFish">Fish</ruleml:Var>
+						</ruleml:Atom>	
+						<ruleml:Atom>
+							<ruleml:Rel iri="lc:uses"/>
+							<ruleml:Var type="lc:defendant">Defendant</ruleml:Var>
+							<ruleml:Var type="uses">Tool</ruleml:Var>
+						</ruleml:Atom>
+					</ruleml:And>
+				</ruleml:if>
+				<ruleml:then>
+					<ruleml:Atom>
+						<ruleml:Rel>illegal_fishing_confiscation</ruleml:Rel>
+						<ruleml:Var type=":defendant">Defendant</ruleml:Var>
+					</ruleml:Atom>
+				</ruleml:then>
+			</ruleml:Rule>
+		</lrml:PrescriptiveStatement>
+		<lrml:PrescriptiveStatement key="ps13">
+			<ruleml:Rule key=":rule13" closure="universal" strength="defeasible">
+				<ruleml:if>
+					<ruleml:And>
+						<ruleml:Atom>
+							<ruleml:Rel>illegal_fishing_confiscation</ruleml:Rel>
 							<ruleml:Var type=":defendant">Defendant</ruleml:Var>
 						</ruleml:Atom>
 					</ruleml:And>
@@ -417,7 +302,27 @@
 				<ruleml:then>
 					<ruleml:Negation>
 						<ruleml:Atom>
+							<ruleml:Rel>illegal_fishing_lvl2</ruleml:Rel>
+							<ruleml:Var type=":defendant">Defendant</ruleml:Var>
+						</ruleml:Atom>
+					</ruleml:Negation>
+				</ruleml:then>
+			</ruleml:Rule>
+		</lrml:PrescriptiveStatement>
+		<lrml:PrescriptiveStatement key="ps15">
+			<ruleml:Rule key=":rule15" closure="universal" strength="defeasible">
+				<ruleml:if>
+					<ruleml:And>
+						<ruleml:Atom>
 							<ruleml:Rel>illegal_fishing_confiscation</ruleml:Rel>
+							<ruleml:Var type=":defendant">Defendant</ruleml:Var>
+						</ruleml:Atom>
+					</ruleml:And>
+				</ruleml:if>
+				<ruleml:then>
+					<ruleml:Negation>
+						<ruleml:Atom>
+							<ruleml:Rel>illegal_fishing_lvl1</ruleml:Rel>
 							<ruleml:Var type=":defendant">Defendant</ruleml:Var>
 						</ruleml:Atom>
 					</ruleml:Negation>
@@ -545,6 +450,12 @@
 			<lrml:Reparation>
 				<lrml:appliesPenalty keyref="#pen4"/>
 				<lrml:toPrescriptiveStatement keyref="#ps10"/>
+			</lrml:Reparation>
+		</lrml:ReparationStatement>
+		<lrml:ReparationStatement>
+			<lrml:Reparation>
+				<lrml:appliesPenalty keyref="#pen4"/>
+				<lrml:toPrescriptiveStatement keyref="#ps11"/>
 			</lrml:Reparation>
 		</lrml:ReparationStatement>
 		<lrml:OverrideStatement>

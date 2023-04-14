@@ -52,7 +52,7 @@ public class CbrApplication implements StandardCBRApplication {
 				"čl. 32 KZ",
 				"čl. 34 KZ",
 				"čl. 36 KZ",
-				"čl. 36 st. 1 KZ",
+				"čl. 36a KZ",
 				"čl. 41 KZ",
 				"čl. 42 KZ",
 				"čl. 42 st. 1 KZ",
@@ -66,7 +66,7 @@ public class CbrApplication implements StandardCBRApplication {
 				"čl. 227 ZOKP",
 				"čl. 229 ZOKP",
 				"čl. 374 ZOKP",}));
-		slicnostPropisa.setSimilarity("čl. 36 KZ", "čl. 36 st. 1 KZ", 1);
+		slicnostPropisa.setSimilarity("čl. 36 KZ", "čl. 36a KZ", .8);
 		slicnostPropisa.setSimilarity("čl. 42 KZ", "čl. 42 st. 1 KZ", 1);
 		slicnostPropisa.setSimilarity("čl. 52 st. 1 KZ", "čl. 52 st. 2 KZ", .5);
 		slicnostPropisa.setSimilarity("čl. 226 ZOKP", "čl. 226. st. 2. tačka 9. ZOKP", 1);

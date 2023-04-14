@@ -1,0 +1,11 @@
+<http://informatika.ftn.uns.ac.rs/legal-case.rdf#case01> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://informatika.ftn.uns.ac.rs/legal-case.rdf#case> .
+<http://informatika.ftn.uns.ac.rs/legal-case.rdf#case01> <http://informatika.ftn.uns.ac.rs/legal-case.rdf#name> "case 03/2020" .
+<http://informatika.ftn.uns.ac.rs/legal-case.rdf#case01> <http://informatika.ftn.uns.ac.rs/legal-case.rdf#defendant> "D. \u0160." .
+<http://informatika.ftn.uns.ac.rs/legal-case.rdf#case01> <http://informatika.ftn.uns.ac.rs/legal-case.rdf#fish> "Fish" .
+<http://informatika.ftn.uns.ac.rs/legal-case.rdf#case01> <http://informatika.ftn.uns.ac.rs/legal-case.rdf#have> "standard_biological_worth" .
+<http://informatika.ftn.uns.ac.rs/legal-case.rdf#case01> <http://informatika.ftn.uns.ac.rs/legal-case.rdf#catches_in> "hunting_regulated_waters" .
+<http://informatika.ftn.uns.ac.rs/legal-case.rdf#case01> <http://informatika.ftn.uns.ac.rs/legal-case.rdf#catches_during> "hunting_ban_period" .
+<http://informatika.ftn.uns.ac.rs/legal-case.rdf#case01> <http://informatika.ftn.uns.ac.rs/legal-case.rdf#uses> "adequate_tool" .
+<http://informatika.ftn.uns.ac.rs/legal-case.rdf#case01> <http://informatika.ftn.uns.ac.rs/legal-case.rdf#destroys_fish> "no" .
+<http://informatika.ftn.uns.ac.rs/legal-case.rdf#case01> <http://informatika.ftn.uns.ac.rs/legal-case.rdf#causes> "no_harm" .
+<http://informatika.ftn.uns.ac.rs/legal-case.rdf#case01> <http://informatika.ftn.uns.ac.rs/legal-case.rdf#fish_number> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
