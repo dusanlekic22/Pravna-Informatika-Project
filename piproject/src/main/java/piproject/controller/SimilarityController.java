@@ -19,15 +19,15 @@ import piproject.service.SimilarityService;
 @RequestMapping(value = "/similarity", produces = MediaType.APPLICATION_JSON_VALUE)
 @CrossOrigin
 public class SimilarityController {
-	
+
 	@Autowired
 	SimilarityService similarityService;
-	
+
 	@PostMapping("/case")
-    public ResponseEntity<List<CaseDescriptionDTO>> getSimilarPCs(@RequestBody CaseDescriptionDTO caseDescriptionDTO){
-        List<CaseDescriptionDTO> response = similarityService.getSimilarCases(caseDescriptionDTO);
-        return new ResponseEntity<>(response, HttpStatus.OK);
-    }
-	
+	public ResponseEntity<List<CaseDescriptionDTO>> getSimilarCases(
+			@RequestBody CaseDescriptionDTO caseDescriptionDTO) {
+		List<CaseDescriptionDTO> response = similarityService.getSimilarCases(caseDescriptionDTO);
+		return new ResponseEntity<>(response, HttpStatus.OK);
+	}
 
 }

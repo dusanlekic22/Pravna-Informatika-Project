@@ -1,0 +1,70 @@
+<nav class="my-5">
+  <div class="nav nav-tabs" id="nav-tab" role="tablist">
+    <button
+      class="nav-link active"
+      id="nav-home-tab"
+      data-bs-toggle="tab"
+      data-bs-target="#nav-home"
+      type="button"
+      role="tab"
+      aria-controls="nav-home"
+      aria-selected="true"
+    >
+      Zakoni
+    </button>
+    <button
+      class="nav-link"
+      id="nav-profile-tab"
+      data-bs-toggle="tab"
+      data-bs-target="#nav-profile"
+      type="button"
+      role="tab"
+      aria-controls="nav-profile"
+      aria-selected="false"
+    >
+      Presude
+    </button>
+  </div>
+</nav>
+<div class="tab-content" id="nav-tabContent">
+  <div
+    class="tab-pane fade show active"
+    id="nav-home"
+    role="tabpanel"
+    aria-labelledby="nav-home-tab"
+  >
+    <div class="card p-3 my-5">
+      <div class="card-header">Izaberi zakon</div>
+      <div class="card-body">
+        <div class="d-flex" *ngFor="let law of laws">
+          <a
+            href="{{
+              url
+            }}/document/download/{{law}}"
+            >{{law}}</a
+          >
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="tab-pane fade"
+    id="nav-profile"
+    role="tabpanel"
+    aria-labelledby="nav-profile-tab"
+  >
+    <div class="card p-3 my-5">
+      <div class="card-header">Izaberi presudu</div>
+      <div class="card-body">
+        <div class="d-flex" *ngFor="let judgement of judgements">
+            <a
+              href="{{
+                url
+              }}/document/download/{{judgement}}"
+              >{{judgement}}</a
+            >
+          </div>
+      </div>
+    </div>
+  </div>
+</div>
