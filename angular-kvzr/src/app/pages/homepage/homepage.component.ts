@@ -5,21 +5,23 @@ import { environment } from 'src/environments/environment';
 @Component({
   selector: 'app-homepage',
   templateUrl: './homepage.component.html',
-  styleUrls: ['./homepage.component.css']
+  styleUrls: ['./homepage.component.css'],
 })
 export class HomepageComponent implements OnInit {
-
-  url = environment.apiUrl;
   laws: string[] = [];
   judgements: string[] = [];
+  pdfSrc = "assets/docs/zakonik-o-krivicnom-postupku.pdf";
 
-  constructor(public docsService:DocsService) { }
+  constructor(public docsService: DocsService) {}
 
   ngOnInit(): void {
     this.getLaws();
     this.getJudgements();
   }
-  
+  url = environment.apiUrl; 
+  title = 'viewer-app';
+ 
+
   downloadDoc(docName: string) {
     this.docsService.downloadDoc(docName).subscribe(
       (response) => {
@@ -32,22 +34,21 @@ export class HomepageComponent implements OnInit {
         console.log(error);
       }
     );
-  } 
-
-  getLaws(){
-    this.docsService.getLaws().subscribe(
-      (response) => {
-        this.laws = response
-      }
-    );
   }
 
-  getJudgements(){
-    this.docsService.getJudgements().subscribe(
-      (response) => {
-        this.judgements = response
-      }
-    );
+  getLaws() {
+    this.docsService.getLaws().subscribe((response) => {
+      this.laws = response;
+    });
   }
 
+  getJudgements() {
+    this.docsService.getJudgements().subscribe((response) => {
+      this.judgements = response;
+    });
+  }
+
+  changeFile(file: string) {
+    this.pdfSrc = "assets/docs/" + file;
+  }
 }

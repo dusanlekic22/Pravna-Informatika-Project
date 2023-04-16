@@ -1,0 +1,605 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/WD17"
+    xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/WD17 ../schemas/akomantoso30.xsd">
+    <act name="Krivični zakonika Crne Gore">
+        <meta>
+            <identification source="#lekic">
+                <FRBRWork>
+                    <FRBRthis value="/akn/me/act/2003-12-25/070-03/!main" />
+                    <FRBRuri value="/akn/me/act/2003-12-25/070-03/" />
+                    <FRBRdate date="2018-03-09" />
+                    <FRBRauthor href="#ns" as="#author" />
+                    <FRBRcountry value="me" />
+                    <FRBRsubtype value="act" />
+                    <FRBRnumber value="070-03" />
+                    <FRBRname value="Krivični zakonika Crne Gore" />
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/me/act/2003-12-25/070-03/me@2003-12-25/!main" />
+                    <FRBRuri value="/akn/me/act/2003-12-25/070-03/me@2003-12-25" />
+                    <FRBRdate date="2003-12-25" />
+                    <FRBRauthor href="#sg" as="#editor" />
+                    <FRBRlanguage language="me" />
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/me/act/2003-12-25/070-03/me@2018-03-09/!main.xml" />
+                    <FRBRuri value="/akn/me/act/2003-12-25/070-03/me@2018-03-09/!main.akn" />
+                    <FRBRdate date="2023-04-09" />
+                    <FRBRauthor href="#lekic" as="#generator" />
+                    <FRBRformat value="xml" />
+                </FRBRManifestation>
+            </identification>
+            <publication name="sg" date="2003-12-25" showAs="Službeni list Crne Gore"
+                number="070-03" />
+            <classification source="#lekic">
+                <keyword value="zakonik" showAs="Zakonik" dictionary="ME" />
+            </classification>
+            <references source="#lekic">
+                <TLCRole eId="author" href="/akn/me/ontology/role/author" showAs="Author" />
+                <TLCRole eId="editor" href="/akn/me/ontology/role/editor" showAs="Editor" />
+                <TLCRole eId="generator" href="/akn/me/ontology/role/generator" showAs="Generator" />
+                <TLCOrganization eId="scg" href="/akn/me/ontology/organization/scg"
+                    showAs="Skupština Crne Gore" />
+                <TLCOrganization eId="sl" href="/akn/me/ontology/organization/sl"
+                    showAs="Službeni list Crne Gore" />
+                <TLCOrganization eId="sl" href="/akn/me/ontology/organization/sl"
+                    showAs="Ministarstvo" />
+                <TLCPerson eId="fv" href="/akn/me/ontology/person/fv"
+                    showAs="Predsjednik Crne Gore, Filip Vujanović, s.r." />
+                <TLCConcept eId="enactingFormula" href="/ontology/concept/enactingFormula"
+                    showAs="Enacting Formula" />
+            </references>
+        </meta>
+        <preface>
+            <p>
+                <docTitle>KRIVIČNI <docType>ZAKONIK</docType> CRNE GORE</docTitle>
+            </p>
+        </preface>
+        <body>
+            <heading>OPŠTI DIO</heading>
+            <chapter eId="chp_1">
+                <num>GLAVA PRVA</num>
+                <heading>OSNOVNE ODREDBE</heading>
+                <section eId="chp_1__sec_2">
+                    <heading>Osnov i granice krivičnopravne prinude</heading>
+                    <article eId="art_2">
+                        <num>Član 2</num>
+                        <paragraph eId="art_2__para_1">
+                            <content eId="art_2__para_1__content">
+                                <p>Kazna ili druga krivična sankcija može se izreći samo za djelo
+                                    koje je, prije nego što je učinjeno, bilo zakonom određeno kao
+                                    krivično djelo i za koje je bila zakonom propisana kazna.</p>
+                            </content>
+                        </paragraph>
+                    </article>
+                </section>
+                <section eId="chp_1__sec_3">
+                    <heading>Nema kazne bez krivice</heading>
+                    <article eId="art_3">
+                        <num>Član 3</num>
+                        <paragraph eId="art_3__para_1">
+                            <content eId="art_3__para_1__content">
+                                <p>Kazna ili druga krivična sankcija može se izreći samo za djelo
+                                    koje je, prije nego što je učinjeno, bilo zakonom određeno kao
+                                    krivično djelo i za koje je bila zakonom propisana kazna.</p>
+                            </content>
+                        </paragraph>
+                    </article>
+                </section>
+                <section eId="chp_1__sec_4">
+                    <heading>Nema kazne bez krivice</heading>
+                    <article eId="art_4">
+                        <num>Član 4</num>
+                        <list eId="art_4__list_1">
+                            <point eId="art_4__list_1__point_1">
+                                <num>(1) </num>
+                                <content eId="art_4__list_1__point_1__content">
+                                    <p>Krivične sankcije su: kazne, mjere upozorenja, mjere
+                                        bezbjednosti i vaspitne mjere.
+                                    </p>
+                                </content>
+                            </point>
+                            <point eId="art_4__list_1__point_2">
+                                <num>(2) </num>
+                                <content eId="art_4__list_1__point_2__content">
+                                    <p>Opšta svrha propisivanja i izricanja krivičnih sankcija je
+                                        suzbijanje djela kojima se povređuju ili ugrožavaju
+                                        vrijednosti zaštićene krivičnim zakonodavstvom.
+                                    </p>
+                                </content>
+                            </point>
+                        </list>
+                    </article>
+                </section>
+            </chapter>
+            <chapter eId="chp_2">
+                <num>GLAVA DRUGA</num>
+                <heading>KRIVIČNO DJELO</heading>
+                <subheading><num>1. </num>Opšte odredbe o krivičnom djelu</subheading>
+                <section eId="chp_2__sec_5">
+                    <heading>Krivično djelo</heading>
+                    <article eId="art_5">
+                        <num>Član 5</num>
+                        <paragraph eId="art_5__para_1">
+                            <content eId="art_5__para_1__content">
+                                <p>Krivično djelo je djelo koje je zakonom određeno kao krivično
+                                    djelo, koje je protivpravno i koje je skrivljeno.</p>
+                            </content>
+                        </paragraph>
+                    </article>
+                </section>
+                <section eId="chp_2__sec_13">
+                    <heading>Krivica</heading>
+                    <article eId="art_13">
+                        <num>Član 13</num>
+                        <list eId="art_13__list_1">
+                            <point eId="art_13__list_1__point_1">
+                                <num>(1) </num>
+                                <content eId="art_13__list_1__point_1__content">
+                                    <p>Kriv je za krivično djelo učinilac koji je uračunljiv i koji
+                                        je postupao sa umišljajem, a bio je svjestan ili je bio
+                                        dužan i mogao biti svjestan da je njegovo djelo zabranjeno.
+                                    </p>
+                                </content>
+                            </point>
+                            <point eId="art_13__list_1__point_2">
+                                <num>(2) </num>
+                                <content eId="art_13__list_1__point_2__content">
+                                    <p>Za krivično djelo učinjeno iz nehata učinilac može biti kriv
+                                        samo kad to zakon određuje
+                                    </p>
+                                </content>
+                            </point>
+                        </list>
+                    </article>
+                </section>
+                <section eId="chp_2__sec_15">
+                    <heading>Umišljaj</heading>
+                    <article eId="art_15">
+                        <num>Član 15</num>
+                        <paragraph eId="art_15__para_1">
+                            <content eId="art_15__para_1__content">
+                                <p>Krivično djelo je učinjeno sa umišljajem kad je učinilac bio
+                                    svjestan svog djela i htio njegovo izvršenje ili kad je učinilac
+                                    bio svjestan da može učiniti djelo pa je na to pristao.</p>
+                            </content>
+                        </paragraph>
+                    </article>
+                </section>
+            </chapter>
+            <chapter eId="chp_3">
+                <num>GLAVA TREĆA</num>
+                <heading>KAZNE</heading>
+                <subheading><num>1. </num>Svrha kažnjavanja, vrste kazni i uslovi za njihovo
+                    izricanje</subheading>
+                <section eId="chp_3__sec_32">
+                    <heading>Svrha kažnjavanja</heading>
+                    <article eId="art_32">
+                        <num>Član 32</num>
+                        <list eId="art_32__list_1">
+                            <intro eId="art_32__list_1__intro">
+                                <p>
+                                    U okviru opšte svrhe krivičnih sankcija (član 4 stav 2), svrha
+                                    kažnjavanja je:</p>
+                            </intro>
+                            <point eId="art_32__list_1__point_1">
+                                <num>(1) </num>
+                                <content eId="art_32__list_1__point_1__content">
+                                    <p>sprječavanje učinioca da čini krivična djela i uticanje na
+                                        njega da ubuduće ne čini krivična djela;
+                                    </p>
+                                </content>
+                            </point>
+                            <point eId="art_32__list_1__point_2">
+                                <num>(2) </num>
+                                <content eId="art_32__list_1__point_2__content">
+                                    <p>uticanje na druge da ne čine krivična djela;
+                                    </p>
+                                </content>
+                            </point>
+                            <point eId="art_32__list_1__point_3">
+                                <num>(3) </num>
+                                <content eId="art_32__list_1__point_3__content">
+                                    <p>izražavanje društvene osude za krivično djelo i obaveze
+                                        poštovanja zakona;
+                                    </p>
+                                </content>
+                            </point>
+                            <point eId="art_32__list_1__point_4">
+                                <num>(4) </num>
+                                <content eId="art_32__list_1__point_4__content">
+                                    <p>jačanje morala i uticaj na razvijanje društvene odgovornosti.
+                                    </p>
+                                </content>
+                            </point>
+                        </list>
+                    </article>
+                </section>
+                <section eId="chp_3__sec_34">
+                    <heading>Glavne i sporedne kazne</heading>
+                    <article eId="art_34">
+                        <num>Član 34</num>
+                        <list eId="art_34__list_1">
+                            <point eId="art_34__list_1__point_1">
+                                <num>(1) </num>
+                                <content eId="art_34__list_1__point_1__content">
+                                    <p>Kazna dugotrajnog zatvora, kazna zatvora i rad u javnom
+                                        interesu mogu se izreći samo kao glavne kazne.
+                                    </p>
+                                </content>
+                            </point>
+                            <point eId="art_34__list_1__point_2">
+                                <num>(2) </num>
+                                <content eId="art_34__list_1__point_2__content">
+                                    <p>Novčana kazna može se izreći i kao glavna i kao sporedna.
+                                    </p>
+                                </content>
+                            </point>
+                            <point eId="art_34__list_1__point_3">
+                                <num>(3) </num>
+                                <content eId="art_34__list_1__point_3__content">
+                                    <p>Ako je za jedno krivično djelo propisano više kazni, samo se
+                                        jedna može izreći kao glavna kazna.
+                                    </p>
+                                </content>
+                            </point>
+                        </list>
+                    </article>
+                </section>
+                <section eId="chp_3__sec_36">
+                    <heading>Kazna zatvora</heading>
+                    <article eId="art_36">
+                        <num>Član 36</num>
+                        <list eId="art_36__list_1">
+                            <point eId="art_36__list_1__point_1">
+                                <num>(1) </num>
+                                <content eId="art_36__list_1__point_1__content">
+                                    <p>Kazna zatvora ne može biti kraća od trideset dana niti duža
+                                        od dvadeset godina.
+                                    </p>
+                                </content>
+                            </point>
+                            <point eId="art_36__list_1__point_2">
+                                <num>(2) </num>
+                                <content eId="art_36__list_1__point_2__content">
+                                    <p>Kazna zatvora iz stava 1 ovog člana izriče se na pune godine
+                                        i mjesece, a do šest mjeseci i na dane.
+                                    </p>
+                                </content>
+                            </point>
+                        </list>
+                    </article>
+                </section>
+                <section eId="chp_3__sec_36a">
+                    <heading>Kazna zatvora</heading>
+                    <article eId="art_36a">
+                        <num>Član 36a</num>
+                        <list eId="art_36a__list_1">
+                            <point eId="art_36a__list_1__point_1">
+                                <num>(1) </num>
+                                <content eId="art_36a__list_1__point_1__content">
+                                    <p>Ako učiniocu krivičnog djela izrekne kaznu zatvora do šest
+                                        mjeseci, sud može istovremeno odrediti da će se ova kazna
+                                        izvršiti tako što će je osuđeni izdržavati u prostorijama u
+                                        kojima stanuje ukoliko se, s obzirom na ličnost učinioca,
+                                        njegov raniji život, njegovo držanje poslije učinjenog
+                                        djela, stepen krivice i druge okolnosti pod kojima je djelo
+                                        učinio, može očekivati da će se i na taj način ostvariti
+                                        svrha kažnjavanja.
+                                    </p>
+                                </content>
+                            </point>
+                            <point eId="art_36a__list_1__point_2">
+                                <num>(2) </num>
+                                <content eId="art_36a__list_1__point_2__content">
+                                    <p>Osuđeni kome je određeno izvršenje kazne zatvora na način iz
+                                        stava 1 ovog člana ne smije napuštati prostorije u kojima
+                                        stanuje, osim u slučajevima propisanim zakonom kojim se
+                                        uređuje izvršenje krivičnih sankcija. Ukoliko osuđeni jednom
+                                        u trajanju preko šest časova ili dva puta u trajanju do šest
+                                        časova samovoljno napusti prostorije u kojima stanuje, sud
+                                        će odrediti da ostatak kazne zatvora izdrži u Zavodu za
+                                        izvršenje krivičnih sankcija.
+                                    </p>
+                                </content>
+                            </point>
+                            <point eId="art_36a__list_1__point_3">
+                                <num>(3) </num>
+                                <content eId="art_36a__list_1__point_3__content">
+                                    <p>Osuđenom za krivično djelo protiv braka i porodice koji živi
+                                        sa oštećenim u istom porodičnom domaćinstvu ili porodičnoj
+                                        zajednici ne može se odrediti izvršenje kazne zatvora na
+                                        način iz stava 1 ovog člana.
+                                    </p>
+                                </content>
+                            </point>
+                        </list>
+                    </article>
+                </section>
+                <section eId="chp_3__sec_41">
+                    <heading>Rad u javnom interesu</heading>
+                    <article eId="art_41">
+                        <num>Član 41</num>
+                        <list eId="art_41__list_1">
+                            <point eId="art_41__list_1__point_1">
+                                <num>(1) </num>
+                                <content eId="art_41__list_1__point_1__content">
+                                    <p>Rad u javnom interesu može se izreći za krivična djela za
+                                        koja je propisana novčana kazna ili zatvor do pet godina.
+                                    </p>
+                                </content>
+                            </point>
+                            <point eId="art_41__list_1__point_2">
+                                <num>(2) </num>
+                                <content eId="art_41__list_1__point_2__content">
+                                    <p>Rad u javnom interesu ne može biti kraći od šezdeset časova
+                                        niti duži od trista šezdeset časova i određuje se za vrijeme
+                                        koje ne može biti kraće od trideset dana, niti duže od šest
+                                        mjeseci.
+                                    </p>
+                                </content>
+                            </point>
+                            <point eId="art_41__list_1__point_3">
+                                <num>(3) </num>
+                                <content eId="art_41__list_1__point_3__content">
+                                    <p>iOva kazna se izriče uz pristanak učinioca krivičnog djela i
+                                        ne može biti duža od šezdeset časova u toku jednog mjeseca.
+                                    </p>
+                                </content>
+                            </point>
+                            <point eId="art_41__list_1__point_4">
+                                <num>(4) </num>
+                                <content eId="art_41__list_1__point_4__content">
+                                    <p>Rad u javnom interesu je svaki onaj društveno koristan rad
+                                        kojim se ne vrijeđa ljudsko dostojanstvo i ne vrši se u
+                                        cilju sticanja dobiti.
+                                    </p>
+                                </content>
+                            </point>
+                            <point eId="art_41__list_1__point_5">
+                                <num>(5) </num>
+                                <content eId="art_41__list_1__point_5__content">
+                                    <p>Prilikom izricanja ove kazne sud će voditi računa o vrsti
+                                        učinjenog krivičnog djela, kao i o ličnosti učinioca.
+                                    </p>
+                                </content>
+                            </point>
+                            <point eId="art_41__list_1__point_6">
+                                <num>(6) </num>
+                                <content eId="art_41__list_1__point_6__content">
+                                    <p>Ukoliko učinilac ne vrši rad u javnom interesu, ova kazna će
+                                        se zamijeniti kaznom zatvora, tako što će svakih započetih
+                                        šezdeset časova rada u javnom interesu zamijeniti kaznom
+                                        zatvora u trajanju od jednog mjeseca.
+                                    </p>
+                                </content>
+                            </point>
+                        </list>
+                    </article>
+                </section>
+                <subheading><num>2. </num>Odmjeravanje kazne</subheading>
+                <section eId="chp_3__sec_42">
+                    <heading>Opšta pravila o odmjeravanju kazne</heading>
+                    <article eId="art_42">
+                        <num>Član 42</num>
+                        <list eId="art_42__list_1">
+                            <point eId="art_42__list_1__point_1">
+                                <num>(1) </num>
+                                <content eId="art_42__list_1__point_1__content">
+                                    <p>Sud će učiniocu krivičnog djela odmjeriti kaznu u granicama
+                                        koje su zakonom propisane za to djelo, imajući u vidu svrhu
+                                        kažnjavanja i uzimajući u obzir sve okolnosti koje utiču da
+                                        kazna bude manja ili veća (olakšavajuće i otežavajuće
+                                        okolnosti), a naročito: stepen krivice, pobude iz kojih je
+                                        djelo učinjeno, jačinu ugrožavanja ili povrede zaštićenog
+                                        dobra, okolnosti pod kojima je djelo učinjeno, raniji život
+                                        učinioca, njegove lične prilike, njegovo držanje poslije
+                                        učinjenog krivičnog djela, a naročito njegov odnos prema
+                                        žrtvi krivičnog djela kao i druge okolnosti koje se odnose
+                                        na ličnost učinioca.
+                                    </p>
+                                </content>
+                            </point>
+                            <point eId="art_42__list_1__point_2">
+                                <num>(2) </num>
+                                <content eId="art_42__list_1__point_2__content">
+                                    <p>Pri odmjeravanju novčane kazne sud će posebno uzeti u obzir i
+                                        imovno stanje učinioca.
+                                    </p>
+                                </content>
+                            </point>
+                            <point eId="art_42__list_1__point_3">
+                                <num>(3) </num>
+                                <content eId="art_42__list_1__point_3__content">
+                                    <p>Okolnost koja je obilježje krivičnog djela ne može se uzeti u
+                                        obzir i kao otežavajuća, odnosno olakšavajuća okolnost,
+                                        izuzev ako prelazi mjeru koja je potrebna za postojanje
+                                        krivičnog djela ili određenog oblika krivičnog djela ili ako
+                                        postoje dvije ili više ovakvih okolnosti, pa je samo jedna
+                                        dovoljna za postojanje težeg, odnosno lakšeg oblika
+                                        krivičnog djela.
+                                    </p>
+                                </content>
+                            </point>
+                        </list>
+                    </article>
+                </section>
+            </chapter>
+            <chapter eId="chp_4">
+                <num>GLAVA ČETVRTA</num>
+                <heading>MJERE UPOZORENJA</heading>
+                <subheading><num>1. </num>Uslovna osuda i sudska opomena</subheading>
+                <section eId="chp_4__sec_52">
+                    <heading>Svrha uslovne osude i sudske opomene</heading>
+                    <article eId="art_52">
+                        <num>Član 52</num>
+                        <list eId="art_52__list_1">
+                            <point eId="art_52__list_1__point_1">
+                                <num>(1) </num>
+                                <content eId="art_52__list_1__point_1__content">
+                                    <p>Mjere upozorenja su: uslovna osuda i sudska opomena.
+                                    </p>
+                                </content>
+                            </point>
+                            <point eId="art_52__list_1__point_2">
+                                <num>(2) </num>
+                                <content eId="art_52__list_1__point_2__content">
+                                    <p>U okviru opšte svrhe krivičnih sankcija (član 4 stav 2),
+                                        svrha uslovne osude i sudske opomene je da se prema učiniocu
+                                        krivičnog djela ne primijeni kazna za lakša krivična djela,
+                                        kad to nije nužno radi krivičnopravne zaštite i kad se može
+                                        očekivati da će upozorenje uz prijetnju kazne (uslovna
+                                        osuda) ili samo upozorenje (sudska opomena) dovoljno uticati
+                                        na učinioca da više ne vrši krivična djela.
+                                    </p>
+                                </content>
+                            </point>
+                        </list>
+                    </article>
+                </section>
+                <section eId="chp_4__sec_53">
+                    <heading>Uslovna osuda</heading>
+                    <article eId="art_53">
+                        <num>Član 53</num>
+                        <list eId="art_53__list_1">
+                            <point eId="art_53__list_1__point_1">
+                                <num>(1) </num>
+                                <content eId="art_53__list_1__point_1__content">
+                                    <p>Uslovnom osudom sud učinocu krivičnog djela utvrđuje kaznu i
+                                        istovremeno određuje da se ona neće izvršiti, ako osuđeni za
+                                        vrijeme koje odredi sud, a koje ne može biti kraće od jedne
+                                        niti duže od pet godina (vrijeme provjeravanja) ne učini
+                                        novo krivično djelo.</p>
+                                </content>
+                            </point>
+                            <point eId="art_53__list_1__point_2">
+                                <num>(2) </num>
+                                <content eId="art_53__list_1__point_2__content">
+                                    <p>Sud može u uslovnoj osudi odrediti da će se kazna izvršiti i
+                                        ako osuđeni u određenom roku ne vrati imovinsku korist
+                                        pribavljenu izvršenjem krivičnog djela, ne naknadi štetu
+                                        koju je prouzrokovao krivičnim djelom ili ne ispuni druge
+                                        obaveze predviđene u krivičnopravnim odredbama. Rok za
+                                        ispunjenje tih obaveza utvrđuje sud u okviru određenog
+                                        vremena provjeravanja.
+                                    </p>
+                                </content>
+                            </point>
+                            <point eId="art_53__list_1__point_3">
+                                <num>(3) </num>
+                                <content eId="art_53__list_1__point_3__content">
+                                    <p>U Mjere bezbjednosti, izrečene uz uslovnu osudu, izvršavaju
+                                        se.
+                                    </p>
+                                </content>
+                            </point>
+                        </list>
+                    </article>
+                </section>
+                <section eId="chp_4__sec_54">
+                    <heading>Uslovi za izricanje uslovne osude</heading>
+                    <article eId="art_54">
+                        <num>Član 54</num>
+                        <list eId="art_54__list_1">
+                            <point eId="art_54__list_1__point_1">
+                                <num>(1) </num>
+                                <content eId="art_54__list_1__point_1__content">
+                                    <p>Uslovna osuda se može izreći kad je učiniocu utvrđena kazna
+                                        zatvora u trajanju do dvije godine.</p>
+                                </content>
+                            </point>
+                            <point eId="art_54__list_1__point_2">
+                                <num>(2) </num>
+                                <content eId="art_54__list_1__point_2__content">
+                                    <p>Za krivična djela za koja se može izreći kazna zatvora u
+                                        trajanju od deset godina ili teža kazna ne može se izreći
+                                        uslovna osuda.
+                                    </p>
+                                </content>
+                            </point>
+                            <point eId="art_54__list_1__point_3">
+                                <num>(3) </num>
+                                <content eId="art_54__list_1__point_3__content">
+                                    <p>Uslovna osuda se ne može izreći ako nije proteklo više od pet
+                                        godina od pravosnažnosti osude kojom je učiniocu izrečena
+                                        kazna za umišljajno krivično djelo. Uslovna osuda se ne može
+                                        izreći učiniocu kome su već izrečene dvije uslovne osude.
+                                    </p>
+                                </content>
+                            </point>
+                            <point eId="art_54__list_1__point_4">
+                                <num>(4) </num>
+                                <content eId="art_54__list_1__point_4__content">
+                                    <p>Pri odlučivanju da li će izreći uslovnu osudu sud će, vodeći
+                                        računa o svrsi uslovne osude, posebno uzeti u obzir ličnost
+                                        učinioca, njegov raniji život, njegovo ponašanje poslije
+                                        izvršenog krivičnog djela, stepen krivice i druge okolnosti
+                                        pod kojima je djelo učinjeno.
+                                    </p>
+                                </content>
+                            </point>
+                            <point eId="art_54__list_1__point_5">
+                                <num>(5) </num>
+                                <content eId="art_54__list_1__point_5__content">
+                                    <p>Ako je učiniocu utvrđena i kazna zatvora i novčana kazna,
+                                        uslovna osuda može se izreći samo za kaznu zatvora.
+                                    </p>
+                                </content>
+                            </point>
+                        </list>
+                    </article>
+                </section>
+            </chapter>
+            <chapter eId="chp_25">
+                <num>GLAVA DVADESEET PETA</num>
+                <heading>KRIVIČNA DJELA PROTIV ŽIVOTNE SREDINE I UREĐENJA PROSTORA</heading>
+                <section eId="chp_25__sec_326">
+                    <heading>Nezakonit ribolov</heading>
+                    <article eId="art_326">
+                        <num>Član 326</num>
+                        <list eId="art_326__list_1">
+                            <point eId="art_326__list_1__point_1">
+                                <num>(1) </num>
+                                <content eId="art_326__list_1__point_1__content">
+                                    <p>Ko lovi ribu ili druge vodene životinje za vrijeme lovostaja
+                                        ili u vodama u kojima je lov zabranjen,
+                                        kazniće se novčanom kaznom ili zatvorom do šest mjeseci.
+                                    </p>
+                                </content>
+                            </point>
+                            <point eId="art_326__list_1__point_2">
+                                <num>(2) </num>
+                                <content eId="art_326__list_1__point_2__content">
+                                    <p>Ko lovi ribu ili druge vodene životinje eksplozivom,
+                                        električnom strujom, otrovom, sredstvima za omamljivanje ili
+                                        na način štetan za razmnožavanje tih životinja ili kojim se
+                                        te životinje masovno uništavaju, kazniće se zatvorom do tri
+                                        godine.
+                                    </p>
+                                </content>
+                            </point>
+                            <point eId="art_326__list_1__point_3">
+                                <num>(3) </num>
+                                <content eId="art_326__list_1__point_3__content">
+                                    <p>Kaznom iz stava 2 ovog člana kazniće se i ko lovi ribu ili
+                                        druge vodene životinje veće biološke vrijednosti ili u većoj
+                                        količini ili pri lovu uništi veću količinu riba ili drugih
+                                        vodenih životinja.
+                                    </p>
+                                </content>
+                            </point>
+                            <point eId="art_326__list_1__point_4">
+                                <num>(4) </num>
+                                <content eId="art_326__list_1__point_4__content">
+                                    <p>Ulov i sredstva za ribolov oduzeće se.
+                                    </p>
+                                </content>
+                            </point>
+                        </list>
+                    </article>
+                </section>
+            </chapter>
+        </body>
+    </act>
+</akomaNtoso>

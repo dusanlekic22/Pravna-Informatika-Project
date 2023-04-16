@@ -34,17 +34,19 @@
     aria-labelledby="nav-home-tab"
   >
     <div class="card p-3 my-5">
-      <div class="card-header">Izaberi zakon</div>
+      <div class="card-header">Choose PC components</div>
       <div class="card-body">
         <div class="d-flex" *ngFor="let law of laws">
-          <a
-            href="{{
-              url
-            }}/document/download/{{law}}"
-            >{{law}}</a
-          >
+          <button class="pl-5" (click)="changeFile(law)">{{ law }}</button>
+          <a href="{{ url }}/document/download/{{ law }}">Download</a>
         </div>
       </div>
+      <pdf-viewer
+        [src]="pdfSrc"
+        [render-text]="true"
+        [original-size]="false"
+        style="width: 1200px; height: 1500px"
+      ></pdf-viewer>
     </div>
   </div>
   <div
@@ -54,17 +56,21 @@
     aria-labelledby="nav-profile-tab"
   >
     <div class="card p-3 my-5">
-      <div class="card-header">Izaberi presudu</div>
+      <div class="card-header">Insert PC specifications</div>
       <div class="card-body">
         <div class="d-flex" *ngFor="let judgement of judgements">
-            <a
-              href="{{
-                url
-              }}/document/download/{{judgement}}"
-              >{{judgement}}</a
-            >
-          </div>
+          <button class="pl-5" (click)="changeFile(judgement)">
+            {{ judgement }}
+          </button>
+          <a href="{{ url }}/document/download/{{ judgement }}">Download</a>
+        </div>
       </div>
+      <pdf-viewer
+        [src]="pdfSrc"
+        [render-text]="true"
+        [original-size]="false"
+        style="width: 1200px; height: 1500px"
+      ></pdf-viewer>
     </div>
   </div>
 </div>

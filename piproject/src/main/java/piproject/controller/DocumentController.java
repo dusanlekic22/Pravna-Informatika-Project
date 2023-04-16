@@ -30,8 +30,6 @@ public class DocumentController {
 	public ResponseEntity<byte[]> generateQTI(@PathVariable String docName) {
 		String filePathString = new File("..\\").getAbsolutePath() + "\\docs\\" + docName ;
 		File file = new File(filePathString);
-		;
-		// ...(file is initialised)...
 		byte[] blob = null;
 		try {
 			blob = Files.readAllBytes(file.toPath());
@@ -39,7 +37,8 @@ public class DocumentController {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		return ResponseEntity.ok().contentLength(blob.length).contentType(MediaType.APPLICATION_PDF)
+		MediaType mediaType = docName.endsWith("pdf") ? MediaType.APPLICATION_PDF : MediaType.APPLICATION_XML;
+		return ResponseEntity.ok().contentLength(blob.length).contentType(mediaType)
 				.header(HttpHeaders.CONTENT_DISPOSITION, "attachment; filename=" + docName).body(blob);
 	}
 	

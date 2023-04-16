@@ -1,0 +1,447 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/WD17"
+    xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/WD17 ../schemas/akomantoso30.xsd">
+    <act name="Krivični zakonika Crne Gore">
+        <meta>
+            <identification source="#lekic">
+                <FRBRWork>
+                    <FRBRthis value="/akn/me/act/2009-08-18/057-09/!main" />
+                    <FRBRuri value="/akn/me/act/2009-08-18/057-09/" />
+                    <FRBRdate date="2018-03-09" />
+                    <FRBRauthor href="#ns" as="#author" />
+                    <FRBRcountry value="me" />
+                    <FRBRsubtype value="act" />
+                    <FRBRnumber value="070-03" />
+                    <FRBRname value="Krivični zakonika Crne Gore" />
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/me/act/2009-08-18/057-09/me@2009-08-18/!main" />
+                    <FRBRuri value="/akn/me/act/2009-08-18/057-09/me@2009-08-18" />
+                    <FRBRdate date="2009-08-18" />
+                    <FRBRauthor href="#sg" as="#editor" />
+                    <FRBRlanguage language="me" />
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/me/act/2009-08-18/057-09/me@2023-04-09/!main.xml" />
+                    <FRBRuri value="/akn/me/act/2009-08-18/057-09/me@2023-04-09/!main.akn" />
+                    <FRBRdate date="2023-04-09" />
+                    <FRBRauthor href="#lekic" as="#generator" />
+                    <FRBRformat value="xml" />
+                </FRBRManifestation>
+            </identification>
+            <publication name="sg" date="2003-12-25" showAs="Službeni list Crne Gore"
+                number="070-03" />
+            <classification source="#lekic">
+                <keyword value="zakonik" showAs="Zakonik" dictionary="ME" />
+            </classification>
+            <references source="#lekic">
+                <TLCRole eId="author" href="/akn/me/ontology/role/author" showAs="Author" />
+                <TLCRole eId="editor" href="/akn/me/ontology/role/editor" showAs="Editor" />
+                <TLCRole eId="generator" href="/akn/me/ontology/role/generator" showAs="Generator" />
+                <TLCOrganization eId="scg" href="/akn/me/ontology/organization/scg"
+                    showAs="Skupština Crne Gore" />
+                <TLCOrganization eId="sl" href="/akn/me/ontology/organization/sl"
+                    showAs="Službeni list Crne Gore" />
+                <TLCOrganization eId="sl" href="/akn/me/ontology/organization/sl"
+                    showAs="Ministarstvo" />
+                <TLCPerson eId="fv" href="/akn/me/ontology/person/fv"
+                    showAs="Predsjednik Crne Gore, Filip Vujanović, s.r." />
+                <TLCConcept eId="enactingFormula" href="/ontology/concept/enactingFormula"
+                    showAs="Enacting Formula" />
+            </references>
+        </meta>
+        <preface>
+            <p>
+                <docTitle><docType>ZAKONIK</docType> O KRIVIČNOM POSTUPKU</docTitle>
+            </p>
+        </preface>
+        <body>
+            <chapter eId="chp_14">
+                <num>Glava XIV</num>
+                <heading>TROŠKOVI KRIVIČNOG POSTUPKA</heading>
+                <section eId="chp_14__sec_2">
+                    <heading>Vrste troškova</heading>
+                    <article eId="art_226">
+                        <num>Član 226</num>
+                        <paragraph eId="art_226__para_1">
+                            <list eId="art_226__list_1">
+                                <point eId="art_226__list_1__point_1">
+                                    <num>(1) </num>
+                                    <content eId="art_226__list_1__point_1__content">
+                                        <p>Troškovi krivičnog postupka su izdaci učinjeni povodom
+                                            krivičnog postupka od njegovog pokretanja do njegovog
+                                            završetka i izdaci za preduzete dokazne radnje prije
+                                            istrage.
+                                        </p>
+                                    </content>
+                                </point>
+                                <point eId="art_226__list_1__point_2">
+                                    <num>(2) </num>
+                                    <content eId="art_226__list_1__point_2__content">
+                                        <p>
+                                            <intro eId="art_226__list_1__list_1__intro">Troškovi
+                                                krivičnog postupka obuhvataju:</intro>
+                                            <list eId="art_226__list_1__list_1">
+                                                <point eId="art_226__list_1__list_1__point_1">
+                                                    <num>(1) </num>
+                                                    <content
+                                                        eId="art_226__list_1__list_1__point_1__content">
+                                                        <p>troškove za svjedoke, vještake, tumače,
+                                                            stručna lica, troškove uviđaja,
+                                                            rekonstrukcije, ekshumacije i troškove
+                                                            stenodaktilografskog i tehničkog
+                                                            snimanja i kopiranja zapisnika;
+                                                        </p>
+                                                    </content>
+                                                </point>
+                                                <point eId="art_226__list_1__list_1__point_2">
+                                                    <num>(2) </num>
+                                                    <content
+                                                        eId="art_226__list_1__list_1__point_2__content">
+                                                        <p>troškove prevoza okrivljenog;
+                                                        </p>
+                                                    </content>
+                                                </point>
+                                                <point eId="art_226__list_1__list_1__point_3">
+                                                    <num>(3) </num>
+                                                    <content
+                                                        eId="art_226__list_1__list_1__point_3__content">
+                                                        <p>izdatke za dovođenje osumnjičenog,
+                                                            okrivljenog, svjedoka i vještaka;
+                                                        </p>
+                                                    </content>
+                                                </point>
+                                                <point eId="art_226__list_1__list_1__point_4">
+                                                    <num>(4) </num>
+                                                    <content
+                                                        eId="art_226__list_1__list_1__point_4__content">
+                                                        <p>putne troškove službenih lica;
+                                                        </p>
+                                                    </content>
+                                                </point>
+                                                <point eId="art_226__list_1__list_1__point_5">
+                                                    <num>(5) </num>
+                                                    <content
+                                                        eId="art_226__list_1__list_1__point_5__content">
+                                                        <p>troškove liječenja okrivljenog za vrijeme
+                                                            dok se nalazi u pritvoru, kao i troškove
+                                                            porođaja, osim troškova koji se
+                                                            naplaćuju iz Fonda za zdravstveno
+                                                            osiguranje;
+                                                        </p>
+                                                    </content>
+                                                </point>
+                                                <point eId="art_226__list_1__list_1__point_6">
+                                                    <num>(6) </num>
+                                                    <content
+                                                        eId="art_226__list_1__list_1__point_6__content">
+                                                        <p>troškove tehničkog pregleda vozila,
+                                                            analize krvi, analize DNK, analize
+                                                            urina, odnosno druge medicinske analize,
+                                                            kao i troškove prevoza leša do mjesta
+                                                            obdukcije;
+                                                        </p>
+                                                    </content>
+                                                </point>
+                                                <point eId="art_226__list_1__list_1__point_7">
+                                                    <num>(7) </num>
+                                                    <content
+                                                        eId="art_226__list_1__list_1__point_7__content">
+                                                        <p>nagradu i nužne izdatke branioca, nužne
+                                                            izdatke privatnog tužioca i oštećenog
+                                                            kao tužioca i njihovih zakonskih
+                                                            zastupnika, kao i nagradu i nužne
+                                                            izdatke njihovih punomoćnika;
+                                                        </p>
+                                                    </content>
+                                                </point>
+                                                <point eId="art_226__list_1__list_1__point_8">
+                                                    <num>(8) </num>
+                                                    <content
+                                                        eId="art_226__list_1__list_1__point_8__content">
+                                                        <p>nužne izdatke oštećenog i njegovog
+                                                            zakonskog zastupnika, kao i nagradu i
+                                                            nužne izdatke njegovog punomoćnika;
+                                                        </p>
+                                                    </content>
+                                                </point>
+                                                <point eId="art_226__list_1__list_1__point_9">
+                                                    <num>(9) </num>
+                                                    <content
+                                                        eId="art_226__list_1__list_1__point_9__content">
+                                                        <p>paušalni iznos za troškove koji nijesu
+                                                            obuhvaćeni prethodnim tačkama ovog
+                                                            stava.
+                                                        </p>
+                                                    </content>
+                                                </point>
+                                            </list>
+                                        </p>
+                                    </content>
+                                </point>
+                                <point eId="art_226__list_1__point_3">
+                                    <num>(3) </num>
+                                    <content eId="art_226__list_1__point_3__content">
+                                        <p>TPaušalni iznos se određuje prema trajanju i složenosti
+                                            postupka i imovnom stanju lica obaveznog da plati taj
+                                            iznos.
+                                        </p>
+                                    </content>
+                                </point>
+                                <point eId="art_226__list_1__point_4">
+                                    <num>(4) </num>
+                                    <content eId="art_226__list_1__point_4__content">
+                                        <p>Troškovi iz stava 2 tač. 1 do 6 ovog člana, kao i nagrada
+                                            i nužni izdaci postavljenog branioca, postavljenog
+                                            punomoćnika oštećenog kao tužioca iz člana 64 stav 3,
+                                            člana 69 stav 9 i člana 70 ovog zakonika i postavljenog
+                                            punomoćnika oštećenog iz člana 58 stav 6 ovog zakonika,
+                                            u postupku zbog krivičnih djela za koja se goni po
+                                            službenoj dužnosti, isplaćuju se iz sredstava organa
+                                            koji vodi krivični postupak po podnošenju zahtjeva za
+                                            naknadu troškova, a nagrada postavljenom braniocu i
+                                            punomoćniku nakon njihovog razrješenja. Ovi troškovi
+                                            naplaćuju se kasnije od lica koja su dužna da ih naknade
+                                            po odredbama ovog zakonika. Organ koji vodi krivični
+                                            postupak dužan je da sve troškove koji su unaprijed
+                                            isplaćeni unese u popis koji će se priložiti spisima.
+                                        </p>
+                                    </content>
+                                </point>
+                                <point eId="art_226__list_1__point_5">
+                                    <num>(5) </num>
+                                    <content eId="art_226__list_1__point_5__content">
+                                        <p>Ako ne dođe do pokretanja krivičnog postupka, troškove
+                                            preduzetih dokaznih radnji u izviđaju snosi organ po
+                                            čijem se nalogu radnje izvode.
+                                        </p>
+                                    </content>
+                                </point>
+                                <point eId="art_226__list_1__point_6">
+                                    <num>(6) </num>
+                                    <content eId="art_226__list_1__point_6__content">
+                                        <p>Troškovi prevođenja koji nastaju primjenom odredaba ovog
+                                            zakonika o pravu stranaka, svjedoka i drugih lica koja
+                                            učestvuju u postupku na upotrebu svog jezika, neće se
+                                            naplaćivati od lica koja su po odredbama ovog zakonika
+                                            dužna da naknade troškove krivičnog postupka.
+                                        </p>
+                                    </content>
+                                </point>
+                            </list>
+                        </paragraph>
+                    </article>
+                </section>
+                <section eId="chp_3__sec_227">
+                    <heading>Odluka o troškovima</heading>
+                    <article eId="art_227">
+                        <num>Član 227</num>
+                        <list eId="art_227__list_1">
+                            <point eId="art_227__list_1__point_1">
+                                <num>(1) </num>
+                                <content eId="art_227__list_1__point_1__content">
+                                    <p>U presudi, kao i u odluci kojom se obustavlja krivični
+                                        postupak, odnosno odbacuje optužnica, odlučiće se ko će
+                                        snositi troškove postupka i koliko oni iznose.
+                                    </p>
+                                </content>
+                            </point>
+                            <point eId="art_227__list_1__point_2">
+                                <num>(2) </num>
+                                <content eId="art_227__list_1__point_2__content">
+                                    <p>Ako nedostaju podaci o visini troškova, posebno rješenje o
+                                        visini tih troškova donijeće državni tužilac ili predsjednik
+                                        vijeća kad se ti podaci pribave. Podaci o visini troškova
+                                        koji nedostaju i zahtjev za njihovu naknadu mogu se
+                                        podnijeti najkasnije u roku od 15 dana od dana prijema
+                                        pravosnažne presude ili odluke iz stava 1 ovog člana.
+                                    </p>
+                                </content>
+                            </point>
+                            <point eId="art_227__list_1__point_3">
+                                <num>(3) </num>
+                                <content eId="art_227__list_1__point_3__content">
+                                    <p>Kad je o troškovima krivičnog postupka iz stava 2 ovog člana
+                                        odlučeno posebnim rješenjem, o žalbi protiv tog rješenja
+                                        odlučuje vijeće iz člana 24 stav 7 ovog zakonika.
+                                    </p>
+                                </content>
+                            </point>
+                            <point eId="art_227__list_1__point_4">
+                                <num>(4) </num>
+                                <content eId="art_227__list_1__point_4__content">
+                                    <p>Kad se krivični postupak ne pokrene ili se obustavi u
+                                        istrazi, o troškovima odlučuje državni tužilac.
+                                    </p>
+                                </content>
+                            </point>
+                        </list>
+                    </article>
+                </section>
+                <section eId="chp_23__sec_229">
+                    <heading>Troškovi postupka kad je okrivljeni oglašen krivim</heading>
+                    <article eId="art_229">
+                        <num>Član 229</num>
+                        <list eId="art_229__list_1">
+                            <point eId="art_229__list_1__point_1">
+                                <num>(1) </num>
+                                <content eId="art_229__list_1__point_1__content">
+                                    <p>Kad sud okrivljenog oglasi krivim izreći će u presudi da je
+                                        dužan da naknadi troškove krivičnog postupka, koji su
+                                        unaprijed isplaćeni, kao i troškove privatnog tužioca,
+                                        oštećenog kao tužioca, oštećenog i njihovih zakonskih
+                                        zastupnika i nagradu i nužne izdatke njihovih punomoćnika.
+                                    </p>
+                                </content>
+                            </point>
+                            <point eId="art_229__list_1__point_2">
+                                <num>(2) </num>
+                                <content eId="art_229__list_1__point_2__content">
+                                    <p>Lice koje je okrivljeno za više krivičnih djela neće se
+                                        osuditi na naknadu troškova u pogledu djela za koja je
+                                        oslobođeno od optužbe, ukoliko se ti troškovi mogu izdvojiti
+                                        iz ukupnih troškova.
+                                    </p>
+                                </content>
+                            </point>
+                            <point eId="art_229__list_1__point_3">
+                                <num>(3) </num>
+                                <content eId="art_229__list_1__point_3__content">
+                                    <p>U presudi kojom je više okrivljenih oglašeno krivim sud će
+                                        odrediti koliki će dio troškova snositi svaki od njih, a ako
+                                        to nije moguće, osudiće sve okrivljene da solidarno snose
+                                        troškove. Plaćanje paušalnog iznosa odrediće se za svakog
+                                        okrivljenog posebno.
+                                    </p>
+                                </content>
+                            </point>
+                            <point eId="art_229__list_1__point_4">
+                                <num>(4) </num>
+                                <content eId="art_229__list_1__point_4__content">
+                                    <p>U odluci kojom rješava o troškovima sud može osloboditi
+                                        okrivljenog od dužnosti da naknadi u cjelini ili djelimično
+                                        troškove krivičnog postupka iz člana 226 stav 2 tač. 1 do 6
+                                        i tačka 9 ovog zakonika, ako bi njihovim plaćanjem bilo
+                                        dovedeno u pitanje izdržavanje okrivljenog ili lica koja je
+                                        on dužan da izdržava. Ako se ove okolnosti utvrde poslije
+                                        donošenja odluke o troškovima, predsjednik vijeća može,
+                                        posebnim rješenjem, osloboditi okrivljenog od dužnosti
+                                        naknade troškova krivičnog postupka.
+                                    </p>
+                                </content>
+                            </point>
+                        </list>
+                    </article>
+                </section>
+            </chapter>
+            <chapter eId="chp_23">
+                <num>Glava XXIII</num>
+                <heading>PRESUDA</heading>
+                <subheading><num>1. </num>IZRICANJE PRESUDE</subheading>
+                <section eId="chp_23__sec_1">
+                    <heading>Izricanje i objavljivanje presude</heading>
+                    <article eId="art_374">
+                        <num>Član 374</num>
+                        <paragraph eId="art_374__para_1">
+                            <list eId="art_374__list_1">
+                                <point eId="art_374__list_1__point_1">
+                                    <num>(1) </num>
+                                    <content eId="art_374__list_1__point_1__content">
+                                        <p>
+                                            <intro eId="art_374__list_1__list_1__intro">U presudi u
+                                                kojoj se optuženi oglašava krivim sud će izreći:</intro>
+                                            <list eId="art_374__list_1__list_1">
+                                                <point eId="art_374__list_1__list_1__point_1">
+                                                    <num>(1) </num>
+                                                    <content
+                                                        eId="art_374__list_1__list_1__point_1__content">
+                                                        <p>za koje se djelo oglašava krivim, uz
+                                                            naznačenje činjenica i okolnosti koje
+                                                            čine obilježja krivičnog djela, kao i
+                                                            onih od kojih zavisi primjena određene
+                                                            odredbe Krivičnog zakonika;
+                                                        </p>
+                                                    </content>
+                                                </point>
+                                                <point eId="art_374__list_1__list_1__point_2">
+                                                    <num>(2) </num>
+                                                    <content
+                                                        eId="art_374__list_1__list_1__point_2__content">
+                                                        <p>zakonski naziv krivičnog djela i koje su
+                                                            odredbe Krivičnog zakonika primijenjene;
+                                                        </p>
+                                                    </content>
+                                                </point>
+                                                <point eId="art_374__list_1__list_1__point_3">
+                                                    <num>(3) </num>
+                                                    <content
+                                                        eId="art_374__list_1__list_1__point_3__content">
+                                                        <p>na koju se kaznu osuđuje optuženi ili se
+                                                            po odredbama Krivičnog zakonika oslobađa
+                                                            od kazne;
+                                                        </p>
+                                                    </content>
+                                                </point>
+                                                <point eId="art_374__list_1__list_1__point_4">
+                                                    <num>(4) </num>
+                                                    <content
+                                                        eId="art_374__list_1__list_1__point_4__content">
+                                                        <p>odluku o uslovnoj osudi;
+                                                        </p>
+                                                    </content>
+                                                </point>
+                                                <point eId="art_374__list_1__list_1__point_5">
+                                                    <num>(5) </num>
+                                                    <content
+                                                        eId="art_374__list_1__list_1__point_5__content">
+                                                        <p>odluku o mjerama bezbjednosti i
+                                                            oduzimanju
+                                                            imovinske
+                                                            koristi;
+                                                        </p>
+                                                    </content>
+                                                </point>
+                                                <point eId="art_374__list_1__list_1__point_6">
+                                                    <num>(6) </num>
+                                                    <content
+                                                        eId="art_374__list_1__list_1__point_6__content">
+                                                        <p>odluku o uračunavanju pritvora ili već
+                                                            izdržane
+                                                            kazne, kao i svakog drugog lišenja
+                                                            slobode u
+                                                            vezi sa
+                                                            krivičnim djelom;
+                                                        </p>
+                                                    </content>
+                                                </point>
+                                                <point eId="art_374__list_1__list_1__point_7">
+                                                    <num>(7) </num>
+                                                    <content
+                                                        eId="art_374__list_1__list_1__point_7__content">
+                                                        <p>odluku o troškovima krivičnog postupka i
+                                                            imovinskopravnom zahtjevu.
+                                                        </p>
+                                                    </content>
+                                                </point>
+                                            </list>
+                                        </p>
+                                    </content>
+                                </point>
+                                <point eId="art_374__list_1__point_2">
+                                    <num>(2) </num>
+                                    <content eId="art_374__list_1__point_2__content">
+                                        <p>Ako je optuženi osuđen na novčanu kaznu, u presudi će se
+                                            naznačiti rok u kojem će se novčana kazna platiti i
+                                            način zamjene novčane kazne.
+                                        </p>
+                                    </content>
+                                </point>
+                            </list>
+                        </paragraph>
+                    </article>
+                </section>
+            </chapter>
+        </body>
+    </act>
+</akomaNtoso>

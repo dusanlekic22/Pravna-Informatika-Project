@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Akoma_Ntoso document -->
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/WD17 ../schemas/akomantoso30.xsd
+                        "
+    xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/WD17"
+    xmlns:mods="http://www.loc.gov/standards/mods/v3/mods-3-6.xsd">
+    <judgment>
+        <meta>
+            <identification source="#court">
+                <FRBRWork>
+                    <FRBRauthor>
+                        OSNOVNI SUD U NIKŠIĆU
+                    </FRBRauthor>
+                    <FRBRdate date="2016-10-10">
+                        10. Oktobar 2016
+                    </FRBRdate>
+                    <FRBRtitle>
+                        K 110/2018
+                    </FRBRtitle>
+                    <FRBRcountry>
+                        ME
+                    </FRBRcountry>
+                </FRBRWork>
+            </identification>
+            <references>
+                <TLCOrganization eId="os" href="/ontology/organization/OsnovniSud.Nikšić"
+                    showAs="OSNOVNI SUD U NIKŠIĆU" />
+                <TLCOrganization eId="odt"
+                    href="/ontology/organization/OsnovnoDrzavnoTuzilastvo.Nikšić"
+                    showAs="Osnovno državno tužilaštvo u Nikšiću" />
+                <TLCPerson eId="vvujacic" href="/ontology/person/vvujacic"
+                    showAs="Đuričković Igor," />
+                <TLCPerson eId="bpapovic" href="/ontology/person/bpapovic"
+                    showAs="Papović Budimirka" />
+                <TLCPerson eId="st" href="/ontology/person/st" showAs="S..T.." />
+                <TLCRole eId="plaintiff" href="/ontology/role/plaintiff" showAs="Plaintiff" />
+                <TLCRole eId="defendant" href="/ontology/role/defendant" showAs="Defendant" />
+                <TLCRole eId="judge" href="/ontology/role/judge" showAs="Judge" />
+            </references>
+        </meta>
+        <judgmentBody>
+            <introduction>
+                <p>U IME CRNE GORE</p>
+                <p>OSNOVNI SUD U NIKŠIĆU, kao prvostepeni krivični, sudija pojedinac Đuričković
+                    Igor, uz sudjelovanje namještenika Papović Budimirke kao zapisničara,
+                    rješavajući u krivičnom predmetu okrivljenog S..T.. iz Nikšića, zbog
+                    krivičnog djela nezakonit ribolov iz člana 326 stav 1 Krivičnog zakonika Crne
+                    Gore, postupajući po optužnom predlogu ODT-a Nikšić Kt.br.170/16 od
+                    26.05.2016.godine, nakon javnog glavnog pretresa održanog dana
+                    10.10.2016.godine, u prisustvu državnog tužioca u ODT-u Nikšić Lukovac Sofije,
+                    bez prisustva okrivljenog, donio je i istog dana javno objavio</p>
+                <p>PRESUDU</p>
+                <p>Okrivljeni:</p>
+                <p>
+                    S.. T.., JMBG .., od oca I.. i majke D.. rođene Đ.., rođen ....godine u
+                    Iloku-Republika Hrvatska, sa prebivalištem u Nikšiću-ulica J.. broj ..,
+                    državljanin Crne Gore, sa završenom srednjom školom, penzioner, oženjen, otac
+                    troje
+                    djece, lošeg imovnog stanja, ranije neosuđivan,
+                </p>
+            </introduction>
+            <motivation>
+                <p>
+                    K r i v j e:
+                </p>
+                <p>
+                    Što je:
+                </p>
+                <p>
+                    Dana 03./04.04.2016.godine u Nikšiću, na jezeru Krupac, koje ribolovno područje
+                    je na korišćenje povjereno Sportsko-ribolovnom klubu Nikšić, svjestan svog djela
+                    i htio njegovo izvršenje, ulovio dvadeset sedam komada ribe
+                    klen, čiji lov u navedenom jezeru, shodno odredbi glave I stav 2 tačka 7 Naredbe
+                    o ribolovnim zabranama, ograničenjima i mjerama za zaštitu ribljeg fonda
+                    (Službeni list CG broj 17/2015), donesene shodno odredbi člana 30 i
+                    33 Zakona o slatkovodnom ribarstvu Crne Gore, u vremenskom periodu od
+                    15.03.2016.godine do 01.06.2016.godine nije dozvoljen,</p>
+                <p>-čime je izvršio krivično djelo nezakonit ribolov iz člana 326 stav 1 Krivičnog
+                    zakonika Crne Gore,</p>
+                <p>-pa sud okrivljenom zbog izvršenja navedenog krivičnog djela primjenom citiranih
+                    zakonskih odredbi, odredbi člana 4 stav 2, člana 42, 52, 53 i 54 KZ CG i odredbi
+                    iz člana 226, 229 i 374 ZKP-a izriče
+                </p>
+            </motivation>
+            <decision>
+                <p>USLOVNU OSUDU</p>
+                <p>Sa kojom okrivljenom utvrđuje kaznu zatvora u trajanju od 3 (slovima: tri)
+                    mjeseca i istovremeno određuje da se navedena kazna neće izvršiti ukoliko
+                    okrivljeni u roku od jedne godine od dana pravosnažnosti ove presude ne
+                    izvrši novo krivično djelo.</p>
+                <p>Obavezuje se okrivljeni da na ime paušala kao dijela troškova krivičnog postupka
+                    plati iznos od 50,00 eura, u roku od 15 dana od dana pravosnažnosti presude, na
+                    žiro račun Osnovnog suda u Nikšiću, br. 832-152-32 i da
+                    sudu dostavi dokaz o izvršenoj uplati.</p>
+                <p>Na osnovu člana 75 KZ CG i člana 326 stav 4 KZ CG prema okrivljenom se izriče:</p>
+                <p>MJERA BEZBJEDNOSTI</p>
+                <p>Od okrivljenog se kao predmet izvršenja krivičnog djela, odnosno kao ulov
+                    prilikom nezakonitog ribolova, trajno oduzima 27 komada ribe vrste klen, koja
+                    količina ribe je dana 04.04.2016.godine privremeno oduzeta od
+                    okrivljenog od strane ribočuvara Sportsko-ribolovnog kluba Nikšić .</p>
+            </decision>
+        </judgmentBody>
+        <conclusions>
+            <p>
+                OSNOVNI SUD U NIKŠIĆU, dana 30.04.2018. godine
+                ZAPISNIČAR S U D I J A
+                Desanka Mrvaljević, s.r. Vukota Vujačić,s.r.
+                Za tačnost otpravka tvrdi i ovjerava
+                Službenik suda
+                PRAVNA POUKA: Protiv ove presude nezadovoljna stranka ima
+                pravo žalbe u roku od 8 dana, od danaprijema
+                iste preko ovog suda, Višem sudu Podgorica.
+            </p>
+        </conclusions>
+    </judgment>
+</akomaNtoso>

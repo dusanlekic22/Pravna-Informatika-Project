@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Akoma_Ntoso document -->
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/WD17 ../schemas/akomantoso30.xsd
+                        "
+    xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/WD17"
+    xmlns:mods="http://www.loc.gov/standards/mods/v3/mods-3-6.xsd">
+    <judgment>
+        <meta>
+            <identification source="#court">
+                <FRBRWork>
+                    <FRBRauthor>
+                        OSNOVNI SUD U PLAVU
+                    </FRBRauthor>
+                    <FRBRdate date="2020-06-30">
+                        23. Jun 2020
+                    </FRBRdate>
+                    <FRBRtitle>
+                        K 193/2020
+                    </FRBRtitle>
+                    <FRBRcountry>
+                        ME
+                    </FRBRcountry>
+                </FRBRWork>
+            </identification>
+            <references>
+                <TLCOrganization eId="os" href="/ontology/organization/OsnovniSud.Podgorica"
+                    showAs="OSNOVNI SUD U PLAVU" />
+                <TLCOrganization eId="odt"
+                    href="/ontology/organization/OsnovnoDrzavnoTuzilastvo.Podgorica"
+                    showAs="Osnovno državno tužilaštvo u Plavu" />
+                <TLCPerson eId="hsujkovic" href="/ontology/person/hsujkovic"
+                    showAs="Hilmija Sujković" />
+                <TLCPerson eId="enikocevic" href="/ontology/person/enikocevic"
+                    showAs="Edin Nikočević" />
+                <TLCPerson eId="drugovac" href="/ontology/person/drugovac"
+                showAs="Drita Rugovac" />
+                <TLCPerson eId="ds" href="/ontology/person/d" showAs="D. Š." />
+                <TLCRole eId="plaintiff" href="/ontology/role/plaintiff" showAs="Plaintiff" />
+                <TLCRole eId="defendant" href="/ontology/role/defendant" showAs="Defendant" />
+                <TLCRole eId="judge" href="/ontology/role/judge" showAs="Judge" />
+            </references>
+        </meta>
+        <judgmentBody>
+            <introduction>
+                <p>U IME CRNE GORE</p>
+                <p>Osnovni sud u Plavu, sudija Hilmija Sujković, sa zapisničarem Edinom Nikočević, u
+                    krivičnom predmetu okrivljenog D. Š., iz P., zbog krivičnog djela nezakonit
+                    ribolov iz čl. 326. st. 2. Krivičnog Zakonika Crne Gore, po optužnom
+                    predlogu ODT u Plavu, KT.br.8/2020 od 23.01.2020. godine , po održanom usmenom,
+                    javnom, glavnom pretresu u prisustvu: okrivljenog, državne tužiteljke u Plavu
+                    Drite Rugovac i predstavnika oštećenog Sportsko ribolovnog
+                    kluba „P. j.", iz Plava, O. B., donio je i javno objavio dana 18.02.2020. god.</p>
+                <p>PRESUDU</p>
+                <p>Okrivljeni:</p>
+                <p>
+                    Okrivljeni D. Š., JMBG ..., od oca Dž.i majke M., rođene C., rođen .... godine,
+                    u Plavu, gdje i prebiva, državljanin Crne Gore, nezaposlen, oženjen, otac jednog
+                    maloljetnog djeteta, pismen, završio srednju školu, lošeg imovnog
+                    stanja, neosuđivan.
+                </p>
+                <p>
+                    D. S., JMB xxxxxxxxxxxxx, od oca V. i majke S., rođene K., rođen xx.xx.19xx.
+                    godine u Plavu, sa prebivalištem u Plavu, V. bb, državljanin Crne Gore,
+                    nezaposlen, neoženjen, bez djece, završio srednju školu, lošeg imovnog
+                    stanja, neosuđivan, lišen slobode od 12.03.2020. godine do 15.03.2020. godine.
+                </p>
+            </introduction>
+            <motivation>
+                <p>
+                    K r i v j e
+                </p>
+                <p>
+                    Što je:
+                </p>
+                <p>
+                    Dana 17. decembra 2019. godine, oko 14,30 časova, u Plavu, na rijeci Ljuči , u
+                    reonu Š. L., svjestan svog djela čije izvršenje je htio i znajući da je njegovo
+                    djelo zabranjeno, protivno članu 19. stav 1.tačka 3. Zakona o
+                    slatkovodnom ribarstvu i akvakulturi (Sl.List CG br. 17/2018) lovio ribu
+                    laksenom mrežom-sredstvom kojim je ribolov zabranjen i kojim se ribe masovno
+                    uništavaju, na način što je navedenog dana postavio laksenu mrežu
+                    dužine 30m i visine 1,70m u rijeku, i sa njom uhvatio 4 komada ribe, lipjen
+                    dužine 41cm, 41cm, 40cm i 40cm i težine 800g, 800g, 700g i 700g, a kada je
+                    primijetio ribočuvare M. C. i T. P., odmah se kajakom žute boje uputio prema
+                    svojoj vikendici, nakon čega su ribočuvari iz vode izvadili mrežu sa 4 ulovljene
+                    ribe,</p>
+                <p>-čime je izvršio krivično djelo nezakonit ribolov iz čl.326. st.2. KZCG.</p>
+                <p>Pa ga sud za izvršeno krivično djelo na osnovu navedenog zakonskog propisa te
+                    primjenom članova: 4 stav 2, 32, 41 i 42 KZCG i čl.226. st. 2. tačka 9. i 374.
+                    ZKP,</p>
+            </motivation>
+            <decision>
+                <p>O S U Đ U J E</p>
+                <p>Na kaznu rad u javnom interesu u trajanju od 180 (jednastotinaiosamdeset) časova,
+                    koji rad će se obaviti u vremenskom periodu od 3 (tri) mjeseca po pravosnažnosti
+                    presude, s tim što rad ne može biti duži od 60 (šezdeset)
+                    časova u toku jednog mjeseca.</p>
+                <p>Ukoliko okrivljeni ne bude vršio rad u javnom interesu, ova kazna će se
+                    zamijeniti kaznom zatvora tako što će se svakih započetih 60 (šezdeset) časova
+                    rada u javnom interesu zamijeniti kaznom zatvora od 1 (jednog) mjeseca.</p>
+                <p>Okrivljeni se obavezuje da na ime troškova krivičnog postupka-paušala plati iznos
+                    od 30,00 (trideset) eura, u roku od 15 dana po pravosnažnosti presude pod
+                    prijetnjom prinudnog izvršenja.</p>
+                <p>Predstavnik oštećenog Sportsko ribolovnog kluba „P. j.", iz Plava, O.B., se radi
+                    ostvarivanja imovinsko pravnog zahjeva za naknadu štete upućuje na parnicu.</p>
+
+                <p>Prema okrivljenom se shodno čl. 67. st. 1. tačka 7. i 75. st. 1. Krivičnog
+                    zakonika Crne Gore, i z r i č e</p>
+                <p>MJERA BEZBJEDNOSTI</p>
+                <p>Oduzimanje predmeta, te se od istog oduzimaju ulovljene ribe i laksena ribarska
+                    mreža dužine 30m i visine 1,70m, kao predmeti izvršenja krivičnog djela.</p>
+            </decision>
+        </judgmentBody>
+        <conclusions>
+            <p>
+                OSNOVNI SUD U PLAVU
+                Dana 23.06.2020. godine
+                S U D I J A
+                Nenad Vujanović s.r.
+                PRAVNA POUKA
+                Protiv ove presude dozvoljena je žalba,
+                ako presuda nije u skladu sa zaključenim sporazumom,
+                u roku od 8 dana od dana prijema pisanog otpravka iste,
+                Višem sudu u Plavu, a preko ovog suda.
+                ZTO-Paunović Nataša
+            </p>
+        </conclusions>
+    </judgment>
+</akomaNtoso>

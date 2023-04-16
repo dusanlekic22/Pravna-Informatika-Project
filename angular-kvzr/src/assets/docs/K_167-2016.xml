@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Akoma_Ntoso document -->
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/WD17 ../schemas/akomantoso30.xsd
+						"
+	xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/WD17"
+	xmlns:mods="http://www.loc.gov/standards/mods/v3/mods-3-6.xsd">
+	<judgment>
+		<meta>
+			<identification source="#court">
+				<FRBRWork>
+					<FRBRauthor>
+						OSNOVNI SUD U NIKŠIĆU
+					</FRBRauthor>
+					<FRBRdate date="2016-10-10">
+						10. Oktobar 2016
+					</FRBRdate>
+					<FRBRtitle>
+						K 167/2016
+					</FRBRtitle>
+					<FRBRcountry>
+						ME
+					</FRBRcountry>
+				</FRBRWork>
+			</identification>
+			<references>
+				<TLCOrganization eId="os" href="/ontology/organization/OsnovniSud.Nikšić"
+					showAs="OSNOVNI SUD U NIKŠIĆU" />
+				<TLCOrganization eId="odt"
+					href="/ontology/organization/OsnovnoDrzavnoTuzilastvo.Nikšić"
+					showAs="Osnovno državno tužilaštvo u Nikšiću" />
+				<TLCPerson eId="idjurickovic" href="/ontology/person/idjurickovic"
+					showAs="Đuričković Igor," />
+				<TLCPerson eId="bpapovic" href="/ontology/person/bpapovic"
+					showAs="Papović Budimirka" />
+				<TLCPerson eId="slukovac" href="/ontology/person/slukovac"
+					showAs="Lukovac Sofije" />
+				<TLCPerson eId="sm" href="/ontology/person/sm" showAs="S.. M.." />
+				<TLCPerson eId="dd" href="/ontology/person/dd" showAs="D.. D.." />
+				<TLCRole eId="plaintiff" href="/ontology/role/plaintiff" showAs="Plaintiff" />
+				<TLCRole eId="defendant" href="/ontology/role/defendant" showAs="Defendant" />
+				<TLCRole eId="judge" href="/ontology/role/judge" showAs="Judge" />
+			</references>
+		</meta>
+		<judgmentBody>
+			<introduction>
+				<p>U IME CRNE GORE</p>
+				<p>OSNOVNI SUD U NIKŠIĆU, kao prvostepeni krivični, sudija pojedinac Đuričković
+					Igor, uz
+					sudjelovanje namještenika Papović Budimirke kao zapisničara, rješavajući u
+					krivičnom
+					predmetu okrivljenih S..M..i D.. D.... iz Nikšića,
+					zbog krivičnog djela nezakonit ribolov iz člana 326 stav 1 KZ CG, postupajući po
+					optužnom predlogu ODT-a u Nikšiću Kt.br.169/16 od 07.06.2016.godine, nakon
+					javnog
+					glavnog pretresa održanog dana 06.10.2016.godine, u
+					prisustvu državnog tužioca ODT-a u Nikšiću Lukovac Sofije i okrivljenih, donio
+					je i
+					dana 10.10.2016.godine javno objavio</p>
+				<p>PRESUDU</p>
+				<p>Okrivljeni:</p>
+				<p>
+					1.S.. M.., JMBG: .., od oca T.. i majke S.., rođene V.., rođen …..godine u
+					Nikšiću, sa prebivalištem u Nikšiću–ulica J…broj 11, državljanin Crne Gore, sa
+					završenom osnovnom školom, nezaposlen, neoženjen, srednjeg imovnog
+					stanja, ranije osuđivan presudom Osnovnog suda u Podgorici K.br.1359/08 od
+					10.02.2010.godine, zbog krivičnog djela iz člana 244 stav 3 KZ CG, na kaznu
+					zatvora u trajanju od 3 godine i 6 mjeseci, presudom Osnovnog suda u
+					Nikšiću K.br.625/2008 od 04.11.2009.godine, zbog krivičnog djela iz člana 240
+					stav 1 KZ CG, na kaznu zatvora u trajanju od 1 godine, presudom Osnovnog suda u
+					Nikšiću Kv.br.138/2009 od 20.10.2009.godine, zbog krivičnog
+					djela iz člana 240 stav 1 KZ CG, na kaznu zatvora u trajanju od 1 godine i 5
+					mjeseci, presudom Osnovnog suda u Nikšiću K.br.452/06 od 10.03.2009.godine, zbog
+					krivičnog djela iz člana 301 KZ CG, na kaznu zatvora u trajanju od
+					6 mjeseci, presudom Osnovnog suda u Danilovgradu K.br.76/07 od
+					16.05.2008.godine, zbog krivičnog djela iz člana 246 stav 1 KZ CG, na kaznu
+					zatvora u trajanju od 4 mjeseca, presudom Osnovnog suda u Nikšiću K.br.699/06
+					od 08.08.2007.godine, zbog krivičnog djela iz člana 246 stav 1 KZ CG, na kaznu
+					zatvora u trajanju od 30 dana, presudom Osnovnog suda u Nikšiću K.br.515/06 od
+					12.03.2007.godine, zbog krivičnog djela iz člana 240 stav 1 u vezi
+					člana 49 KZ CG, na kaznu zatvora u trajanju od 4 mjeseca i presudom Osnovnog
+					suda u Nikšiću K.br.513/05 od 25.09.2005.godine, zbog krivičnog djela iz člana
+					240 stav 1 KZ CG, na kaznu zatvora u trajanju od 3 mjeseca.
+				</p>
+				<p>
+					2. D.. D.., JMBG: .., od oca N.. i majke K.., rođene U.., rođen
+					07.12.1978.godine u Nikšiću, sa prebivalištem u Nikšiću–ulica Č.. broj 16,
+					državljanin Crne Gore, sa završenom srednjom školom, nezaposlen, neoženjen,
+					lošeg
+					imovnog stanja, ranije osuđivan presudom Osnovnog suda u Nikšiću K.br.307/13 od
+					06.12.2013.godine, zbog krivičnog djela iz člana 239 stav 1 KZ CG, na kaznu
+					zatvora u trajanju od 3 mjeseca, presudom Osnovnog suda u
+					Nikšiću K.br.857/2012 od 13.08.2013.godine, zbog krivičnog djela iz člana 246
+					stav 2 u vezi stava 1 KZ CG, na kaznu zatvora u trajanju od 30 dana, presudom
+					Osnovnog suda u Nikšiću K.br.829/12 od 20.01.2013.godine, zbog
+					krivičnog djela iz člana 239 stav 1 KZ CG, na kaznu zatvora u trajanju od 3
+					mjeseca, presudom Osnovnog suda u Nikšiću Kv.br.36/2010 od 13.05.2010.godine,
+					zbog krivičnog djela iz člana 240 stav 1 KZ CG, na kaznu zatvora u
+					trajanju od 2 godine i 11 mjeseci, presudom Osnovnog suda u Nikšiću
+					K.br.267/2009 od 10.05.2010.godine, zbog krivičnog djela iz člana 240 stav 1
+					KZCG, na kaznu zatvora u trajanju od 4 mjeseca, presudom Osnovnog suda u
+					Nikšiću K.br.535/08 od 04.11.2009.godine, zbog krivičnog djela iz člana 240 stav
+					2 u vezi stava 1 KZ CG, na kaznu zatvora u trajanju od 10 mjeseci, presudom
+					Osnovnog suda u Nikšiću K.br.500/07 od 20.02.2009.godine, zbog
+					krivičnog djela iz člana 240 stav 1 KZ CG, na kaznu zatvora u trajanju od 8
+					mjeseci, presudom Osnovnog suda u Nikšiću K.br.215/07 od 17.12.2008.godine, zbog
+					krivičnog djela iz člana 399 KZ CG, na kaznu zatvora u trajanju od 6
+					mjeseci, presudom Višeg suda u Podgorici K.br.232/2007 od 16.10.2008.godine,
+					zbog krivičnog djela iz člana 153 KZ CG, na kaznu zatvora u trajanju od 3
+					mjeseca, presudom Osnovnog suda u Nikšiću K.br.469/07 od
+					07.06.2008.godine, zbog krivičnog djela iz člana 240 stav 1 KZ CG, na kaznu
+					zatvora u trajanju od 12 mjeseci, presudom Osnovnog suda u Nikšiću K.br.149/07
+					od 26.11.2007.godine, zbog krivičnog djela iz člana 239 stav 1 KZ CG,
+					na kaznu zatvora u trajanju od 70 dana, presudom Osnovnog suda u Nikšiću
+					Kv.br.12/2006 od 13.03.2006.godine, zbog krivičnog djela iz člana 239 stav 1 KZ
+					CG i krivičnog djela iz člana 240 stav 1 KZ CG, na kaznu zatvora u
+					trajanju od 5 mjeseci i 20 dana, presudom Osnovnog suda u Nikšiću K.br.246/04 od
+					02.02.2006.godine, zbog krivičnog djela iz člana 239 stav 1 KZ CG, na kaznu
+					zatvora u trajanju od 50 dana, presudom Osnovnog suda u Nikšiću
+					K.br.514/05 od 25.08.2005.godine, zbog krivičnog djela iz člana 240 stav 1 KZ
+					CG, na kaznu zatvora u trajanju od 4 mjeseca i presudom Osnovnog suda u Nikšiću
+					K.br.278/2003 od 21.12.2004.godine, zbog krivičnog djela iz člana
+					144 stav 1 KZ CG, na kaznu zatvora u trajanju od 40 dana.
+				</p>
+			</introduction>
+			<motivation>
+				<p>
+					K r i v i s u
+				</p>
+				<p>
+					Što su:
+				</p>
+				<p>
+					Dana 02.04.2016.godine u Nikšiću, na Slanom jezeru, koje ribolovno područje je
+					na korišćenje povjereno Sportsko ribolovnom klubu Nikšić, svjesni svog djela i
+					htjeli njegovo izvršenje, ulovili devetnaest komada ribe i to deset
+					komada šarana i devet komada klena, čiji lov u navedenom jezeru je shodno
+					odredbi glave I stav 2 tačka 7 Naredbe o ribolovnim zabranama, ograničenjima i
+					mjerama za zaštitu ribljeg fonda(Službeni list CG broj 17/2015),
+					donesene shodno odredbi člana 30 i 33 Zakona o slatkovodnom ribarstvu Crne Gore,
+					u vremenskom periodu od 15.03.2016.godine do 01.06.2016.godine nije dozvoljen,</p>
+				<p>-čime su kao saizvršioci izvršili krivično djelo nezakonit ribolov iz člana 326
+					stav 1 Krivičnog zakonika Crne Gore u vezi člana 23 Krivičnog zakonika Crne
+					Gore,</p>
+				<p>-pa sud okrivljene S.. M.. i D..Dr.. zbog izvršenja navedenog krivičnog djela
+					primjenom citiranih zakonskih odredbi, odredbi iz člana 4, stav 2, člana 32, 36
+					i člana 42 KZ CG i odredbi iz člana 226, 229 i 374 ZKP-a</p>
+			</motivation>
+			<decision>
+				<p>O S U Đ U J E</p>
+				<p>Svakog okrivljenog pojedinačno na kaznu zatvora u trajanju od po 3 (slovima:tri)
+					mjeseca, koje kazne su okrivljeni dužni izdržati nakon pravosnažnosti presude.</p>
+				<p>Obavezuju se okrivljeni da na ime paušala kao dijela troškova krivičnog postupka
+					pojedinačno plate novčane iznose od po 50,00 eura, u roku od 15 dana od dana
+					pravosnažnosti presude, pod prijetnjom prinudnog
+					izvršenja na žiro račun Osnovnog suda u Nikšiću broj 832-152-32 i da sudu
+					dostavi dokaz o izvršenoj uplati.</p>
+				<p>Na osnovu člana 75 KZ CG I člana 326 stav 4 KZ CG prema okrivljenima se izriče:</p>
+				<p>MJERA BEZBJEDNOSTI</p>
+				<p>Od okrivljenih se kao predmet izvršenja krivičnog djela, odnosno kao ulov
+					prilikom nezakonitog ribolova, oduzima 19 komada ribe, i to: 10 komada ribe
+					vrste šaran i 9 komada ribe vrste klen i sredstva za ribolov, i to: dvije
+					mreže za lov ribe, koja količina ribe i sredstva za ribolov su dana
+					02.04.2016.godine privremeno oduzeti od okrivljenih od strane ribočuvara
+					Sportsko-ribolovnog kluba Nikšić.</p>
+
+			</decision>
+		</judgmentBody>
+		<conclusions>
+			<p>
+				OSNOVNI SUD U NIKŠIĆU, dana 10.10.2016.godine
+				Zapisničar S U D I J A
+				Papović Budimirka s.r. Đuričković Igor s.r.
+				Za tačnost otpravki tvrdi i ovjerava: Službenik suda
+				PRAVNA POUKA:Protiv ove presude dozvoljena je žalba u roku od 8 dana od dana
+				prijema iste preko ovog Suda Višem sudu Podgorica
+			</p>
+		</conclusions>
+	</judgment>
+</akomaNtoso>

@@ -4,7 +4,19 @@
 
 export const environment = {
   production: false,
-  apiUrl: "http://localhost:8080",
+  apiUrl: 'http://localhost:8080',
+};
+
+// Your web app's Firebase configuration
+export const firebaseConfig = {
+  apiKey: 'AIzaSyDAaBZHZHTEN6lGm1CT9DrgWRcXur4vwcA',
+  authDomain: 'vue-http-demo-ee340.firebaseapp.com',
+  databaseURL:
+    'https://vue-http-demo-ee340-default-rtdb.europe-west1.firebasedatabase.app',
+  projectId: 'vue-http-demo-ee340',
+  storageBucket: 'vue-http-demo-ee340.appspot.com',
+  messagingSenderId: '1057486293412',
+  appId: '1:1057486293412:web:a06d2993c940e9fd2d1931',
 };
 
 /*

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Akoma_Ntoso document -->
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/WD17 ../schemas/akomantoso30.xsd
+                        "
+    xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/WD17"
+    xmlns:mods="http://www.loc.gov/standards/mods/v3/mods-3-6.xsd">
+    <judgment>
+        <meta>
+            <identification source="#court">
+                <FRBRWork>
+                    <FRBRauthor>
+                        OSNOVNI SUD U PODGORICI
+                    </FRBRauthor>
+                    <FRBRdate date="2021-10-11">
+                        11. Oktobar 2021
+                    </FRBRdate>
+                    <FRBRtitle>
+                        K 545/2021
+                    </FRBRtitle>
+                    <FRBRcountry>
+                        ME
+                    </FRBRcountry>
+                </FRBRWork>
+            </identification>
+            <references>
+                <TLCOrganization eId="os" href="/ontology/organization/OsnovniSud.Podgorica"
+                    showAs="OSNOVNI SUD U PODGORICI" />
+                <TLCOrganization eId="odt"
+                    href="/ontology/organization/OsnovnoDrzavnoTuzilastvo.Podgorica"
+                    showAs="Osnovno državno tužilaštvo u Podgorici" />
+                <TLCPerson eId="rcetkovic" href="/ontology/person/rcetkovic"
+                    showAs="Rade Ćetković" />
+                <TLCPerson eId="ekraja" href="/ontology/person/ekraja"
+                    showAs="Edina Kraja" />
+                <TLCPerson eId="fk" href="/ontology/person/fk" showAs="S. Š." />
+                <TLCPerson eId="dv" href="/ontology/person/dv" showAs="G. Š." />
+                <TLCPerson eId="sl" href="/ontology/person/sl" showAs="M. Lj." />
+                <TLCRole eId="plaintiff" href="/ontology/role/plaintiff" showAs="Plaintiff" />
+                <TLCRole eId="defendant" href="/ontology/role/defendant" showAs="Defendant" />
+                <TLCRole eId="judge" href="/ontology/role/judge" showAs="Judge" />
+            </references>
+        </meta>
+        <judgmentBody>
+            <introduction>
+                <p>U IME CRNE GORE</p>
+                <p>Osnovni sud u Podgorici, sudija Rade Ćetković, uz učešće zapisničarke Edine
+                    Kraje, u krivičnom postupku protiv okrivljenih S. Š. i G. Š., zbog krivičnog
+                    djela nezakonit ribolov iz čl. 326 st. 2 u vezi sa čl. 23 st. 2 Krivičnog
+                    zakonika
+                    Crne Gore, nakon javnog glavnog pretresa održanog 11.10.2021. godine, u
+                    prisustvu zastupnika optužbe M. Lj. - savjetnika u Osnovnom državnom tužilaštvu
+                    u Podgorici i okrivljenih, istog dana izrekao je i objavio,</p>
+                <p>PRESUDU</p>
+                <p>Okrivljeni:</p>
+                <p>
+                    1. S. Š., JMB ..., od oca D. i majke P., rođene K., rođen ... godine u Pg, sa
+                    prebivalištem u Pg - B. bb, državljnin Crne Gore, razumije crnogorski jezik,
+                    njegov jezik je srpski, vozač, oženjen, otac troje djece, pismen, završio
+                    srednju
+                    školu, lošeg imovnog stanja, osuđivan presudom Osnovnog suda u Baru K. br. 98/03
+                    od 19.05.2003. godine zbog krivinog djela nedozovljena trgovina iz čl. 147 st. 1
+                    KZ RS (uslovna osuda), protiv kojeg se ne vodi postupak za
+                    drugo krivično djelo.
+                </p>
+                <p>
+                    2. G. Š., JMB ..., od oca S. i majke M., rođene M., rođen ... godine u Pg, sa
+                    prebivalištem u Pg - B. bb, državljanin Crne Gore, razumije crnogorski jezik,
+                    koji je i njegov jezik, konobar, oženjen, otac dvoje maloljetne djece, pismen,
+                    završio srednju školu, lošeg imovnog stanja, neosuđivan, protiv kojeg se ne vodi
+                    postupak za drugo krivično djelo.
+                </p>
+            </introduction>
+            <motivation>
+                <p>
+                    K r i v i s u
+                </p>
+                <p>
+                    Što su:
+                </p>
+                <p>
+                    Dana 29.05.2021. godine, oko 23.00 časa, na rejonu rijeke M., zvanom "K. T.", u
+                    Pg, zajedno i po prethodnom dogovoru, svjesni svog djela čije izvršenje su
+                    htjeli i znajući da je isto zabranjeno, suprotno čl. 19 st. 1 tač. 4 Zakona o
+                    slatkovodnom ribarstvu i akvakulturi ("Službeni list Crne Gore" br. 17/2018 od
+                    20.03.2018. godine), iako je to zabranjeno, lovili ribu električnim uređajima -
+                    akumulatorom, pretvaračem za struju i sondom - sredstvima kojima
+                    se masovno uništavaju životinje, kojom prilikom su ulovili 6 komada ribe
+                    "pastrmka" i dva komada ribe "šaran", a u čemu su otkriveni dana 30.05.2021.
+                    godine, oko 01.10 časova, od strane ovlašćenih policijskih službenika
+                    Sektora granične policije,</p>
+                <p>- čime su kao saizvršioci izvršili krivično djelo nezakonit ribolov iz čl. 326
+                    st. 2 u vezi sa čl. 23 st. 2 Krivičnog zakonika Crne Gore.</p>
+                <p>Pa im sud za navedeno krivično djelo primjenom čl. 4 st. 2, čl. 42 st. 2, čl. 52
+                    st. 2, čl. 53 i čl. 54 Krivičnog zakonika Crne Gore i čl. 226, čl. 229 i čl. 374
+                    Zakonika o krivičnom postupku, izriče</p>
+            </motivation>
+            <decision>
+                <p>USLOVNU OSUDU</p>
+                <p>KKojom im utvrđuje kazne zatvora u trajanju od po 6 (šest) mjeseci, i istovremeno
+                    određuje da se one neće izvršiti ako okrivljeni u roku od 3 (tri) godine po
+                    pravosnažnosti presude ne učine novo krivično djelo.</p>
+                <p>Na osnovu čl. 75 st. 3 u vezi sa čl. 326 st. 4 u vezi sa st. 1 Krivičnog zakonika
+                    Crne Gore prema okrivljenima se izriče:</p>
+                <p>MJERA BEZBJEDNOSTI</p>
+                <p>ODUZIMANJE PREDMETA</p>
+                <p>Oduzimaju se od okrivljenih S. Š. i G. Š. sredstava za ribolov: drveni čun,
+                    vanbrodski motor od 4 KS marke "T.", broj motora 357016, jedno veslo, jedna
+                    plastična posuda, rezervoar za gorivo, četiri mrežaste čuvarice za ribu, dva
+                    akumulatora, pretvarač za struju, sonda za izlov ribe, lampa za osvjetljavanje
+                    sa držačem za glavu, kao i ulov: šest komada pastrmke i dva šarana.</p>
+                <p>Obavezuju se okrivljeni da plate na ime troškova krivčnog postupka iznos od po
+                    50,00 €, u roku od 15 dana po pravosnažnosti presude, pod prijetnjom izvršenja.</p>
+            </decision>
+        </judgmentBody>
+        <conclusions>
+            <p>
+                ZAPISNIČARKA S U D I J A
+                Edina Kraja,s.r. Rade Ćetković,s.r.
+                PRAVNA POUKA: Protiv ove presude dozvoljena je
+                žalba u roku od 8 dana od dana
+                prijema prepisa iste, Višem sudu
+                u Podgorici, a preko ovog suda.
+                ZTO. Edina Kraja
+            </p>
+        </conclusions>
+    </judgment>
+</akomaNtoso>

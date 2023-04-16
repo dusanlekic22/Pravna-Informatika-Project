@@ -29,7 +29,7 @@ public class DocumentService {
 		try {
 			Set<String> files = new HashSet<>(listFilesUsingFilesList(filePathString));
 			for (String file : files) {
-				if(file.toLowerCase().contains("zakon") && file.endsWith(".pdf"))
+				if(file.toLowerCase().contains("zakon") && (file.endsWith(".pdf") || file.endsWith(".xml")))
 					laws.add(file);
 			}
 		} catch (IOException e) {
@@ -44,7 +44,7 @@ public class DocumentService {
 		try {
 			Set<String> files = new HashSet<>(listFilesUsingFilesList(filePathString));
 			for (String file : files) {
-				if(file.startsWith("K_") && file.endsWith(".pdf"))
+				if(file.startsWith("K_") && (file.endsWith(".pdf") || file.endsWith(".xml")))
 					judgements.add(file);
 			}
 		} catch (IOException e) {
