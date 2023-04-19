@@ -3,9 +3,11 @@ package piproject.similar;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.net.URL;
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collection;
 import java.util.LinkedList;
+import java.util.List;
 
 import es.ucm.fdi.gaia.jcolibri.cbrcore.CBRCase;
 import es.ucm.fdi.gaia.jcolibri.cbrcore.CaseBaseFilter;
@@ -14,22 +16,20 @@ import es.ucm.fdi.gaia.jcolibri.exception.InitializingException;
 import piproject.similar.model.CaseDescription;
 
 public class CsvConnector implements Connector {
-	
+
 	@Override
 	public Collection<CBRCase> retrieveAllCases() {
 		LinkedList<CBRCase> cases = new LinkedList<CBRCase>();
-		
-		try {
-			BufferedReader br = new BufferedReader(new InputStreamReader(getClass().getResourceAsStream("/judgements.csv")));
-			if (br == null)
-				throw new Exception("Error opening file");
 
+		try {
+			BufferedReader br = new BufferedReader(new InputStreamReader(getClass().getResourceAsStream(
+					System.getProperty("user.dir").replace("\\piproject", "\\docs\\judgements.csv"))));
 			String line = "";
 			while ((line = br.readLine()) != null) {
 				if (line.startsWith("id") || (line.length() == 0))
 					continue;
 				String[] values = line.split(";");
-				
+
 				CBRCase cbrCase = new CBRCase();
 				CaseDescription caseDescription = new CaseDescription();
 				caseDescription.setId(Integer.parseInt(values[0]));
@@ -43,7 +43,13 @@ public class CsvConnector implements Connector {
 				caseDescription.setBrojRiba(Integer.parseInt(values[8]));
 				caseDescription.setVrstaPresude(values[9]);
 				caseDescription.setPrimenjeniPropisi(Arrays.asList(values[10].split(",")));
-								
+				List<String> podeljeniPropisi = new ArrayList<>();
+				for (String propis: caseDescription.getPrimenjeniPropisi()) {
+					for (String propisSplit : propis.split(" i ")) {
+						podeljeniPropisi.add(propisSplit);
+					}
+				}
+				caseDescription.setPrimenjeniPropisi(podeljeniPropisi);
 				cbrCase.setDescription(caseDescription);
 				cases.add(cbrCase);
 			}
@@ -62,7 +68,7 @@ public class CsvConnector implements Connector {
 	@Override
 	public void storeCases(Collection<CBRCase> arg0) {
 	}
-	
+
 	@Override
 	public void close() {
 	}

@@ -10,17 +10,16 @@ import { environment } from 'src/environments/environment';
 export class HomepageComponent implements OnInit {
   laws: string[] = [];
   judgements: string[] = [];
-  pdfSrc = "assets/docs/zakonik-o-krivicnom-postupku.pdf";
-
-  constructor(public docsService: DocsService) {}
+  pdfSrc = 'assets/docs/Zakon_o_slatkovodnom_ribarstvu_i_akvakulturi.pdf';
+  isPdf = true;
+  constructor(private docsService: DocsService) {}
 
   ngOnInit(): void {
     this.getLaws();
     this.getJudgements();
   }
-  url = environment.apiUrl; 
+  url = environment.apiUrl;
   title = 'viewer-app';
- 
 
   downloadDoc(docName: string) {
     this.docsService.downloadDoc(docName).subscribe(
@@ -49,6 +48,11 @@ export class HomepageComponent implements OnInit {
   }
 
   changeFile(file: string) {
-    this.pdfSrc = "assets/docs/" + file;
+    if (file.split('.').pop() != 'pdf') {
+      this.isPdf = false;
+    } else {
+      this.isPdf = true;
+    }
+    this.pdfSrc = 'assets/docs/' + file;
   }
 }

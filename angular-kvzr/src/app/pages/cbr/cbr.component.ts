@@ -1,17 +1,12 @@
-import { ComponentService } from './../../services/component.service';
-import { IComponentsPurposeEvaluation } from './../../model/componentsPurposeEvaluation';
 import { Component, OnInit } from '@angular/core';
-import { IComputerSpec } from 'src/app/model/computerSpec';
-import { IPurposeEvaluation } from 'src/app/model/purposeEvaluation';
-import { PurposeEvaluationService } from 'src/app/services/purpose-evaluation.service';
 import { CbrService } from 'src/app/services/cbr.service';
 
 @Component({
-  selector: 'app-purpose-evaluation',
-  templateUrl: './purpose-evaluation.component.html',
-  styleUrls: ['./purpose-evaluation.component.css'],
+  selector: 'app-cbr',
+  templateUrl: './cbr.component.html',
+  styleUrls: ['./cbr.component.css']
 })
-export class PurposeEvaluationComponent implements OnInit {
+export class CbrComponent implements OnInit {
   articleZOSRA: string = '';
   paragraphZOSRA: string = '';
   pointZOSRA: string = '';
@@ -57,5 +52,17 @@ export class PurposeEvaluationComponent implements OnInit {
           (this.judgement = data.judgement)
         )
       );
+  }
+
+  saveCase() {
+    let cbrCase = {
+      krivicnoDeloZOSRA:
+        this.articleZOSRA + this.paragraphZOSRA + this.pointZOSRA,
+      krivicnoDeloKZ: this.articleKZ + this.paragraphKZ + this.pointKZ,
+      brojRiba: this.fishNumber,
+      primenjeniPropisi: this.regulations,
+      presuda: this.judgement,
+    };
+    this.cbrService.saveCase(cbrCase).subscribe((data) => console.log(data));
   }
 }

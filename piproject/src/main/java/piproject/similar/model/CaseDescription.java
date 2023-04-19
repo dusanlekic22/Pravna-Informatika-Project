@@ -5,6 +5,7 @@ import java.util.List;
 
 import es.ucm.fdi.gaia.jcolibri.cbrcore.Attribute;
 import es.ucm.fdi.gaia.jcolibri.cbrcore.CaseComponent;
+import piproject.dto.CaseDescriptionDTO;
 
 public class CaseDescription implements CaseComponent {
 
@@ -41,6 +42,20 @@ public class CaseDescription implements CaseComponent {
 	public CaseDescription() {
 		super();
 		// TODO Auto-generated constructor stub
+	}
+
+	public CaseDescription(CaseDescriptionDTO caseDescriptionDTO) {
+		this.id = caseDescriptionDTO.getId();
+		this.sud = caseDescriptionDTO.getSud();
+		this.poslovniBroj = caseDescriptionDTO.getPoslovniBroj();
+		this.sudija = caseDescriptionDTO.getSudija();
+		this.tuzilac = caseDescriptionDTO.getTuzilac();
+		this.okrivljeni = caseDescriptionDTO.getOkrivljeni();
+		this.krivicnoDeloZOSRA = caseDescriptionDTO.getKrivicnoDeloZOSRA();
+		this.krivicnoDeloKZ = caseDescriptionDTO.getKrivicnoDeloKZ();
+		this.brojRiba = caseDescriptionDTO.getBrojRiba();
+		this.vrstaPresude = caseDescriptionDTO.getVrstaPresude();
+		this.primenjeniPropisi = caseDescriptionDTO.getPrimenjeniPropisi()		;
 	}
 
 	public int getId() {

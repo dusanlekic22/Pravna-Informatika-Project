@@ -18,6 +18,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
 
 import { PdfViewerModule } from 'ng2-pdf-viewer';
+import { CbrComponent } from './pages/cbr/cbr.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -30,6 +31,7 @@ import { PdfViewerModule } from 'ng2-pdf-viewer';
     BasePcRecommendComponent,
     RecommendComponentPcComponent,
     BaseComponentComponent,
+    CbrComponent,
   ],
   imports: [
     BrowserModule,

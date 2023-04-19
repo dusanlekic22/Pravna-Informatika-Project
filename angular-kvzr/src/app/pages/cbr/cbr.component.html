@@ -157,6 +157,15 @@
               Posalji
             </button>
           </span>
+          <span class="ms-auto">
+            <button
+              id="btn_component"
+              class="btn btn-primary"
+              (click)="saveCase()"
+            >
+              Sacuvaj slucaj
+            </button>
+          </span>
         </div>
       </div>
     </div>
@@ -207,7 +216,9 @@
             </div>
             <div class="row">
               <div class="col-1 offest-1 miniHead">Primenjeni propisi :</div>
-              <div *ngFor="let propis of case.primenjeniPropisi" class="col-6">{{ propis }}</div>
+              <div *ngFor="let propis of case.primenjeniPropisi" class="col-6">
+                {{ propis }}
+              </div>
             </div>
           </div>
         </div>

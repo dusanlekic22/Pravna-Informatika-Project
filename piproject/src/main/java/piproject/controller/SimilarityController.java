@@ -1,7 +1,5 @@
 package piproject.controller;
 
-import java.util.List;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
@@ -12,6 +10,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import piproject.dto.CBRDTO;
 import piproject.dto.CaseDescriptionDTO;
 import piproject.service.SimilarityService;
 
@@ -24,9 +23,16 @@ public class SimilarityController {
 	SimilarityService similarityService;
 
 	@PostMapping("/case")
-	public ResponseEntity<List<CaseDescriptionDTO>> getSimilarCases(
+	public ResponseEntity<CBRDTO> getSimilarCases(
 			@RequestBody CaseDescriptionDTO caseDescriptionDTO) {
-		List<CaseDescriptionDTO> response = similarityService.getSimilarCases(caseDescriptionDTO);
+		CBRDTO response = similarityService.getSimilarCases(caseDescriptionDTO);
+		return new ResponseEntity<>(response, HttpStatus.OK);
+	}
+	
+	@PostMapping("/case/save")
+	public ResponseEntity<Boolean> addCase(
+			@RequestBody CaseDescriptionDTO caseDescriptionDTO) {
+		boolean response = similarityService.addCase(caseDescriptionDTO);
 		return new ResponseEntity<>(response, HttpStatus.OK);
 	}
 

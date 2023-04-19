@@ -5,31 +5,26 @@ import { catchError } from 'rxjs/operators';
 import { environment } from 'src/environments/environment';
 
 @Injectable({
-  providedIn: 'root',
+  providedIn: 'root'
 })
-export class DocsService {
-  private docsUrl = `${environment.apiUrl}/document`;
+export class CbrService {
+
+  private cbrUrl = `${environment.apiUrl}/similarity`;
 
   constructor(private http: HttpClient) {}
 
-  downloadDoc(docName: string): Observable<any> {
+  getCases(cbrCase:any): Observable<any> {
     return this.http
-      .get<any>(`${this.docsUrl}` + '/download/' + docName)
+      .post<any>(`${this.cbrUrl}` + '/case', cbrCase)
+      .pipe(catchError(this.handleError));
+  } 
+
+  saveCase(cbrCase:any): Observable<any> {
+    return this.http
+      .post<any>(`${this.cbrUrl}` + '/case/save', cbrCase)
       .pipe(catchError(this.handleError));
   } 
   
-  getLaws(): Observable<any> {
-    return this.http
-      .get<any>(`${this.docsUrl}` + '/laws')
-      .pipe(catchError(this.handleError));
-  }
-
-  getJudgements(): Observable<any> {
-    return this.http
-      .get<any>(`${this.docsUrl}` + '/judgements')
-      .pipe(catchError(this.handleError));
-  }
-
   handleError(error: any) {
     let errorMessage = '';
     if (error.error instanceof ErrorEvent) {

@@ -4,6 +4,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { HomepageComponent } from './pages/homepage/homepage.component';
 import { MalfunctionEvaluationComponent } from './pages/malfunction-evaluation/malfunction-evaluation.component';
 import { PurposeEvaluationComponent } from './pages/purpose-evaluation/purpose-evaluation.component';
+import { CbrComponent } from './pages/cbr/cbr.component';
 
 const routes: Routes = [
   {
@@ -11,8 +12,8 @@ const routes: Routes = [
     component: HomepageComponent,
   },
   {
-    path: 'purposeEvaluation',
-    component: PurposeEvaluationComponent,
+    path: 'cbr',
+    component: CbrComponent,
   },
   {
     path: 'malfunctionEvaluation',
