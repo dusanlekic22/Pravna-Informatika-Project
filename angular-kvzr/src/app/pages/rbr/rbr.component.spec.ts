@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { SimilarityPCComponent } from './similarity-pc.component';
+import { RbrComponent } from './rbr.component';
 
-describe('SimilarityPCComponent', () => {
-  let component: SimilarityPCComponent;
-  let fixture: ComponentFixture<SimilarityPCComponent>;
+describe('RbrComponent', () => {
+  let component: RbrComponent;
+  let fixture: ComponentFixture<RbrComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ SimilarityPCComponent ]
+      declarations: [ RbrComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(SimilarityPCComponent);
+    fixture = TestBed.createComponent(RbrComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

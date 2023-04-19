@@ -35,8 +35,13 @@
      <rdfs:subClassOf rdf:resource='&defeasible;DefeasibleObject'/>
 </rdfs:Class>
 
-<rdfs:Class rdf:about='&export;max_imprisonment'>
-     <rdfs:label rdf:resource='max_imprisonment'/>
+<rdfs:Class rdf:about='&export;max_imprisonment_months'>
+     <rdfs:label rdf:resource='max_imprisonment_months'/>
+     <rdfs:subClassOf rdf:resource='&defeasible;DefeasibleObject'/>
+</rdfs:Class>
+
+<rdfs:Class rdf:about='&export;max_imprisonment_years'>
+     <rdfs:label rdf:resource='max_imprisonment_years'/>
      <rdfs:subClassOf rdf:resource='&defeasible;DefeasibleObject'/>
 </rdfs:Class>
 
@@ -58,11 +63,15 @@
 </rdf:Property>
 
 <rdf:Property rdf:about='&export;value'>
-     <rdfs:domain rdf:resource='&export;max_imprisonment'/>
+     <rdfs:domain rdf:resource='&export;max_imprisonment_months'/>
+</rdf:Property>
+
+<rdf:Property rdf:about='&export;value'>
+     <rdfs:domain rdf:resource='&export;max_imprisonment_years'/>
 </rdf:Property>
 
 <export:illegal_fishing_lvl1 rdf:about='&export;illegal_fishing_lvl11'>
-     <export:defendant>D. u0160.</export:defendant>
+     <export:defendant>5</export:defendant>
      <defeasible:truthStatus>defeasibly-proven-positive</defeasible:truthStatus>
      <defeasible:proof rdf:datatype='&xsd;anyURI'>&proof-export;proof1</defeasible:proof>
 </export:illegal_fishing_lvl1>
@@ -79,10 +88,10 @@
      <defeasible:proof rdf:datatype='&xsd;anyURI'>&proof-export;proof3</defeasible:proof>
 </export:to_pay_max>
 
-<export:max_imprisonment rdf:about='&export;max_imprisonment1'>
+<export:max_imprisonment_months rdf:about='&export;max_imprisonment_months1'>
      <export:value>6</export:value>
      <defeasible:truthStatus>defeasibly-proven-positive</defeasible:truthStatus>
      <defeasible:proof rdf:datatype='&xsd;anyURI'>&proof-export;proof4</defeasible:proof>
-</export:max_imprisonment>
+</export:max_imprisonment_months>
 
 </rdf:RDF>

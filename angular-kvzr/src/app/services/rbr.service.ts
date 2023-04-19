@@ -1,25 +1,20 @@
-
+import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { Injectable } from '@angular/core';
-import { HttpClient } from '@angular/common/http';
 import { Observable, throwError } from 'rxjs';
-import { catchError } from 'rxjs/operators';
+import { catchError, timeout } from 'rxjs/operators';
 import { environment } from 'src/environments/environment';
-import { IBayesEvaluation } from '../model/bayesEvaluation';
-import { IMalfunction } from '../model/malfunction';
 
 @Injectable({
   providedIn: 'root',
 })
-export class MalfunctionService {
-  private malfunctionUrl = `${environment.apiUrl}/malfunctionEvaluation`;
+export class RbrService {
+  private cbrUrl = `${environment.apiUrl}/rbr`;
 
   constructor(private http: HttpClient) {}
 
-  getMalfunctionEvaluations(
-    malfunctionSpec: IMalfunction
-  ): Observable<IBayesEvaluation[]> {
+  getJudgement(rbrCase: any): Observable<string> {
     return this.http
-      .post<any>(`${this. malfunctionUrl}`, malfunctionSpec)
+      .post<any>(`${this.cbrUrl}` + '/reasoning', rbrCase)
       .pipe(catchError(this.handleError));
   }
 

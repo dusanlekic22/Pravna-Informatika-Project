@@ -1,10 +1,8 @@
-import { SimilarityPCComponent } from './pages/similarity-pc/similarity-pc.component';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { HomepageComponent } from './pages/homepage/homepage.component';
-import { MalfunctionEvaluationComponent } from './pages/malfunction-evaluation/malfunction-evaluation.component';
-import { PurposeEvaluationComponent } from './pages/purpose-evaluation/purpose-evaluation.component';
 import { CbrComponent } from './pages/cbr/cbr.component';
+import { RbrComponent } from './pages/rbr/rbr.component';
 
 const routes: Routes = [
   {
@@ -16,12 +14,8 @@ const routes: Routes = [
     component: CbrComponent,
   },
   {
-    path: 'malfunctionEvaluation',
-    component: MalfunctionEvaluationComponent,
-  },
-  {
-    path: 'similarityPC',
-    component: SimilarityPCComponent,
+    path: 'rbr',
+    component: RbrComponent,
   },
   { path: '**', redirectTo: '' },
 ];

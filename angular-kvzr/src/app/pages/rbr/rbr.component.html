@@ -1,0 +1,171 @@
+<div class="card p-3 my-5">
+  <div class="card-header">Definisi slucaj</div>
+  <div class="card-body">
+    <label for="law1art-input">Poslovni broj</label>
+    <input
+      id="law1art-input"
+      class="form-control select"
+      data-select2-id="law1art-input"
+      tabindex="-1"
+      aria-hidden="true"
+      type="string"
+      [(ngModel)]="name"
+    />
+    <label for="law1para-input">Ime okrivljenog</label>
+    <input
+      id="law1para-input"
+      class="form-control select"
+      data-select2-id="law1para-input"
+      tabindex="-1"
+      aria-hidden="true"
+      type="string"
+      [(ngModel)]="defendant"
+    />
+    <label for="law1point-input">Riba ima</label>
+    <select
+      id="law1point-input"
+      class="form-control select"
+      data-select2-id="law1point-input"
+      tabindex="-1"
+      aria-hidden="true"
+      [(ngModel)]="fishHas"
+    >
+      <option value="" data-select2-id="2">Izaberi opciju..</option>
+      <option
+        value="{{ item.value }}"
+        label="{{ item.label }}"
+        *ngFor="let item of fishHasList"
+      >
+        {{ item }}
+      </option>
+    </select>
+    <label for="law2art-input">Delo je izvrseno u</label>
+    <select
+      id="law2art-input"
+      class="form-control select"
+      data-select2-id="law2art-input"
+      tabindex="-1"
+      aria-hidden="true"
+      [(ngModel)]="catchesIn"
+    >
+      <option value="" data-select2-id="2">Izaberi opciju..</option>
+      <option
+        value="{{ item.value }}"
+        label="{{ item.label }}"
+        *ngFor="let item of catchesInList"
+      >
+        {{ item }}
+      </option>
+    </select>
+    <label for="law2para-input">Delo je izvrseno tokom</label>
+    <select
+      id="law2para-input"
+      class="form-control select"
+      data-select2-id="law2para-input"
+      tabindex="-1"
+      aria-hidden="true"
+      [(ngModel)]="catchesDuring"
+    >
+      <option value="" data-select2-id="2">Izaberi opciju..</option>
+      <option
+        value="{{ item.value }}"
+        label="{{ item.label }}"
+        *ngFor="let item of catchesDuringList"
+      >
+        {{ item }}
+      </option>
+    </select>
+    <label for="law2point-input">Okrivljeni je koristio</label>
+    <select
+      id="law2point-input"
+      class="form-control select"
+      data-select2-id="law2point-input"
+      tabindex="-1"
+      aria-hidden="true"
+      [(ngModel)]="uses"
+    >
+      <option value="" data-select2-id="2">Izaberi opciju..</option>
+      <option
+        value="{{ item.value }}"
+        label="{{ item.label }}"
+        *ngFor="let item of usesList"
+      >
+        {{ item }}
+      </option>
+    </select>
+    <label for="law3point-input">Okrivljeni je naudio ribi</label>
+    <select
+      id="law3point-input"
+      class="form-control select"
+      data-select2-id="law3point-input"
+      tabindex="-1"
+      aria-hidden="true"
+      [(ngModel)]="destroysFish"
+    >
+      <option value="" data-select2-id="2">Izaberi opciju..</option>
+      <option
+        value="{{ item.value }}"
+        label="{{ item.label }}"
+        *ngFor="let item of destroysFishList"
+      >
+        {{ item }}
+      </option>
+    </select>
+    <label for="law4point-input">Okrivljeni je izazvao</label>
+    <select
+      id="law4point-input"
+      class="form-control select"
+      data-select2-id="law4point-input"
+      tabindex="-1"
+      aria-hidden="true"
+      [(ngModel)]="causes"
+    >
+      <option value="" data-select2-id="2">Izaberi opciju..</option>
+      <option
+        value="{{ item.value }}"
+        label="{{ item.label }}"
+        *ngFor="let item of causesList"
+      >
+        {{ item }}
+      </option>
+    </select>
+    <label for="br-input">Broj riba</label>
+    <input
+      id="br-input"
+      class="form-control select"
+      data-select2-id="br-input"
+      tabindex="-1"
+      aria-hidden="true"
+      type="number"
+      [(ngModel)]="fishNumber"
+    />
+  </div>
+  <div class="card-footer">
+    <div class="d-flex">
+      <h4>Predlozi presudu</h4>
+      <span class="ms-auto">
+        <button
+          id="btn_component"
+          class="btn btn-primary"
+          (click)="getJudgement()"
+        >
+          Posalji
+        </button>
+      </span>
+    </div>
+  </div>
+</div>
+<div class="recommend">
+  <ul *ngIf="judgement">
+    <div class="card pt-3">
+      <div class="card-header p-2">
+        <h3>Presuda</h3>
+      </div>
+      <div class="card-body p-2">
+        <div class="row">
+          <div class="col-6">{{ judgement }}</div>
+        </div>
+      </div>
+    </div>
+  </ul>
+</div>

@@ -1,5 +1,5 @@
 (import-rdf "facts.rdf")
-		(export-rdf export.rdf  illegal_fishing_lvl1 illegal_fishing_lvl2 to_pay_min to_pay_max max_imprisonment)
+		(export-rdf export.rdf  illegal_fishing_lvl1 illegal_fishing_lvl2 to_pay_min to_pay_max max_imprisonment_months max_imprisonment_years)
 		(export-proof proof.ruleml)
 		
 (defeasiblerule rule1
@@ -503,7 +503,7 @@
 	) 
   => 
 	 
-	(max_imprisonment 
+	(max_imprisonment_months 
 		(
 		 value 6)
 	) 
@@ -545,7 +545,7 @@
 	) 
   => 
 	 
-	(max_imprisonment 
+	(max_imprisonment_months 
 		(
 		 value 6)
 	) 
@@ -559,7 +559,7 @@
 	) 
   => 
 	 
-	(max_imprisonment 
+	(max_imprisonment_years 
 		(
 		 value 3)
 	) 
@@ -573,7 +573,7 @@
 	) 
   => 
 	 
-	(max_imprisonment 
+	(max_imprisonment_years 
 		(
 		 value 3)
 	) 
@@ -587,7 +587,7 @@
 	) 
   => 
 	 
-	(max_imprisonment 
+	(max_imprisonment_years 
 		(
 		 value 3)
 	) 
@@ -601,7 +601,7 @@
 	) 
   => 
 	 
-	(max_imprisonment 
+	(max_imprisonment_years 
 		(
 		 value 3)
 	) 
@@ -615,7 +615,7 @@
 	) 
   => 
 	 
-	(max_imprisonment 
+	(max_imprisonment_years 
 		(
 		 value 3)
 	) 
@@ -629,7 +629,7 @@
 	) 
   => 
 	 
-	(max_imprisonment 
+	(max_imprisonment_years 
 		(
 		 value 3)
 	) 
@@ -643,7 +643,7 @@
 	) 
   => 
 	 
-	(max_imprisonment 
+	(max_imprisonment_years 
 		(
 		 value 3)
 	) 

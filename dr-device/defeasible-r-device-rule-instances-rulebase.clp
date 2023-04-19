@@ -196,9 +196,9 @@
 
 ([pen3] of defeasible-rule
    (rule-name pen3)
-   (original-rule "pen3 ( illegal_fishing_lvl1 ( defendant ?Defendant ) ) => ( max_imprisonment ( value 6 ) )")
+   (original-rule "pen3 ( illegal_fishing_lvl1 ( defendant ?Defendant ) ) => ( max_imprisonment_months ( value 6 ) )")
    (condition-classes)
-   (conclusion-class max_imprisonment)
+   (conclusion-class max_imprisonment_months)
    (negated no)
    (superior)
    (deductive-rule pen3-deductive)
@@ -210,9 +210,9 @@
 
 ([pen4] of defeasible-rule
    (rule-name pen4)
-   (original-rule "pen4 ( illegal_fishing_lvl2 ( defendant ?Defendant ) ) => ( max_imprisonment ( value 3 ) )")
+   (original-rule "pen4 ( illegal_fishing_lvl2 ( defendant ?Defendant ) ) => ( max_imprisonment_years ( value 3 ) )")
    (condition-classes)
-   (conclusion-class max_imprisonment)
+   (conclusion-class max_imprisonment_years)
    (negated no)
    (superior)
    (deductive-rule pen4-deductive)

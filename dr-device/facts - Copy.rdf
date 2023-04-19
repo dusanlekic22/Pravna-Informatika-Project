@@ -4,15 +4,15 @@
     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
     xmlns:lc="http://informatika.ftn.uns.ac.rs/legal-case.rdf#">
     <lc:case rdf:about="http://informatika.ftn.uns.ac.rs/legal-case.rdf#case01">
-        <lc:name>3</lc:name>
-		  <lc:defendant>5</lc:defendant>
- 		  <lc:fish>Fish</lc:fish>
-        <lc:have>regular_worth</lc:have>
-        <lc:catches_in>hunting_banned_waters</lc:catches_in>
-        <lc:catches_during>hunting_regulated_period</lc:catches_during>
+        <lc:name>case 03/2020</lc:name>
+        <lc:defendant>D. Š.</lc:defendant>
+        <lc:fish>Fish</lc:fish>
+        <lc:have>standard_biological_worth</lc:have>
+        <lc:catches_in>hunting_regulated_waters</lc:catches_in>
+        <lc:catches_during>hunting_ban_period</lc:catches_during>
         <lc:uses>adequate_tool</lc:uses>
         <lc:destroys_fish>no</lc:destroys_fish>
         <lc:causes>no_harm</lc:causes>
-        <lc:fish_number rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</lc:fish_number>
+        <lc:fish_number rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</lc:fish_number>
     </lc:case>
 </rdf:RDF>

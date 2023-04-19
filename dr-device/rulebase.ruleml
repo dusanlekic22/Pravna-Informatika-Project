@@ -6,7 +6,7 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          proof="proof.ruleml"
          rdf_export="export.rdf"
-         rdf_export_classes="illegal_fishing_lvl1 illegal_fishing_lvl2 to_pay_min to_pay_max max_imprisonment"
+         rdf_export_classes="illegal_fishing_lvl1 illegal_fishing_lvl2 to_pay_min to_pay_max max_imprisonment_months max_imprisonment_years"
          rdf_import="&#34;facts.rdf&#34;">
    <Assert>
       <Implies ruletype="defeasiblerule">
@@ -989,7 +989,7 @@
          <head>
             <Atom>
                <op>
-                  <Rel>max_imprisonment</Rel>
+                  <Rel>max_imprisonment_months</Rel>
                </op>
                <slot>
                   <Ind uri="value"/>
@@ -1070,7 +1070,7 @@
          <head>
             <Atom>
                <op>
-                  <Rel>max_imprisonment</Rel>
+                  <Rel>max_imprisonment_months</Rel>
                </op>
                <slot>
                   <Ind uri="value"/>
@@ -1097,7 +1097,7 @@
          <head>
             <Atom>
                <op>
-                  <Rel>max_imprisonment</Rel>
+                  <Rel>max_imprisonment_years</Rel>
                </op>
                <slot>
                   <Ind uri="value"/>
@@ -1124,7 +1124,7 @@
          <head>
             <Atom>
                <op>
-                  <Rel>max_imprisonment</Rel>
+                  <Rel>max_imprisonment_years</Rel>
                </op>
                <slot>
                   <Ind uri="value"/>
@@ -1151,7 +1151,7 @@
          <head>
             <Atom>
                <op>
-                  <Rel>max_imprisonment</Rel>
+                  <Rel>max_imprisonment_years</Rel>
                </op>
                <slot>
                   <Ind uri="value"/>
@@ -1178,7 +1178,7 @@
          <head>
             <Atom>
                <op>
-                  <Rel>max_imprisonment</Rel>
+                  <Rel>max_imprisonment_years</Rel>
                </op>
                <slot>
                   <Ind uri="value"/>
@@ -1205,7 +1205,7 @@
          <head>
             <Atom>
                <op>
-                  <Rel>max_imprisonment</Rel>
+                  <Rel>max_imprisonment_years</Rel>
                </op>
                <slot>
                   <Ind uri="value"/>
@@ -1232,7 +1232,7 @@
          <head>
             <Atom>
                <op>
-                  <Rel>max_imprisonment</Rel>
+                  <Rel>max_imprisonment_years</Rel>
                </op>
                <slot>
                   <Ind uri="value"/>
@@ -1259,7 +1259,7 @@
          <head>
             <Atom>
                <op>
-                  <Rel>max_imprisonment</Rel>
+                  <Rel>max_imprisonment_years</Rel>
                </op>
                <slot>
                   <Ind uri="value"/>

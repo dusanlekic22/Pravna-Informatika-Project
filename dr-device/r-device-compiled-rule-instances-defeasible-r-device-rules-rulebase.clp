@@ -1,72 +1,72 @@
 ([pen4-defeasibly-dot] of derived-attribute-rule
    (pos-name pen4-defeasibly-dot-gen428)
-   (depends-on declare max_imprisonment illegal_fishing_lvl2 max_imprisonment)
-   (implies max_imprisonment)
+   (depends-on declare max_imprisonment_years illegal_fishing_lvl2 max_imprisonment_years)
+   (implies max_imprisonment_years)
    (del-name nil)
-   (derived-attribute-rule "( declare ( priority ( calc-defeasible-priority -1 [pen4] ) ) ) ?gen290 <- ( max_imprisonment ( value 3 ) ( positive 1 ) ( positive-derivator pen4 $? ) ) ( test ( eq ( class ?gen290 ) max_imprisonment ) ) ( not ( and ?gen297 <- ( illegal_fishing_lvl2 ( defendant ?Defendant ) ( positive ?gen296 & : ( >= ?gen296 1 ) ) ) ?gen290 <- ( max_imprisonment ( negative ~ 2 ) ( positive-overruled $?gen292 & : ( not ( member$ pen4 $?gen292 ) ) ) ) ) ) => ?gen290 <- ( max_imprisonment ( positive 0 ) )"))
+   (derived-attribute-rule "( declare ( priority ( calc-defeasible-priority -1 [pen4] ) ) ) ?gen290 <- ( max_imprisonment_years ( value 3 ) ( positive 1 ) ( positive-derivator pen4 $? ) ) ( test ( eq ( class ?gen290 ) max_imprisonment_years ) ) ( not ( and ?gen297 <- ( illegal_fishing_lvl2 ( defendant ?Defendant ) ( positive ?gen296 & : ( >= ?gen296 1 ) ) ) ?gen290 <- ( max_imprisonment_years ( negative ~ 2 ) ( positive-overruled $?gen292 & : ( not ( member$ pen4 $?gen292 ) ) ) ) ) ) => ?gen290 <- ( max_imprisonment_years ( positive 0 ) )"))
 
 ([pen4-defeasibly] of derived-attribute-rule
    (pos-name pen4-defeasibly-gen430)
-   (depends-on declare illegal_fishing_lvl2 max_imprisonment)
-   (implies max_imprisonment)
+   (depends-on declare illegal_fishing_lvl2 max_imprisonment_years)
+   (implies max_imprisonment_years)
    (del-name nil)
-   (derived-attribute-rule "( declare ( priority ( calc-defeasible-priority 1 [pen4] ) ) ) ?gen297 <- ( illegal_fishing_lvl2 ( defendant ?Defendant ) ( positive ?gen296 & : ( >= ?gen296 1 ) ) ) ?gen290 <- ( max_imprisonment ( value 3 ) ( positive 0 ) ( negative ~ 2 ) ( positive-overruled $?gen292 & : ( not ( member$ pen4 $?gen292 ) ) ) ) ( test ( eq ( class ?gen290 ) max_imprisonment ) ) => ?gen290 <- ( max_imprisonment ( positive 1 ) ( positive-derivator pen4 ?gen297 ) )"))
+   (derived-attribute-rule "( declare ( priority ( calc-defeasible-priority 1 [pen4] ) ) ) ?gen297 <- ( illegal_fishing_lvl2 ( defendant ?Defendant ) ( positive ?gen296 & : ( >= ?gen296 1 ) ) ) ?gen290 <- ( max_imprisonment_years ( value 3 ) ( positive 0 ) ( negative ~ 2 ) ( positive-overruled $?gen292 & : ( not ( member$ pen4 $?gen292 ) ) ) ) ( test ( eq ( class ?gen290 ) max_imprisonment_years ) ) => ?gen290 <- ( max_imprisonment_years ( positive 1 ) ( positive-derivator pen4 ?gen297 ) )"))
 
 ([pen4-overruled-dot] of derived-attribute-rule
    (pos-name pen4-overruled-dot-gen432)
-   (depends-on declare max_imprisonment illegal_fishing_lvl2 max_imprisonment)
-   (implies max_imprisonment)
+   (depends-on declare max_imprisonment_years illegal_fishing_lvl2 max_imprisonment_years)
+   (implies max_imprisonment_years)
    (del-name nil)
-   (derived-attribute-rule "( declare ( priority ( calc-defeasible-priority -2 [pen4] ) ) ) ?gen290 <- ( max_imprisonment ( value 3 ) ( negative-support $?gen293 ) ( negative-overruled $?gen294 & : ( subseq-pos ( create$ pen4-overruled $?gen293 $$$ $?gen294 ) ) ) ) ( test ( eq ( class ?gen290 ) max_imprisonment ) ) ( not ( and ?gen297 <- ( illegal_fishing_lvl2 ( defendant ?Defendant ) ( positive ?gen296 & : ( >= ?gen296 1 ) ) ) ?gen290 <- ( max_imprisonment ( positive-defeated $?gen292 & : ( not ( member$ pen4 $?gen292 ) ) ) ) ) ) => ( calc ( bind $?gen295 ( delete-member$ $?gen294 ( create$ pen4-overruled $?gen293 ) ) ) ) ?gen290 <- ( max_imprisonment ( negative-overruled $?gen295 ) )"))
+   (derived-attribute-rule "( declare ( priority ( calc-defeasible-priority -2 [pen4] ) ) ) ?gen290 <- ( max_imprisonment_years ( value 3 ) ( negative-support $?gen293 ) ( negative-overruled $?gen294 & : ( subseq-pos ( create$ pen4-overruled $?gen293 $$$ $?gen294 ) ) ) ) ( test ( eq ( class ?gen290 ) max_imprisonment_years ) ) ( not ( and ?gen297 <- ( illegal_fishing_lvl2 ( defendant ?Defendant ) ( positive ?gen296 & : ( >= ?gen296 1 ) ) ) ?gen290 <- ( max_imprisonment_years ( positive-defeated $?gen292 & : ( not ( member$ pen4 $?gen292 ) ) ) ) ) ) => ( calc ( bind $?gen295 ( delete-member$ $?gen294 ( create$ pen4-overruled $?gen293 ) ) ) ) ?gen290 <- ( max_imprisonment_years ( negative-overruled $?gen295 ) )"))
 
 ([pen4-overruled] of derived-attribute-rule
    (pos-name pen4-overruled-gen434)
-   (depends-on declare illegal_fishing_lvl2 max_imprisonment)
-   (implies max_imprisonment)
+   (depends-on declare illegal_fishing_lvl2 max_imprisonment_years)
+   (implies max_imprisonment_years)
    (del-name nil)
-   (derived-attribute-rule "( declare ( priority ( calc-defeasible-priority 2 [pen4] ) ) ) ?gen297 <- ( illegal_fishing_lvl2 ( defendant ?Defendant ) ( positive ?gen296 & : ( >= ?gen296 1 ) ) ) ?gen290 <- ( max_imprisonment ( value 3 ) ( negative-support $?gen293 ) ( negative-overruled $?gen294 & : ( not ( subseq-pos ( create$ pen4-overruled $?gen293 $$$ $?gen294 ) ) ) ) ( positive-defeated $?gen292 & : ( not ( member$ pen4 $?gen292 ) ) ) ) ( test ( eq ( class ?gen290 ) max_imprisonment ) ) => ( calc ( bind $?gen295 ( create$ pen4-overruled $?gen293 $?gen294 ) ) ) ?gen290 <- ( max_imprisonment ( negative-overruled $?gen295 ) )"))
+   (derived-attribute-rule "( declare ( priority ( calc-defeasible-priority 2 [pen4] ) ) ) ?gen297 <- ( illegal_fishing_lvl2 ( defendant ?Defendant ) ( positive ?gen296 & : ( >= ?gen296 1 ) ) ) ?gen290 <- ( max_imprisonment_years ( value 3 ) ( negative-support $?gen293 ) ( negative-overruled $?gen294 & : ( not ( subseq-pos ( create$ pen4-overruled $?gen293 $$$ $?gen294 ) ) ) ) ( positive-defeated $?gen292 & : ( not ( member$ pen4 $?gen292 ) ) ) ) ( test ( eq ( class ?gen290 ) max_imprisonment_years ) ) => ( calc ( bind $?gen295 ( create$ pen4-overruled $?gen293 $?gen294 ) ) ) ?gen290 <- ( max_imprisonment_years ( negative-overruled $?gen295 ) )"))
 
 ([pen4-support] of derived-attribute-rule
    (pos-name pen4-support-gen436)
-   (depends-on declare illegal_fishing_lvl2 max_imprisonment)
-   (implies max_imprisonment)
+   (depends-on declare illegal_fishing_lvl2 max_imprisonment_years)
+   (implies max_imprisonment_years)
    (del-name nil)
-   (derived-attribute-rule "( declare ( priority ( calc-defeasible-priority 5 [pen4] ) ) ) ?gen289 <- ( illegal_fishing_lvl2 ( defendant ?Defendant ) ) ?gen290 <- ( max_imprisonment ( value 3 ) ( positive-support $?gen292 & : ( not ( subseq-pos ( create$ pen4 ?gen289 $$$ $?gen292 ) ) ) ) ) ( test ( eq ( class ?gen290 ) max_imprisonment ) ) => ( calc ( bind $?gen295 ( create$ pen4 ?gen289 $?gen292 ) ) ) ?gen290 <- ( max_imprisonment ( positive-support $?gen295 ) )"))
+   (derived-attribute-rule "( declare ( priority ( calc-defeasible-priority 5 [pen4] ) ) ) ?gen289 <- ( illegal_fishing_lvl2 ( defendant ?Defendant ) ) ?gen290 <- ( max_imprisonment_years ( value 3 ) ( positive-support $?gen292 & : ( not ( subseq-pos ( create$ pen4 ?gen289 $$$ $?gen292 ) ) ) ) ) ( test ( eq ( class ?gen290 ) max_imprisonment_years ) ) => ( calc ( bind $?gen295 ( create$ pen4 ?gen289 $?gen292 ) ) ) ?gen290 <- ( max_imprisonment_years ( positive-support $?gen295 ) )"))
 
 ([pen3-defeasibly-dot] of derived-attribute-rule
    (pos-name pen3-defeasibly-dot-gen468)
-   (depends-on declare max_imprisonment illegal_fishing_lvl1 max_imprisonment)
-   (implies max_imprisonment)
+   (depends-on declare max_imprisonment_months illegal_fishing_lvl1 max_imprisonment_months)
+   (implies max_imprisonment_months)
    (del-name nil)
-   (derived-attribute-rule "( declare ( priority ( calc-defeasible-priority -1 [pen3] ) ) ) ?gen254 <- ( max_imprisonment ( value 6 ) ( positive 1 ) ( positive-derivator pen3 $? ) ) ( test ( eq ( class ?gen254 ) max_imprisonment ) ) ( not ( and ?gen261 <- ( illegal_fishing_lvl1 ( defendant ?Defendant ) ( positive ?gen260 & : ( >= ?gen260 1 ) ) ) ?gen254 <- ( max_imprisonment ( negative ~ 2 ) ( positive-overruled $?gen256 & : ( not ( member$ pen3 $?gen256 ) ) ) ) ) ) => ?gen254 <- ( max_imprisonment ( positive 0 ) )"))
+   (derived-attribute-rule "( declare ( priority ( calc-defeasible-priority -1 [pen3] ) ) ) ?gen254 <- ( max_imprisonment_months ( value 6 ) ( positive 1 ) ( positive-derivator pen3 $? ) ) ( test ( eq ( class ?gen254 ) max_imprisonment_months ) ) ( not ( and ?gen261 <- ( illegal_fishing_lvl1 ( defendant ?Defendant ) ( positive ?gen260 & : ( >= ?gen260 1 ) ) ) ?gen254 <- ( max_imprisonment_months ( negative ~ 2 ) ( positive-overruled $?gen256 & : ( not ( member$ pen3 $?gen256 ) ) ) ) ) ) => ?gen254 <- ( max_imprisonment_months ( positive 0 ) )"))
 
 ([pen3-defeasibly] of derived-attribute-rule
    (pos-name pen3-defeasibly-gen470)
-   (depends-on declare illegal_fishing_lvl1 max_imprisonment)
-   (implies max_imprisonment)
+   (depends-on declare illegal_fishing_lvl1 max_imprisonment_months)
+   (implies max_imprisonment_months)
    (del-name nil)
-   (derived-attribute-rule "( declare ( priority ( calc-defeasible-priority 1 [pen3] ) ) ) ?gen261 <- ( illegal_fishing_lvl1 ( defendant ?Defendant ) ( positive ?gen260 & : ( >= ?gen260 1 ) ) ) ?gen254 <- ( max_imprisonment ( value 6 ) ( positive 0 ) ( negative ~ 2 ) ( positive-overruled $?gen256 & : ( not ( member$ pen3 $?gen256 ) ) ) ) ( test ( eq ( class ?gen254 ) max_imprisonment ) ) => ?gen254 <- ( max_imprisonment ( positive 1 ) ( positive-derivator pen3 ?gen261 ) )"))
+   (derived-attribute-rule "( declare ( priority ( calc-defeasible-priority 1 [pen3] ) ) ) ?gen261 <- ( illegal_fishing_lvl1 ( defendant ?Defendant ) ( positive ?gen260 & : ( >= ?gen260 1 ) ) ) ?gen254 <- ( max_imprisonment_months ( value 6 ) ( positive 0 ) ( negative ~ 2 ) ( positive-overruled $?gen256 & : ( not ( member$ pen3 $?gen256 ) ) ) ) ( test ( eq ( class ?gen254 ) max_imprisonment_months ) ) => ?gen254 <- ( max_imprisonment_months ( positive 1 ) ( positive-derivator pen3 ?gen261 ) )"))
 
 ([pen3-overruled-dot] of derived-attribute-rule
    (pos-name pen3-overruled-dot-gen472)
-   (depends-on declare max_imprisonment illegal_fishing_lvl1 max_imprisonment)
-   (implies max_imprisonment)
+   (depends-on declare max_imprisonment_months illegal_fishing_lvl1 max_imprisonment_months)
+   (implies max_imprisonment_months)
    (del-name nil)
-   (derived-attribute-rule "( declare ( priority ( calc-defeasible-priority -2 [pen3] ) ) ) ?gen254 <- ( max_imprisonment ( value 6 ) ( negative-support $?gen257 ) ( negative-overruled $?gen258 & : ( subseq-pos ( create$ pen3-overruled $?gen257 $$$ $?gen258 ) ) ) ) ( test ( eq ( class ?gen254 ) max_imprisonment ) ) ( not ( and ?gen261 <- ( illegal_fishing_lvl1 ( defendant ?Defendant ) ( positive ?gen260 & : ( >= ?gen260 1 ) ) ) ?gen254 <- ( max_imprisonment ( positive-defeated $?gen256 & : ( not ( member$ pen3 $?gen256 ) ) ) ) ) ) => ( calc ( bind $?gen259 ( delete-member$ $?gen258 ( create$ pen3-overruled $?gen257 ) ) ) ) ?gen254 <- ( max_imprisonment ( negative-overruled $?gen259 ) )"))
+   (derived-attribute-rule "( declare ( priority ( calc-defeasible-priority -2 [pen3] ) ) ) ?gen254 <- ( max_imprisonment_months ( value 6 ) ( negative-support $?gen257 ) ( negative-overruled $?gen258 & : ( subseq-pos ( create$ pen3-overruled $?gen257 $$$ $?gen258 ) ) ) ) ( test ( eq ( class ?gen254 ) max_imprisonment_months ) ) ( not ( and ?gen261 <- ( illegal_fishing_lvl1 ( defendant ?Defendant ) ( positive ?gen260 & : ( >= ?gen260 1 ) ) ) ?gen254 <- ( max_imprisonment_months ( positive-defeated $?gen256 & : ( not ( member$ pen3 $?gen256 ) ) ) ) ) ) => ( calc ( bind $?gen259 ( delete-member$ $?gen258 ( create$ pen3-overruled $?gen257 ) ) ) ) ?gen254 <- ( max_imprisonment_months ( negative-overruled $?gen259 ) )"))
 
 ([pen3-overruled] of derived-attribute-rule
    (pos-name pen3-overruled-gen474)
-   (depends-on declare illegal_fishing_lvl1 max_imprisonment)
-   (implies max_imprisonment)
+   (depends-on declare illegal_fishing_lvl1 max_imprisonment_months)
+   (implies max_imprisonment_months)
    (del-name nil)
-   (derived-attribute-rule "( declare ( priority ( calc-defeasible-priority 2 [pen3] ) ) ) ?gen261 <- ( illegal_fishing_lvl1 ( defendant ?Defendant ) ( positive ?gen260 & : ( >= ?gen260 1 ) ) ) ?gen254 <- ( max_imprisonment ( value 6 ) ( negative-support $?gen257 ) ( negative-overruled $?gen258 & : ( not ( subseq-pos ( create$ pen3-overruled $?gen257 $$$ $?gen258 ) ) ) ) ( positive-defeated $?gen256 & : ( not ( member$ pen3 $?gen256 ) ) ) ) ( test ( eq ( class ?gen254 ) max_imprisonment ) ) => ( calc ( bind $?gen259 ( create$ pen3-overruled $?gen257 $?gen258 ) ) ) ?gen254 <- ( max_imprisonment ( negative-overruled $?gen259 ) )"))
+   (derived-attribute-rule "( declare ( priority ( calc-defeasible-priority 2 [pen3] ) ) ) ?gen261 <- ( illegal_fishing_lvl1 ( defendant ?Defendant ) ( positive ?gen260 & : ( >= ?gen260 1 ) ) ) ?gen254 <- ( max_imprisonment_months ( value 6 ) ( negative-support $?gen257 ) ( negative-overruled $?gen258 & : ( not ( subseq-pos ( create$ pen3-overruled $?gen257 $$$ $?gen258 ) ) ) ) ( positive-defeated $?gen256 & : ( not ( member$ pen3 $?gen256 ) ) ) ) ( test ( eq ( class ?gen254 ) max_imprisonment_months ) ) => ( calc ( bind $?gen259 ( create$ pen3-overruled $?gen257 $?gen258 ) ) ) ?gen254 <- ( max_imprisonment_months ( negative-overruled $?gen259 ) )"))
 
 ([pen3-support] of derived-attribute-rule
    (pos-name pen3-support-gen476)
-   (depends-on declare illegal_fishing_lvl1 max_imprisonment)
-   (implies max_imprisonment)
+   (depends-on declare illegal_fishing_lvl1 max_imprisonment_months)
+   (implies max_imprisonment_months)
    (del-name nil)
-   (derived-attribute-rule "( declare ( priority ( calc-defeasible-priority 5 [pen3] ) ) ) ?gen253 <- ( illegal_fishing_lvl1 ( defendant ?Defendant ) ) ?gen254 <- ( max_imprisonment ( value 6 ) ( positive-support $?gen256 & : ( not ( subseq-pos ( create$ pen3 ?gen253 $$$ $?gen256 ) ) ) ) ) ( test ( eq ( class ?gen254 ) max_imprisonment ) ) => ( calc ( bind $?gen259 ( create$ pen3 ?gen253 $?gen256 ) ) ) ?gen254 <- ( max_imprisonment ( positive-support $?gen259 ) )"))
+   (derived-attribute-rule "( declare ( priority ( calc-defeasible-priority 5 [pen3] ) ) ) ?gen253 <- ( illegal_fishing_lvl1 ( defendant ?Defendant ) ) ?gen254 <- ( max_imprisonment_months ( value 6 ) ( positive-support $?gen256 & : ( not ( subseq-pos ( create$ pen3 ?gen253 $$$ $?gen256 ) ) ) ) ) ( test ( eq ( class ?gen254 ) max_imprisonment_months ) ) => ( calc ( bind $?gen259 ( create$ pen3 ?gen253 $?gen256 ) ) ) ?gen254 <- ( max_imprisonment_months ( positive-support $?gen259 ) )"))
 
 ([pen2-defeasibly-dot] of derived-attribute-rule
    (pos-name pen2-defeasibly-dot-gen478)
@@ -686,19 +686,19 @@
 
 ([pen4-deductive] of ntm-deductive-rule
    (pos-name pen4-deductive-gen367)
-   (depends-on illegal_fishing_lvl2 max_imprisonment)
-   (implies max_imprisonment)
-   (deductive-rule "?gen289 <- ( illegal_fishing_lvl2 ( defendant ?Defendant ) ) ( not ( max_imprisonment ( value 3 ) ) ) => ( max_imprisonment ( value 3 ) )")
-   (production-rule "( defrule pen4-deductive-gen367 ( declare ( salience ( calc-salience max_imprisonment ) ) ) ( run-deductive-rules ) ( object ( name ?gen289 ) ( is-a illegal_fishing_lvl2 ) ( defendant ?Defendant ) ) ( not ( object ( is-a max_imprisonment ) ( value 3 ) ) ) ( test ( not ( instance-existp ( symbol-to-instance-name ( sym-cat max_imprisonment 3 ) ) ) ) ) => ( bind ?oid ( symbol-to-instance-name ( sym-cat max_imprisonment 3 ) ) ) ( make-instance ?oid of max_imprisonment ( value 3 ) ) )")
-   (derived-class max_imprisonment))
+   (depends-on illegal_fishing_lvl2 max_imprisonment_years)
+   (implies max_imprisonment_years)
+   (deductive-rule "?gen289 <- ( illegal_fishing_lvl2 ( defendant ?Defendant ) ) ( not ( max_imprisonment_years ( value 3 ) ) ) => ( max_imprisonment_years ( value 3 ) )")
+   (production-rule "( defrule pen4-deductive-gen367 ( declare ( salience ( calc-salience max_imprisonment_years ) ) ) ( run-deductive-rules ) ( object ( name ?gen289 ) ( is-a illegal_fishing_lvl2 ) ( defendant ?Defendant ) ) ( not ( object ( is-a max_imprisonment_years ) ( value 3 ) ) ) ( test ( not ( instance-existp ( symbol-to-instance-name ( sym-cat max_imprisonment_years 3 ) ) ) ) ) => ( bind ?oid ( symbol-to-instance-name ( sym-cat max_imprisonment_years 3 ) ) ) ( make-instance ?oid of max_imprisonment_years ( value 3 ) ) )")
+   (derived-class max_imprisonment_years))
 
 ([pen3-deductive] of ntm-deductive-rule
    (pos-name pen3-deductive-gen366)
-   (depends-on illegal_fishing_lvl1 max_imprisonment)
-   (implies max_imprisonment)
-   (deductive-rule "?gen253 <- ( illegal_fishing_lvl1 ( defendant ?Defendant ) ) ( not ( max_imprisonment ( value 6 ) ) ) => ( max_imprisonment ( value 6 ) )")
-   (production-rule "( defrule pen3-deductive-gen366 ( declare ( salience ( calc-salience max_imprisonment ) ) ) ( run-deductive-rules ) ( object ( name ?gen253 ) ( is-a illegal_fishing_lvl1 ) ( defendant ?Defendant ) ) ( not ( object ( is-a max_imprisonment ) ( value 6 ) ) ) ( test ( not ( instance-existp ( symbol-to-instance-name ( sym-cat max_imprisonment 6 ) ) ) ) ) => ( bind ?oid ( symbol-to-instance-name ( sym-cat max_imprisonment 6 ) ) ) ( make-instance ?oid of max_imprisonment ( value 6 ) ) )")
-   (derived-class max_imprisonment))
+   (depends-on illegal_fishing_lvl1 max_imprisonment_months)
+   (implies max_imprisonment_months)
+   (deductive-rule "?gen253 <- ( illegal_fishing_lvl1 ( defendant ?Defendant ) ) ( not ( max_imprisonment_months ( value 6 ) ) ) => ( max_imprisonment_months ( value 6 ) )")
+   (production-rule "( defrule pen3-deductive-gen366 ( declare ( salience ( calc-salience max_imprisonment_months ) ) ) ( run-deductive-rules ) ( object ( name ?gen253 ) ( is-a illegal_fishing_lvl1 ) ( defendant ?Defendant ) ) ( not ( object ( is-a max_imprisonment_months ) ( value 6 ) ) ) ( test ( not ( instance-existp ( symbol-to-instance-name ( sym-cat max_imprisonment_months 6 ) ) ) ) ) => ( bind ?oid ( symbol-to-instance-name ( sym-cat max_imprisonment_months 6 ) ) ) ( make-instance ?oid of max_imprisonment_months ( value 6 ) ) )")
+   (derived-class max_imprisonment_months))
 
 ([pen2-deductive] of ntm-deductive-rule
    (pos-name pen2-deductive-gen365)

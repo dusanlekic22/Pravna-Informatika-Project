@@ -38,11 +38,22 @@
 			<scope>runtime</scope>
 			<optional>true</optional>
 		</dependency>
+		
 		<!-- https://mvnrepository.com/artifact/es.ucm.fdi.gaia/jCOLIBRI -->
 		<dependency>
    		 	<groupId>es.ucm.fdi.gaia</groupId>
    		 	<artifactId>jCOLIBRI</artifactId>
     		<version>3.2</version>
+    		<exclusions>
+       			<exclusion>
+     				<groupId>org.apache.xmlbeans</groupId>
+    				<artifactId>xmlbeans</artifactId>
+        		</exclusion>
+        		<exclusion>
+    				<groupId>xerces</groupId>
+    				<artifactId>xercesImpl</artifactId>
+        		</exclusion>
+    		</exclusions>
 		</dependency>
 	</dependencies>
 

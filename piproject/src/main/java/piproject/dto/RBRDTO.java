@@ -7,7 +7,7 @@ public class RBRDTO {
 	private String catchesIn;
 	private String catchesDuring;
 	private String uses;
-	private boolean destroysFish;
+	private String destroysFish;
 	private String causes;
 	private int fishNumber;
 
@@ -64,14 +64,6 @@ public class RBRDTO {
 		this.uses = uses;
 	}
 
-	public boolean isDestroysFish() {
-		return destroysFish;
-	}
-
-	public void setDestroysFish(boolean destroysFish) {
-		this.destroysFish = destroysFish;
-	}
-
 	public String getCauses() {
 		return causes;
 	}
@@ -88,8 +80,16 @@ public class RBRDTO {
 		this.fishNumber = fishNumber;
 	}
 
+	public String getDestroysFish() {
+		return destroysFish;
+	}
+
+	public void setDestroysFish(String destroysFish) {
+		this.destroysFish = destroysFish;
+	}
+
 	public RBRDTO(String name, String defendant, String fishHas, String catchesIn, String catchesDuring, String uses,
-			boolean destroysFish, String causes, int fishNumber) {
+			String destroysFish, String causes, int fishNumber) {
 		super();
 		this.name = name;
 		this.defendant = defendant;
@@ -101,5 +101,6 @@ public class RBRDTO {
 		this.causes = causes;
 		this.fishNumber = fishNumber;
 	}
+
 
 }
