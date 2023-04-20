@@ -12,7 +12,6 @@ import org.springframework.stereotype.Service;
 
 import es.ucm.fdi.gaia.jcolibri.cbrcore.CBRQuery;
 import es.ucm.fdi.gaia.jcolibri.method.retrieve.RetrievalResult;
-import piproject.dto.CBRDTO;
 import piproject.dto.CaseDescriptionDTO;
 import piproject.similar.CbrApplication;
 import piproject.similar.model.CaseDescription;
@@ -30,12 +29,13 @@ public class SimilarityService {
 			String lastLine = "", line;
 			while ((line = br.readLine()) != null) {
 				// Doing some actions
-
+				System.out.println("Line " + line);
 				// Overwrite lastLine each time
-				lastLine = line;
+				if (!line.equals(""))
+					lastLine = line;
 			}
 			String[] values = lastLine.split(";");
-
+			System.out.println("Lastline: " + lastLine);
 			caseDescription.setId(Integer.parseInt(values[0]) + 1);
 			br.close();
 		} catch (IOException e1) {
@@ -44,7 +44,6 @@ public class SimilarityService {
 		}
 		try {
 			BufferedWriter writer = new BufferedWriter(new FileWriter(filePath, true));
-			writer.write('\n');
 			writer.write(caseDescription.getId() + ";");
 			writer.write(caseDescription.getSud() + ";");
 			writer.write(caseDescription.getPoslovniBroj() + ";");
@@ -60,6 +59,10 @@ public class SimilarityService {
 				if (i != caseDescription.getPrimenjeniPropisi().size() - 1)
 					writer.write(",");
 			}
+			writer.write(";");
+			writer.write(caseDescription.getPresuda());
+			writer.write('\n');
+			writer.write('\n');
 			writer.close();
 			return true;
 
@@ -69,7 +72,7 @@ public class SimilarityService {
 		return false;
 	}
 
-	public CBRDTO getSimilarCases(CaseDescriptionDTO caseDescriptionDTO) {
+	public List<CaseDescriptionDTO> getSimilarCases(CaseDescriptionDTO caseDescriptionDTO) {
 		CbrApplication recommender = new CbrApplication();
 		List<CaseDescriptionDTO> similarityDTOs = new ArrayList<>();
 		try {
@@ -81,7 +84,7 @@ public class SimilarityService {
 			CaseDescription caseDescription = new CaseDescription();
 
 			caseDescription = new CaseDescription(caseDescriptionDTO);
-
+			
 			query.setDescription(caseDescription);
 
 			recommender.cycle(query);
@@ -91,7 +94,7 @@ public class SimilarityService {
 			CaseDescriptionDTO caseDescriptionDTOReturn;
 
 			for (RetrievalResult result : recommender.getEval()) {
-
+				
 				CaseDescription caseDescriptionReturn = (CaseDescription) result.get_case().getDescription();
 				caseDescriptionDTOReturn = new CaseDescriptionDTO(caseDescriptionReturn.getId(),
 						caseDescriptionReturn.getSud(), caseDescriptionReturn.getPoslovniBroj(),
@@ -99,17 +102,16 @@ public class SimilarityService {
 						caseDescriptionReturn.getOkrivljeni(), caseDescriptionReturn.getKrivicnoDeloZOSRA(),
 						caseDescriptionReturn.getKrivicnoDeloKZ(), caseDescriptionReturn.getBrojRiba(),
 						caseDescriptionReturn.getVrstaPresude(), caseDescriptionReturn.getPrimenjeniPropisi(),
-						result.getEval());
+						caseDescriptionReturn.getPresuda(), result.getEval());
 
 				similarityDTOs.add(caseDescriptionDTOReturn);
 			}
 
-			return new CBRDTO(similarityDTOs, "");
+			return similarityDTOs;
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
-		return new CBRDTO(similarityDTOs, "");
+		return similarityDTOs;
 	}
-	
 
 }

@@ -20,11 +20,11 @@ public class CaseDescription implements CaseComponent {
 	private int brojRiba;
 	private String vrstaPresude;
 	private List<String> primenjeniPropisi = new ArrayList<String>();
-	
+	private String presuda;
 
 	public CaseDescription(int id, String sud, String poslovniBroj, String sudija, String tuzilac, String okrivljeni,
 			String krivicnoDeloZOSRA, String krivicnoDeloKZ, int brojRiba, String vrstaPresude,
-			List<String> primenjeniPropisi) {
+			List<String> primenjeniPropisi, String presuda) {
 		super();
 		this.id = id;
 		this.sud = sud;
@@ -37,6 +37,7 @@ public class CaseDescription implements CaseComponent {
 		this.brojRiba = brojRiba;
 		this.vrstaPresude = vrstaPresude;
 		this.primenjeniPropisi = primenjeniPropisi;
+		this.presuda = presuda;
 	}
 
 	public CaseDescription() {
@@ -55,7 +56,8 @@ public class CaseDescription implements CaseComponent {
 		this.krivicnoDeloKZ = caseDescriptionDTO.getKrivicnoDeloKZ();
 		this.brojRiba = caseDescriptionDTO.getBrojRiba();
 		this.vrstaPresude = caseDescriptionDTO.getVrstaPresude();
-		this.primenjeniPropisi = caseDescriptionDTO.getPrimenjeniPropisi()		;
+		this.primenjeniPropisi = caseDescriptionDTO.getPrimenjeniPropisi();
+		this.presuda = caseDescriptionDTO.getPresuda();
 	}
 
 	public int getId() {
@@ -151,12 +153,20 @@ public class CaseDescription implements CaseComponent {
 		this.krivicnoDeloKZ = krivicnoDeloKZ;
 	}
 
+	public String getPresuda() {
+		return presuda;
+	}
+
+	public void setPresuda(String presuda) {
+		this.presuda = presuda;
+	}
+
 	@Override
 	public String toString() {
 		return "CaseDescription [id=" + id + ", sud=" + sud + ", poslovniBroj=" + poslovniBroj + ", sudija=" + sudija
 				+ ", tuzilac=" + tuzilac + ", okrivljeni=" + okrivljeni + ", krivicnoDeloZOSRA=" + krivicnoDeloZOSRA
 				+ ", krivicnoDeloKZ=" + krivicnoDeloKZ + ", brojRiba=" + brojRiba + ", vrstaPresude=" + vrstaPresude
-				+ ", primenjeniPropisi=" + primenjeniPropisi + "]";
+				+ ", primenjeniPropisi=" + primenjeniPropisi + ", presuda=" + presuda + "]";
 	}
 
 }

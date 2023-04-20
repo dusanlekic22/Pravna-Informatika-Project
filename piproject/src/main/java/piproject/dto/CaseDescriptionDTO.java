@@ -16,8 +16,28 @@ public class CaseDescriptionDTO {
 	private int brojRiba;
 	private String vrstaPresude;
 	private List<String> primenjeniPropisi = new ArrayList<String>();
+	private String presuda;
 
 	double similarityValue;
+
+	public CaseDescriptionDTO(int id, String sud, String poslovniBroj, String sudija, String tuzilac, String okrivljeni,
+			String krivicnoDeloZOSRA, String krivicnoDeloKZ, int brojRiba, String vrstaPresude,
+			List<String> primenjeniPropisi, String presuda, double similarityValue) {
+		super();
+		this.id = id;
+		this.sud = sud;
+		this.poslovniBroj = poslovniBroj;
+		this.sudija = sudija;
+		this.tuzilac = tuzilac;
+		this.okrivljeni = okrivljeni;
+		this.krivicnoDeloZOSRA = krivicnoDeloZOSRA;
+		this.krivicnoDeloKZ = krivicnoDeloKZ;
+		this.brojRiba = brojRiba;
+		this.vrstaPresude = vrstaPresude;
+		this.primenjeniPropisi = primenjeniPropisi;
+		this.presuda = presuda;
+		this.similarityValue = similarityValue;
+	}
 
 	public int getId() {
 		return id;
@@ -65,24 +85,6 @@ public class CaseDescriptionDTO {
 
 	public void setOkrivljeni(String okrivljeni) {
 		this.okrivljeni = okrivljeni;
-	}
-
-	public CaseDescriptionDTO(int id, String sud, String poslovniBroj, String sudija, String tuzilac, String okrivljeni,
-			String krivicnoDeloZOSRA, String krivicnoDeloKZ, int brojRiba, String vrstaPresude,
-			List<String> primenjeniPropisi, double similarityValue) {
-		super();
-		this.id = id;
-		this.sud = sud;
-		this.poslovniBroj = poslovniBroj;
-		this.sudija = sudija;
-		this.tuzilac = tuzilac;
-		this.okrivljeni = okrivljeni;
-		this.krivicnoDeloZOSRA = krivicnoDeloZOSRA;
-		this.krivicnoDeloKZ = krivicnoDeloKZ;
-		this.brojRiba = brojRiba;
-		this.vrstaPresude = vrstaPresude;
-		this.primenjeniPropisi = primenjeniPropisi;
-		this.similarityValue = similarityValue;
 	}
 
 	public int getBrojRiba() {
@@ -136,6 +138,14 @@ public class CaseDescriptionDTO {
 
 	public void setKrivicnoDeloKZ(String krivicnoDeloKZ) {
 		this.krivicnoDeloKZ = krivicnoDeloKZ;
+	}
+
+	public String getPresuda() {
+		return presuda;
+	}
+
+	public void setPresuda(String presuda) {
+		this.presuda = presuda;
 	}
 
 }

@@ -34,7 +34,11 @@ def extract_text(content):
         r'((primjenom )(citirane|citiranih|citiranog) (zakonske odredbe|(zakonskih|zakonskog) (propisa|odredbi))(, te| i|, odredbi iz) .{0,70} Krivičnog zakonika (Crne Gore|\(Kz-a\))'
         r'(, te( odredbi)?|(,)? i)( odredbi iz)? .{0,30} Zakonika o krivičnom postupku(, )?)',
         content).group()
-    sudija = sudija.replace('sudija ', '').replace('po sudiji ', '').replace('pojedinac ', '')
+    presuda = re.search(r'(O S U Đ U J E .+)?(USLOVN[UE] OSUDU .+)?(MJERA BEZBJEDNOSTI .+)?(O b r a z l o ž e n( )?j e)|(Obrazloženje)', content).group()
+    presuda = presuda.replace('O b r a z l o ž e n j e', '').replace('Obrazloženje', '').replace('O b r a z l o ž e nj e', '')\
+    .replace('\"', '').replace('\"', '').replace('\"USLOVNU', 'USLOVNU').replace(';', ':')
+    print(presuda)
+    sudija = sudija.replace('sudija ', '')
 
     primenjeni_propisi = primenjeni_propisi.replace('te odredbi ', '').replace('Krivičnog zakonika Crne Gore', 'KZ') \
         .replace('kao i odredbi ', '').replace('Zakonika o krivičnom postupku,', 'ZOKP').replace('ZKP, ', 'ZOKP') \
@@ -50,7 +54,7 @@ def extract_text(content):
     kz_part = prop[0].replace(',čl.', 'čl.').replace(', ', ',čl. ').replace(' i', ',čl.').replace('čl. čl.', 'čl.').replace(',čl.', ' KZ,čl.')
     zokp_part = prop[1].replace(',čl.', 'čl.').replace(', ', ',čl. ').replace(' i', ',čl.').replace('čl. čl.', 'čl.').\
         replace('čl.2', 'čl. 2').replace(',čl.', ' ZOKP,čl.')
-    print(zokp_part)
+
     primenjeni_propisi = kz_part + 'KZ,' + zokp_part
 
     krivicnoDelo_ZOSRA = krivicnoDelo_ZOSRA.replace(' Zakona o slatkovodnom ribarstvu i akvakulturi', '').replace('zabranjeno', '')\
@@ -70,12 +74,12 @@ def extract_text(content):
 
     data = [0, sud, poslovni_broj, sudija, tuzilac.replace('po optužnom predlogu ', ''),
             okrivljeni.replace('okrivljenih ', '').replace('okrivljenog ', '').replace('okrivljenih ', ', '),
-            krivicnoDelo_ZOSRA, krivicnoDeloKZ, broj_riba,'osudjujuca', primenjeni_propisi]
+            krivicnoDelo_ZOSRA, krivicnoDeloKZ, broj_riba,'osudjujuca', primenjeni_propisi, presuda]
     return data
 
 
 header = ['id', 'sud', 'poslovniBroj', 'sudija', 'tuzilac', 'okrivljeni', 'krivicnoDeloZOSRA', 'krivicnoDeloKZ',
-          'brojRiba', 'vrstaPresude', 'primenjeniPropisi']
+          'brojRiba', 'vrstaPresude', 'primenjeniPropisi', 'presuda']
 with open('docs/judgements.csv', 'w', encoding='UTF8',) as output:
     writer = csv.writer(output,  delimiter=";")
     writer.writerow(header)

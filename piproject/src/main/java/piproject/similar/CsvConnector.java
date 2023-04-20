@@ -50,6 +50,7 @@ public class CsvConnector implements Connector {
 					}
 				}
 				caseDescription.setPrimenjeniPropisi(podeljeniPropisi);
+				caseDescription.setPresuda(values[11]);
 				cbrCase.setDescription(caseDescription);
 				cases.add(cbrCase);
 			}

@@ -4,15 +4,15 @@ import { CbrService } from 'src/app/services/cbr.service';
 @Component({
   selector: 'app-cbr',
   templateUrl: './cbr.component.html',
-  styleUrls: ['./cbr.component.css']
+  styleUrls: ['./cbr.component.css'],
 })
 export class CbrComponent implements OnInit {
-  sud:string = '';
-  poslovniBroj:string = '';
-  sudija:string = '';
-  tuzilac:string = '';
-  okrivljenik:string = '';
-  vrstaPresude:string = 'osudjujuca';
+  sud: string = '';
+  poslovniBroj: string = '';
+  sudija: string = '';
+  tuzilac: string = '';
+  okrivljenik: string = '';
+  vrstaPresude: string = 'osudjujuca';
   articleZOSRA: string = '';
   paragraphZOSRA: string = '';
   pointZOSRA: string = '';
@@ -43,6 +43,25 @@ export class CbrComponent implements OnInit {
   }
 
   getJudgement() {
+    if (this.articleZOSRA !== '') {
+      this.articleZOSRA = 'čl.' + this.articleZOSRA;
+    }
+    if (this.paragraphZOSRA !== '') {
+      this.paragraphZOSRA = ' st.' + this.paragraphZOSRA;
+    }
+    if (this.pointZOSRA !== '') {
+      this.pointZOSRA = ' tač.' + this.pointZOSRA;
+    }
+    if (this.articleKZ !== '') {
+      this.articleKZ = 'čl.' + this.articleKZ;
+    }
+    if (this.paragraphKZ !== '') {
+      this.paragraphKZ = ' st.' + this.paragraphKZ;
+    }
+    if (this.pointKZ !== '') {
+      this.pointKZ = ' tač.' + this.pointKZ;
+    }
+
     let cbrCase = {
       krivicnoDeloZOSRA:
         this.articleZOSRA + this.paragraphZOSRA + this.pointZOSRA,
@@ -54,13 +73,30 @@ export class CbrComponent implements OnInit {
       .getCases(cbrCase)
       .subscribe(
         (data) => (
-          (this.cbrCases = data.caseDescriptionDTOs),
-          (this.judgement = data.judgement)
+          this.cbrCases = data
         )
       );
   }
 
-  saveCase() {
+  saveCase(similarCase: any) {
+    if (this.articleZOSRA !== '') {
+      this.articleZOSRA = 'čl.' + this.articleZOSRA;
+    }
+    if (this.paragraphZOSRA !== '') {
+      this.paragraphZOSRA = ' st.' + this.paragraphZOSRA;
+    }
+    if (this.pointZOSRA !== '') {
+      this.pointZOSRA = ' tač.' + this.pointZOSRA;
+    }
+    if (this.articleKZ !== '') {
+      this.articleKZ = 'čl.' + this.articleKZ;
+    }
+    if (this.paragraphKZ !== '') {
+      this.paragraphKZ = ' st.' + this.paragraphKZ;
+    }
+    if (this.pointKZ !== '') {
+      this.pointKZ = ' tač.' + this.pointKZ;
+    }
     let cbrCase = {
       sud: this.sud,
       poslovniBroj: this.poslovniBroj,
@@ -73,7 +109,7 @@ export class CbrComponent implements OnInit {
       krivicnoDeloKZ: this.articleKZ + this.paragraphKZ + this.pointKZ,
       brojRiba: this.fishNumber,
       primenjeniPropisi: this.regulations,
-      presuda: this.judgement,
+      presuda: similarCase.presuda,
     };
     this.cbrService.saveCase(cbrCase).subscribe((data) => console.log(data));
   }

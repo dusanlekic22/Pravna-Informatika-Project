@@ -66,9 +66,22 @@ public class CbrApplication implements StandardCBRApplication {
 				"čl. 227 ZOKP",
 				"čl. 229 ZOKP",
 				"čl. 374 ZOKP",}));
-		slicnostPropisa.setSimilarity("čl. 36 KZ", "čl. 36a KZ", .8);
+		slicnostPropisa.setSimilarity("čl. 2 KZ", "čl. 3 KZ", .8);
+		slicnostPropisa.setSimilarity("čl. 2 KZ", "čl. 4 KZ", .7);
+		slicnostPropisa.setSimilarity("čl. 3 KZ", "čl. 4 KZ", .8);
+		slicnostPropisa.setSimilarity("čl. 3 KZ", "čl. 5 KZ", .6);
+		slicnostPropisa.setSimilarity("čl. 2 KZ", "čl. 5 KZ", .7);
+		slicnostPropisa.setSimilarity("čl. 4 KZ", "čl. 5 KZ", .5);
+		slicnostPropisa.setSimilarity("čl. 13 KZ", "čl. 15 KZ", .4);
+		slicnostPropisa.setSimilarity("čl. 32 KZ", "čl. 34 KZ", .9);
+		slicnostPropisa.setSimilarity("čl. 32 KZ", "čl. 36 KZ", .7);
+		slicnostPropisa.setSimilarity("čl. 34 KZ", "čl. 36 KZ", .6);
+		slicnostPropisa.setSimilarity("čl. 41 KZ", "čl. 42 KZ", .7);
+		slicnostPropisa.setSimilarity("čl. 52 st. 1 KZ", "čl. 53 KZ", .8);
+		slicnostPropisa.setSimilarity("čl. 52 st. 1 KZ", "čl. 54 KZ", .2);
+		slicnostPropisa.setSimilarity("čl. 53 KZ", "čl. 54 KZ", .7);
 		slicnostPropisa.setSimilarity("čl. 42 KZ", "čl. 42 st. 1 KZ", 1);
-		slicnostPropisa.setSimilarity("čl. 52 st. 1 KZ", "čl. 52 st. 2 KZ", .5);
+		slicnostPropisa.setSimilarity("čl. 52 st. 1 KZ", "čl. 52 st. 2 KZ", .95);
 		slicnostPropisa.setSimilarity("čl. 226 ZOKP", "čl. 226. st. 2. tačka 9. ZOKP", 1);
 		simConfig.addMapping(new Attribute("primenjeniPropisi", CaseDescription.class), slicnostPropisa);
 		
