@@ -27,7 +27,7 @@ public class DocumentController {
 	DocumentService documentService;
 	
 	@GetMapping("/download/{docName}")
-	public ResponseEntity<byte[]> generateQTI(@PathVariable String docName) {
+	public ResponseEntity<byte[]> downloadDocument(@PathVariable String docName) {
 		String filePathString = new File("..\\").getAbsolutePath() + "\\docs\\" + docName ;
 		File file = new File(filePathString);
 		byte[] blob = null;

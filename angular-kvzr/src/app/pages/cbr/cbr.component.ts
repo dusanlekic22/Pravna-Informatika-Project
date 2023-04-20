@@ -7,6 +7,12 @@ import { CbrService } from 'src/app/services/cbr.service';
   styleUrls: ['./cbr.component.css']
 })
 export class CbrComponent implements OnInit {
+  sud:string = '';
+  poslovniBroj:string = '';
+  sudija:string = '';
+  tuzilac:string = '';
+  okrivljenik:string = '';
+  vrstaPresude:string = 'osudjujuca';
   articleZOSRA: string = '';
   paragraphZOSRA: string = '';
   pointZOSRA: string = '';
@@ -56,6 +62,12 @@ export class CbrComponent implements OnInit {
 
   saveCase() {
     let cbrCase = {
+      sud: this.sud,
+      poslovniBroj: this.poslovniBroj,
+      sudija: this.sudija,
+      tuzilac: this.tuzilac,
+      okrivljenik: this.okrivljenik,
+      vrstaPresude: this.vrstaPresude,
       krivicnoDeloZOSRA:
         this.articleZOSRA + this.paragraphZOSRA + this.pointZOSRA,
       krivicnoDeloKZ: this.articleKZ + this.paragraphKZ + this.pointKZ,

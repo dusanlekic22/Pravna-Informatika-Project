@@ -80,13 +80,7 @@ public class SimilarityService {
 			CBRQuery query = new CBRQuery();
 			CaseDescription caseDescription = new CaseDescription();
 
-			caseDescription.setKrivicnoDeloZOSRA("čl. 289 st. 3 KZ");
-			caseDescription.setKrivicnoDeloKZ("čl. 289 st. 3 KZ");
-			List<String> primenjeniPropisi = new ArrayList<>();
-			primenjeniPropisi.add("čl. 55 st. 3 tac. 15 ZOBSNP");
-			primenjeniPropisi.add("čl. 43 st. 1 ZOBSNP");
-			caseDescription.setPrimenjeniPropisi(primenjeniPropisi);
-			caseDescription.setBrojRiba(2);
+			caseDescription = new CaseDescription(caseDescriptionDTO);
 
 			query.setDescription(caseDescription);
 
