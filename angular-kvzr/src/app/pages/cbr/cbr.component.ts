@@ -11,7 +11,7 @@ export class CbrComponent implements OnInit {
   poslovniBroj: string = '';
   sudija: string = '';
   tuzilac: string = '';
-  okrivljenik: string = '';
+  okrivljeni: string = '';
   vrstaPresude: string = 'osudjujuca';
   articleZOSRA: string = '';
   paragraphZOSRA: string = '';
@@ -32,43 +32,50 @@ export class CbrComponent implements OnInit {
   ngOnInit(): void {}
 
   addRegulation() {
-    let regulationString = 'čl.' + this.articleRegulation;
+    let regulationString = 'čl. ' + this.articleRegulation;
     if (this.paragraphRegulation != '') {
-      regulationString += ' st.' + this.paragraphRegulation;
+      regulationString += ' st. ' + this.paragraphRegulation;
     }
     if (this.pointRegulation != '') {
-      regulationString += ' tač.' + this.pointRegulation;
+      regulationString += ' tač. ' + this.pointRegulation;
     }
     this.regulations.push(regulationString);
   }
 
   getJudgement() {
     if (this.articleZOSRA !== '') {
-      this.articleZOSRA = 'čl.' + this.articleZOSRA;
+      this.articleZOSRA = 'čl. ' + this.articleZOSRA;
     }
     if (this.paragraphZOSRA !== '') {
-      this.paragraphZOSRA = ' st.' + this.paragraphZOSRA;
+      this.paragraphZOSRA = ' st. ' + this.paragraphZOSRA;
     }
     if (this.pointZOSRA !== '') {
-      this.pointZOSRA = ' tač.' + this.pointZOSRA;
+      this.pointZOSRA = ' tač. ' + this.pointZOSRA;
     }
     if (this.articleKZ !== '') {
-      this.articleKZ = 'čl.' + this.articleKZ;
+      this.articleKZ = 'čl. ' + this.articleKZ;
     }
     if (this.paragraphKZ !== '') {
-      this.paragraphKZ = ' st.' + this.paragraphKZ;
+      this.paragraphKZ = ' st. ' + this.paragraphKZ;
     }
     if (this.pointKZ !== '') {
-      this.pointKZ = ' tač.' + this.pointKZ;
+      this.pointKZ = ' tač. ' + this.pointKZ;
     }
 
     let cbrCase = {
+      sud: this.sud,
+      poslovniBroj: this.poslovniBroj,
+      sudija: this.sudija,
+      tuzilac: this.tuzilac,
+      okrivljenik: this.okrivljeni,
+      vrstaPresude: this.vrstaPresude,
       krivicnoDeloZOSRA:
         this.articleZOSRA + this.paragraphZOSRA + this.pointZOSRA,
       krivicnoDeloKZ: this.articleKZ + this.paragraphKZ + this.pointKZ,
       brojRiba: this.fishNumber,
-      primenjeniPropisi: this.regulations,
+      primenjeniPropisi: this.regulations
     };
+
     this.cbrService
       .getCases(cbrCase)
       .subscribe(
@@ -79,30 +86,30 @@ export class CbrComponent implements OnInit {
   }
 
   saveCase(similarCase: any) {
-    if (this.articleZOSRA !== '') {
-      this.articleZOSRA = 'čl.' + this.articleZOSRA;
-    }
-    if (this.paragraphZOSRA !== '') {
-      this.paragraphZOSRA = ' st.' + this.paragraphZOSRA;
-    }
-    if (this.pointZOSRA !== '') {
-      this.pointZOSRA = ' tač.' + this.pointZOSRA;
-    }
-    if (this.articleKZ !== '') {
-      this.articleKZ = 'čl.' + this.articleKZ;
-    }
-    if (this.paragraphKZ !== '') {
-      this.paragraphKZ = ' st.' + this.paragraphKZ;
-    }
-    if (this.pointKZ !== '') {
-      this.pointKZ = ' tač.' + this.pointKZ;
-    }
+    // if (this.articleZOSRA !== '') {
+    //   this.articleZOSRA = 'čl.' + this.articleZOSRA;
+    // }
+    // if (this.paragraphZOSRA !== '') {
+    //   this.paragraphZOSRA = ' st.' + this.paragraphZOSRA;
+    // }
+    // if (this.pointZOSRA !== '') {
+    //   this.pointZOSRA = ' tač.' + this.pointZOSRA;
+    // }
+    // if (this.articleKZ !== '') {
+    //   this.articleKZ = 'čl.' + this.articleKZ;
+    // }
+    // if (this.paragraphKZ !== '') {
+    //   this.paragraphKZ = ' st.' + this.paragraphKZ;
+    // }
+    // if (this.pointKZ !== '') {
+    //   this.pointKZ = ' tač.' + this.pointKZ;
+    // }
     let cbrCase = {
       sud: this.sud,
       poslovniBroj: this.poslovniBroj,
       sudija: this.sudija,
       tuzilac: this.tuzilac,
-      okrivljenik: this.okrivljenik,
+      okrivljeni: this.okrivljeni,
       vrstaPresude: this.vrstaPresude,
       krivicnoDeloZOSRA:
         this.articleZOSRA + this.paragraphZOSRA + this.pointZOSRA,
