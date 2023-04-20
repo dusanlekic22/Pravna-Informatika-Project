@@ -26,6 +26,8 @@ export class CbrComponent implements OnInit {
   regulations: string[] = [];
   cbrCases: any[] = [];
   judgement!: string;
+  propisTypes = ['KZ', 'ZOKP'];
+  propisType: string = 'KZ';
 
   constructor(private cbrService: CbrService) {}
 
@@ -39,7 +41,7 @@ export class CbrComponent implements OnInit {
     if (this.pointRegulation != '') {
       regulationString += ' tač. ' + this.pointRegulation;
     }
-    this.regulations.push(regulationString);
+    this.regulations.push(regulationString+ ' ' + this.propisType);
   }
 
   getJudgement() {
@@ -86,24 +88,6 @@ export class CbrComponent implements OnInit {
   }
 
   saveCase(similarCase: any) {
-    // if (this.articleZOSRA !== '') {
-    //   this.articleZOSRA = 'čl.' + this.articleZOSRA;
-    // }
-    // if (this.paragraphZOSRA !== '') {
-    //   this.paragraphZOSRA = ' st.' + this.paragraphZOSRA;
-    // }
-    // if (this.pointZOSRA !== '') {
-    //   this.pointZOSRA = ' tač.' + this.pointZOSRA;
-    // }
-    // if (this.articleKZ !== '') {
-    //   this.articleKZ = 'čl.' + this.articleKZ;
-    // }
-    // if (this.paragraphKZ !== '') {
-    //   this.paragraphKZ = ' st.' + this.paragraphKZ;
-    // }
-    // if (this.pointKZ !== '') {
-    //   this.pointKZ = ' tač.' + this.pointKZ;
-    // }
     let cbrCase = {
       sud: this.sud,
       poslovniBroj: this.poslovniBroj,

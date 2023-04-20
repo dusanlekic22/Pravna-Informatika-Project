@@ -12,6 +12,7 @@ export class HomepageComponent implements OnInit {
   judgements: string[] = [];
   pdfSrc = 'assets/docs/Zakon_o_slatkovodnom_ribarstvu_i_akvakulturi.pdf';
   isPdf = true;
+  fileText!: string;
   constructor(private docsService: DocsService) {}
 
   ngOnInit(): void {
@@ -47,9 +48,17 @@ export class HomepageComponent implements OnInit {
     });
   }
 
+  readTextFile(name: string) { 
+    this.docsService.getXMLText(name).subscribe((response) => {
+      this.fileText = response;
+    });
+  } 
+
   changeFile(file: string) {
     if (file.split('.').pop() != 'pdf') {
       this.isPdf = false;
+      console.log(file);
+      this.readTextFile(file)
     } else {
       this.isPdf = true;
     }

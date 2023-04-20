@@ -171,6 +171,23 @@
       type="number"
       [(ngModel)]="pointRegulation"
     />
+    <label for="type-input">Tip propisa</label>
+    <select
+      id="type-input"
+      class="form-control select"
+      data-select2-id="type-input"
+      tabindex="-1"
+      aria-hidden="true"
+      [(ngModel)]="propisType"
+    >
+      <option value="" data-select2-id="2">Izaberi opciju..</option>
+      <option
+        value="{{ item}}"
+        *ngFor="let item of propisTypes"
+      >
+        {{ item }}
+      </option>
+    </select>
     <button
       style="margin-top: 10px"
       id="btn_component"

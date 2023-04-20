@@ -41,7 +41,7 @@
           <a href="{{ url }}/document/download/{{ law }}">Download</a>
         </div>
       </div>
-      <div *ngIf="!isPdf">lawxml</div>
+      <div *ngIf="!isPdf">{{fileText}}</div>
       <pdf-viewer
         *ngIf="isPdf"
         [src]="pdfSrc"
@@ -67,6 +67,7 @@
           <a href="{{ url }}/document/download/{{ judgement }}">Download</a>
         </div>
       </div>
+      <div *ngIf="!isPdf">{{fileText}}</div>
       <pdf-viewer
         [src]="pdfSrc"
         [render-text]="true"

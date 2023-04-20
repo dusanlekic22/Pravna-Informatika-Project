@@ -35,7 +35,6 @@ public class SimilarityService {
 					lastLine = line;
 			}
 			String[] values = lastLine.split(";");
-			System.out.println("Lastline: " + lastLine);
 			caseDescription.setId(Integer.parseInt(values[0]) + 1);
 			br.close();
 		} catch (IOException e1) {

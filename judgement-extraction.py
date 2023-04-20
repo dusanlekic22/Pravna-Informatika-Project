@@ -34,10 +34,11 @@ def extract_text(content):
         r'((primjenom )(citirane|citiranih|citiranog) (zakonske odredbe|(zakonskih|zakonskog) (propisa|odredbi))(, te| i|, odredbi iz) .{0,70} Krivičnog zakonika (Crne Gore|\(Kz-a\))'
         r'(, te( odredbi)?|(,)? i)( odredbi iz)? .{0,30} Zakonika o krivičnom postupku(, )?)',
         content).group()
-    presuda = re.search(r'(O S U Đ U J E .+)?(USLOVN[UE] OSUDU .+)?(MJERA BEZBJEDNOSTI .+)?(O b r a z l o ž e n( )?j e)|(Obrazloženje)', content).group()
+    presuda = re.search(r'(O S U Đ U J E .+)?(USLOVN[UE] OSUD[UE].+)?(MJER[AU] BEZBJEDNOSTI .+)?((O b r a z l o ž e n( )?j e)|(Obrazloženje))', content).group()
     presuda = presuda.replace('O b r a z l o ž e n j e', '').replace('Obrazloženje', '').replace('O b r a z l o ž e nj e', '')\
-    .replace('\"', '').replace('\"', '').replace('\"USLOVNU', 'USLOVNU').replace(';', ':')
+    .replace('\"', '').replace('\"', '').replace('\"USLOVNU', 'USLOVNU').replace(';', ':').replace('„', '')
     print(presuda)
+
     sudija = sudija.replace('sudija ', '')
 
     primenjeni_propisi = primenjeni_propisi.replace('te odredbi ', '').replace('Krivičnog zakonika Crne Gore', 'KZ') \

@@ -16,11 +16,17 @@ export class DocsService {
     return this.http
       .get<any>(`${this.docsUrl}` + '/download/' + docName)
       .pipe(catchError(this.handleError));
-  } 
-  
+  }
+
   getLaws(): Observable<any> {
     return this.http
       .get<any>(`${this.docsUrl}` + '/laws')
+      .pipe(catchError(this.handleError));
+  }
+
+  getXMLText(file: string): Observable<any> {
+    return this.http
+      .get<any>('assets/docs/' + file, { responseType: 'text' as 'json' })
       .pipe(catchError(this.handleError));
   }
 
